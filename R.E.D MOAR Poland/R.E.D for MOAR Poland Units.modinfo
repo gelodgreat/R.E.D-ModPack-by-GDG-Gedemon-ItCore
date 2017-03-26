@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="77955ac6-d8b2-42e0-9056-38f867ec79f6">
+    <Properties>
+        <Name>LOC_RED_MOARPOLAND_NAME</Name>
+        <Teaser>LOC_RED_MOARPOLAND_DESC</Teaser>
+    </Properties>
+    <LocalizedText>
+        <Text id="LOC_RED_MOARPOLAND_NAME">
+            <en_US>R.E.D. for MOAR Poland</en_US>
+        </Text>
+        <Text id="LOC_RED_MOARPOLAND_DESC">
+            <en_US>R.E.D. Modpack for MOAR Poland</en_US>
+        </Text>        
+    </LocalizedText>
+	
+	<Dependencies>
+		<Mod id="c5b55307-24bf-4952-ad64-5708fd67faec" title="Even Moar Units! Poland" />
+		<Mod id="8670da15-d435-44ea-9758-7438cb321411" title="R.E.D. Modpack" />
+	</Dependencies>
+	
+    <Files>
+        <File>RED_EvenMOARPoland.dep</File>      
+    </Files>    
+    <Components>
+        <ModArt id="RED_MOARPOLAND_ModArt">
+            <Items>
+                <File>RED_EvenMOARPoland.dep</File>
+            </Items>
+        </ModArt>
+    </Components>
+</Mod>

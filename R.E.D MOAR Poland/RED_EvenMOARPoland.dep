@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects::GameDependencyData>
+    <ID>
+        <name text="R.E.D. for MOAR Poland"/>
+        <id text="77955ac6-d8b2-42e0-9056-38f867ec79f6"/>
+    </ID>
+	<RequiredGameArtIDs>
+		<Element>
+			<name text="EvenMoarUnitsPoland"/>
+			<id text="79ed3b3a-002c-496e-adc6-aa7fedf4527d"/>
+		</Element>
+	</RequiredGameArtIDs>
+    <SystemDependencies>
+        <Element>
+            <ConsumerName text="Units"/>
+            <ArtDefDependencyPaths>
+                <Element text="Units.artdef"/>
+            </ArtDefDependencyPaths>
+        </Element>
+    </SystemDependencies>
+</AssetObjects::GameDependencyData>
