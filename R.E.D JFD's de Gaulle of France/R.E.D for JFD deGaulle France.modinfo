@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="e031ea09-1385-4d08-86a4-26e8a267604a">
+    <Properties>
+        <Name>LOC_RED_JFDDEGAULLEFRANCE_NAME</Name>
+        <Teaser>LOC_RED_JFDDEGAULLEFRANCE_DESC</Teaser>
+    </Properties>
+    <LocalizedText>
+        <Text id="LOC_RED_JFDDEGAULLEFRANCE_NAME">
+            <en_US>R.E.D. for JFD's de Gaulle of France</en_US>
+        </Text>
+        <Text id="LOC_RED_JFDDEGAULLEFRANCE_DESC">
+            <en_US>R.E.D. Modpack for JFD's de Gaulle  of France.</en_US>
+        </Text>        
+    </LocalizedText>
+	
+	<Dependencies>
+		<Mod id="7f12f3a4-5259-4641-bd6f-e59587f99d0a" title="JFD's de Gaulle of France" />
+		<Mod id="8670da15-d435-44ea-9758-7438cb321411" title="R.E.D. Modpack" />
+	</Dependencies>
+	
+    <Files>
+        <File>RED_JFD_deGaulle_France.dep</File>      
+    </Files>    
+    <Components>
+        <ModArt id="RED_JFDDEGAULLEFRANCE_ModArt">
+            <Items>
+                <File>RED_JFD_deGaulle_France.dep</File>
+            </Items>
+        </ModArt>
+    </Components>
+</Mod>

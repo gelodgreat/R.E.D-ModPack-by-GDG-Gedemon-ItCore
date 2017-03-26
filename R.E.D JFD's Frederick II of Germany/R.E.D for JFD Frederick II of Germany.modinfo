@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="8d102dd8-6d81-4e94-ba75-a49db1b96a76">
+    <Properties>
+        <Name>LOC_RED_JFDFREDERICKIIGERMANY_NAME</Name>
+        <Teaser>LOC_RED_JFDFREDERICKIIGERMANY_DESC</Teaser>
+    </Properties>
+    <LocalizedText>
+        <Text id="LOC_RED_JFDFREDERICKIIGERMANY_NAME">
+            <en_US>R.E.D. for JFD's Frederick II of Germany</en_US>
+        </Text>
+        <Text id="LOC_RED_JFDFREDERICKIIGERMANY_DESC">
+            <en_US>R.E.D. Modpack for JFD's Frederick II of Germany.</en_US>
+        </Text>        
+    </LocalizedText>
+	
+	<Dependencies>
+		<Mod id="6d7a2820-6ee4-4da0-93d5-7d03325f3e68" title="JFD's Frederick II of Germany" />
+		<Mod id="8670da15-d435-44ea-9758-7438cb321411" title="R.E.D. Modpack" />
+	</Dependencies>
+	
+    <Files>
+        <File>RED_JFD_FREDERICKII_Germany.dep</File>      
+    </Files>    
+    <Components>
+        <ModArt id="RED_JFDFREDERICKIIGERMANY_ModArt">
+            <Items>
+                <File>RED_JFD_FREDERICKII_Germany.dep</File>
+            </Items>
+        </ModArt>
+    </Components>
+</Mod>

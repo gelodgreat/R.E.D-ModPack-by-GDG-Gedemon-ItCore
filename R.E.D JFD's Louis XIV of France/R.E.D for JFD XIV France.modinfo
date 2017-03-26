@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="aa877da4-36e7-4c18-b799-7d90a92fefee">
+    <Properties>
+        <Name>LOC_RED_JFDXIVFRANCE_NAME</Name>
+        <Teaser>LOC_RED_JFDXIVFRANCE_DESC</Teaser>
+    </Properties>
+    <LocalizedText>
+        <Text id="LOC_RED_JFDXIVFRANCE_NAME">
+            <en_US>R.E.D. for JFD's Louis XIV of France</en_US>
+        </Text>
+        <Text id="LOC_RED_JFDXIVFRANCE_DESC">
+            <en_US>R.E.D. Modpack for JFD's Louis XIV of France.</en_US>
+        </Text>        
+    </LocalizedText>
+	
+	<Dependencies>
+		<Mod id="72f04916-1924-4267-b45f-4b42ba6d9bfd" title="JFD's Louis XIV of France" />
+		<Mod id="8670da15-d435-44ea-9758-7438cb321411" title="R.E.D. Modpack" />
+	</Dependencies>
+	
+    <Files>
+        <File>RED_JFD_XIV_France.dep</File>      
+    </Files>    
+    <Components>
+        <ModArt id="RED_JFDXIVFRANCE_ModArt">
+            <Items>
+                <File>RED_JFD_XIV_France.dep</File>
+            </Items>
+        </ModArt>
+    </Components>
+</Mod>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects::GameDependencyData>
+    <ID>
+        <name text="R.E.D. for JFD's de Gaulle of France"/>
+        <id text="aa877da4-36e7-4c18-b799-7d90a92fefee"/>
+    </ID>
+	<RequiredGameArtIDs>
+		<Element>
+			<name text="JFD's de Gaulle of France"/>
+			<id text="7f12f3a4-5259-4641-bd6f-e59587f99d0a"/>
+		</Element>
+	</RequiredGameArtIDs>
+    <SystemDependencies>
+        <Element>
+            <ConsumerName text="Units"/>
+            <ArtDefDependencyPaths>
+                <Element text="Units_JFD_CharB1.artdef"/>
+            </ArtDefDependencyPaths>
+        </Element>
+    </SystemDependencies>
+</AssetObjects::GameDependencyData>

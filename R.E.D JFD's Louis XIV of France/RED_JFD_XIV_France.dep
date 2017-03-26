@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects::GameDependencyData>
+    <ID>
+        <name text="R.E.D. for JFD's Louis XIV of France"/>
+        <id text="aa877da4-36e7-4c18-b799-7d90a92fefee"/>
+    </ID>
+	<RequiredGameArtIDs>
+		<Element>
+			<name text="JFD's Louis XIV of France"/>
+			<id text="72f04916-1924-4267-b45f-4b42ba6d9bfd"/>
+		</Element>
+	</RequiredGameArtIDs>
+    <SystemDependencies>
+        <Element>
+            <ConsumerName text="Units"/>
+            <ArtDefDependencyPaths>
+                <Element text="Units_JFD_Vieux.artdef"/>
+            </ArtDefDependencyPaths>
+        </Element>
+    </SystemDependencies>
+</AssetObjects::GameDependencyData>
