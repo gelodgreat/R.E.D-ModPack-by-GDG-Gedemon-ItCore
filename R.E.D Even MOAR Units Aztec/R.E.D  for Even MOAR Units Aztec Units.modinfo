@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="69c49ab4-ba53-4840-90a2-8578430d3f94">
+    <Properties>
+        <Name>LOC_RED_MOARAZTEC_NAME</Name>
+        <Teaser>LOC_RED_MOARAZTEC_DESC</Teaser>
+    </Properties>
+    <LocalizedText>
+        <Text id="LOC_RED_MOARAZTEC_NAME">
+            <en_US>R.E.D. for MOAR Aztec</en_US>
+        </Text>
+        <Text id="LOC_RED_MOARAZTEC_DESC">
+            <en_US>R.E.D. Modpack for MOAR AZTEC</en_US>
+        </Text>        
+    </LocalizedText>
+	
+	<Dependencies>
+		<Mod id="bf65efa2-7cef-4519-a22f-f693e07d92f9" title="Even Moar Units! The Aztecs" />
+		<Mod id="8670da15-d435-44ea-9758-7438cb321411" title="R.E.D. Modpack" />
+	</Dependencies>
+	
+    <Files>
+        <File>RED_EvenMOARAztec.dep</File>      
+    </Files>    
+    <Components>
+        <ModArt id="RED_MOARAZTEC_ModArt">
+            <Items>
+                <File>RED_EvenMOARAztec.dep</File>
+            </Items>
+        </ModArt>
+    </Components>
+</Mod>

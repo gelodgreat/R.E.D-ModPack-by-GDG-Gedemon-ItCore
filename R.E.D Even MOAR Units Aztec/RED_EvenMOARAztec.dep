@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects::GameDependencyData>
+    <ID>
+        <name text="R.E.D. for MOAR Aztec"/>
+        <id text="69c49ab4-ba53-4840-90a2-8578430d3f94"/>
+    </ID>
+	<RequiredGameArtIDs>
+		<Element>
+			<name text="EvenMoarUnitsAztec"/>
+			<id text="bf65efa2-7cef-4519-a22f-f693e07d92f9"/>
+		</Element>
+	</RequiredGameArtIDs>
+    <SystemDependencies>
+        <Element>
+            <ConsumerName text="Units"/>
+            <ArtDefDependencyPaths>
+                <Element text="Units.artdef"/>
+            </ArtDefDependencyPaths>
+        </Element>
+    </SystemDependencies>
+</AssetObjects::GameDependencyData>
