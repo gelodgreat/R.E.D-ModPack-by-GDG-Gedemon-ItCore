@@ -1320,7 +1320,7 @@
 										<m_ParamName text="Count"/>
 									</Element>
 									<Element class="AssetObjects::ArtDefReferenceValue">
-										<m_ElementName text="Tank"/>
+										<m_ElementName text="UnitMember_T34"/>
 										<m_RootCollectionName text="UnitMemberTypes"/>
 										<m_ArtDefPath text="Units.artdef"/>
 										<m_CollectionIsLocked>false</m_CollectionIsLocked>
@@ -1594,7 +1594,7 @@
 										<m_ParamName text="Count"/>
 									</Element>
 									<Element class="AssetObjects::ArtDefReferenceValue">
-										<m_ElementName text="Tank"/>
+										<m_ElementName text="UnitMember_Panzer"/>
 										<m_RootCollectionName text="UnitMemberTypes"/>
 										<m_ArtDefPath text="Units.artdef"/>
 										<m_CollectionIsLocked>false</m_CollectionIsLocked>
@@ -4587,7 +4587,7 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects::FloatValue">
-										<m_fValue>1.000000</m_fValue>
+										<m_fValue>0.500000</m_fValue>
 										<m_ParamName text="Scale"/>
 									</Element>
 									<Element class="AssetObjects::IntValue">

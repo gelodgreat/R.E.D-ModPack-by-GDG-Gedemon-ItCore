@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects::GameDependencyData>
+    <ID>
+        <name text="REDModpack"/>
+        <id text="8670da15-d435-44ea-9758-7438cb321411"/>
+    </ID>
+    <SystemDependencies>
+        <Element>
+            <ConsumerName text="Units"/>
+            <ArtDefDependencyPaths>
+                <Element text="Units.artdef"/>
+            </ArtDefDependencyPaths>
+        </Element>
+    </SystemDependencies>
+</AssetObjects::GameDependencyData>

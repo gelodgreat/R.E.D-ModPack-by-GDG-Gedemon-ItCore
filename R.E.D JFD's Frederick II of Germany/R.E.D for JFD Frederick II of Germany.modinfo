@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Mod id="8d102dd8-6d81-4e94-ba75-a49db1b96a76">
+<Mod id="8d102dd8-6d81-4e94-ba75-a49db1b96a76" version="1.0.0">
     <Properties>
         <Name>LOC_RED_JFDFREDERICKIIGERMANY_NAME</Name>
         <Teaser>LOC_RED_JFDFREDERICKIIGERMANY_DESC</Teaser>
+		<Authors>GeloDGreat</Authors>
+		<SpecialThanks>Gedemon</SpecialThanks>
     </Properties>
     <LocalizedText>
         <Text id="LOC_RED_JFDFREDERICKIIGERMANY_NAME">

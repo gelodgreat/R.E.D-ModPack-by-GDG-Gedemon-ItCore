@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Mod id="e031ea09-1385-4d08-86a4-26e8a267604a">
+<Mod id="e031ea09-1385-4d08-86a4-26e8a267604a" version="1.0.0">
     <Properties>
         <Name>LOC_RED_JFDDEGAULLEFRANCE_NAME</Name>
         <Teaser>LOC_RED_JFDDEGAULLEFRANCE_DESC</Teaser>
+		<Authors>GeloDGreat</Authors>
+		<SpecialThanks>Gedemon</SpecialThanks>
     </Properties>
     <LocalizedText>
         <Text id="LOC_RED_JFDDEGAULLEFRANCE_NAME">
