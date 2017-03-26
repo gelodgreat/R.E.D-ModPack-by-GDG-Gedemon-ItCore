@@ -8,7 +8,7 @@
 	</m_Version>
 	<m_TemplateName text="Units"/>
 	<m_RootCollections>
-<Element>
+		<Element>
 			<m_CollectionName text="Units"/>
 			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 			<Element>
@@ -136,5 +136,6 @@
 				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 		</Element>
-		</m_RootCollections>
+	</m_RootCollections>
 </AssetObjects::ArtDefSet>
+
