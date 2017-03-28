@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects::GameDependencyData>
+    <ID>
+        <name text="REDforAustralia"/>
+        <id text="fdb1d8f6-924d-4a6e-a96f-e90e5ae0180d"/>
+    </ID>
+	<RequiredGameArtIDs>
+		<Element>
+			<name text="DLC3"/>
+			<id text="9872e05b-8772-4e1f-a001-54b69e8d3648"/>
+		</Element>
+	</RequiredGameArtIDs>
+    <SystemDependencies>
+        <Element>
+            <ConsumerName text="Units"/>
+            <ArtDefDependencyPaths>
+                <Element text="Units.artdef"/>
+            </ArtDefDependencyPaths>
+        </Element>
+    </SystemDependencies>
+</AssetObjects::GameDependencyData>

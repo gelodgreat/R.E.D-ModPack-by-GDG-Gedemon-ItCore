@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="17b3fede-5505-4aed-88db-5a2026ea1dca">
+    <Properties>
+        <Name>LOC_RED_POLAND_NAME</Name>
+        <Teaser>LOC_RED_POLAND_DESC</Teaser>
+    </Properties>
+    <LocalizedText>
+        <Text id="LOC_RED_POLAND_NAME">
+            <en_US>R.E.D. for Poland DLC</en_US>
+        </Text>
+        <Text id="LOC_RED_POLAND_DESC">
+            <en_US>R.E.D. Modpack for Poland DLC.</en_US>
+        </Text>        
+    </LocalizedText>
+	
+	<Dependencies>
+		<Mod id="3809975F-263F-40A2-A747-8BFB171D821A" title="Poland DLC" />
+		<Mod id="8670da15-d435-44ea-9758-7438cb321411" title="R.E.D. Modpack" />
+	</Dependencies>
+	
+    <Files>
+        <File>RED_Poland_DLC.dep</File>      
+    </Files>    
+    <Components>
+        <ModArt id="RED_POLAND_ModArt">
+            <Items>
+                <File>RED_Poland_DLC.dep</File>
+            </Items>
+        </ModArt>
+    </Components>
+</Mod>
