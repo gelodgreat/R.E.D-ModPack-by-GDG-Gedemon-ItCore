@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="d128b965-a727-44c6-8c1c-aa5eeba7cf22" version="1.0.0">
+    <Properties>
+        <Name>LOC_RED_MOARAUSTRALIA_NAME</Name>
+        <Teaser>LOC_RED_MOARAUSTRALIA_DESC</Teaser>
+		<Authors>GeloDGreat,Gedemon</Authors>
+    </Properties>
+    <LocalizedText>
+        <Text id="LOC_RED_MOARAUSTRALIA_NAME">
+            <en_US>R.E.D. for MOAR Australia</en_US>
+        </Text>
+        <Text id="LOC_RED_MOARAUSTRALIA_DESC">
+            <en_US>R.E.D. Modpack for MOAR Australia</en_US>
+        </Text>        
+    </LocalizedText>
+	
+	<Dependencies>
+		<Mod id="bd141853-920e-41d8-9b41-c73b1b15fb48" title="Even Moar Units! Australia" />
+		<Mod id="8670da15-d435-44ea-9758-7438cb321411" title="R.E.D. Modpack" />
+	</Dependencies>
+	
+    <Files>
+        <File>RED_EvenMOARAUSTRALIA.dep</File>      
+    </Files>    
+    <Components>
+        <ModArt id="RED_MOARAUSTRALIA_ModArt">
+            <Items>
+                <File>RED_EvenMOARAUSTRALIA.dep</File>
+            </Items>
+        </ModArt>
+    </Components>
+</Mod>
