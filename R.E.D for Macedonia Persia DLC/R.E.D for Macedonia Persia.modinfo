@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="88f20067-6180-40f3-9daf-2320a57516f6" version="1.0.0">
+    <Properties>
+        <Name>LOC_RED_MACEDONIANPERSIA_NAME</Name>
+        <Teaser>LOC_RED_MACEDONIANPERSIA_DESC</Teaser>
+		<Authors>GeloDGreat,Gedemon</Authors>
+    </Properties>
+    <LocalizedText>
+        <Text id="LOC_RED_MACEDONIANPERSIA_NAME">
+            <en_US>R.E.D. for Macedonia Persia DLC</en_US>
+        </Text>
+        <Text id="LOC_RED_MACEDONIANPERSIA_DESC">
+            <en_US>R.E.D. Modpack for Macedonia Persia DLC.</en_US>
+        </Text>        
+    </LocalizedText>
+	
+	<Dependencies>
+		<Mod id="E2749E9A-8056-45CD-901B-C368C8E83DEB" title="Macedonia_Persia DLC" />
+		<Mod id="8670da15-d435-44ea-9758-7438cb321411" title="R.E.D. Modpack" />
+	</Dependencies>
+	
+    <Files>
+        <File>RED_Macedonia_Persia_DLC.dep</File>      
+    </Files>    
+    <Components>
+        <ModArt id="RED_MACEDONIANPERSIA_ModArt">
+            <Items>
+                <File>RED_Macedonia_Persia_DLC.dep</File>
+            </Items>
+        </ModArt>
+    </Components>
+</Mod>

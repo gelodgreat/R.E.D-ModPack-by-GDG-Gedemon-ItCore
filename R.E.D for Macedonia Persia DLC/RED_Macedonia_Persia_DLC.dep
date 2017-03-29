@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects::GameDependencyData>
+    <ID>
+        <name text="REDforMacedoniaPersia"/>
+        <id text="88f20067-6180-40f3-9daf-2320a57516f6"/>
+    </ID>
+	<RequiredGameArtIDs>
+		<Element>
+			<name text="DLC4"/>
+			<id text="d5642886-43d5-4ce9-9465-3a47b5c70096"/>
+		</Element>
+	</RequiredGameArtIDs>
+    <SystemDependencies>
+        <Element>
+            <ConsumerName text="Units"/>
+            <ArtDefDependencyPaths>
+                <Element text="Units.artdef"/>
+            </ArtDefDependencyPaths>
+        </Element>
+    </SystemDependencies>
+</AssetObjects::GameDependencyData>

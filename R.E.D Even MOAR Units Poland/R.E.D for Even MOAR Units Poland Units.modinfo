@@ -3,8 +3,7 @@
     <Properties>
         <Name>LOC_RED_MOARPOLAND_NAME</Name>
         <Teaser>LOC_RED_MOARPOLAND_DESC</Teaser>
-		<Authors>GeloDGreat</Authors>
-		<SpecialThanks>Gedemon</SpecialThanks>
+		<Authors>GeloDGreat,Gedemon</Authors>
     </Properties>
     <LocalizedText>
         <Text id="LOC_RED_MOARPOLAND_NAME">
