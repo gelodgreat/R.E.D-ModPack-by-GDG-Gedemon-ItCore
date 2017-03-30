@@ -7,6 +7,11 @@
         <Description>LOC_RED_MODPACK_DESC</Description>
         <Authors>Gedemon</Authors>
     </Properties>
+	
+	<Dependencies>
+		<Mod id="bd141853-920e-41d8-9b41-c73b1b15fb48" title="Even Moar Units! Australia" />
+	</Dependencies>
+	
     <LocalizedText>
         <Text id="LOC_RED_MODPACK_NAME">
             <en_US>R.E.D. Modpack</en_US>

@@ -4,6 +4,12 @@
         <name text="REDModpack"/>
         <id text="8670da15-d435-44ea-9758-7438cb321411"/>
     </ID>
+	<RequiredGameArtIDs>
+		<Element>
+			<name text="EvenMoarUnitsAustralia"/>
+			<id text="bd141853-920e-41d8-9b41-c73b1b15fb48"/>
+		</Element>
+	</RequiredGameArtIDs>
     <SystemDependencies>
         <Element>
             <ConsumerName text="Units"/>
