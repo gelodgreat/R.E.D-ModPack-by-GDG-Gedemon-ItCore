@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Mod id="20d14b58-6899-49f5-b72c-d86a21f102ab">
+<Mod id="20d14b58-6899-49f5-b72c-d86a21f102ab" version="1.0.0">
     <Properties>
         <Name>LOC_RED_MOAR_NAME</Name>
         <Teaser>LOC_RED_MOAR_DESC</Teaser>
+		<Authors>Gedemon,GeloDGreat</Authors>
     </Properties>
     <LocalizedText>
         <Text id="LOC_RED_MOAR_NAME">
