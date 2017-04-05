@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Mod id="17b3fede-5505-4aed-88db-5a2026ea1dca">
+<Mod id="17b3fede-5505-4aed-88db-5a2026ea1dca" version="1.0.2">
     <Properties>
         <Name>LOC_RED_POLAND_NAME</Name>
         <Teaser>LOC_RED_POLAND_DESC</Teaser>

@@ -94,7 +94,7 @@
 										<m_ParamName text="Scale"/>
 									</Element>
 									<Element class="AssetObjects::IntValue">
-										<m_nValue>12</m_nValue>
+										<m_nValue>15</m_nValue>
 										<m_ParamName text="Count"/>
 									</Element>
 									<Element class="AssetObjects::ArtDefReferenceValue">
@@ -1048,7 +1048,7 @@
 										<m_ParamName text="Scale"/>
 									</Element>
 									<Element class="AssetObjects::IntValue">
-										<m_nValue>13</m_nValue>
+										<m_nValue>15</m_nValue>
 										<m_ParamName text="Count"/>
 									</Element>
 									<Element class="AssetObjects::ArtDefReferenceValue">
@@ -1179,7 +1179,7 @@
 										<m_ParamName text="Scale"/>
 									</Element>
 									<Element class="AssetObjects::IntValue">
-										<m_nValue>12</m_nValue>
+										<m_nValue>15</m_nValue>
 										<m_ParamName text="Count"/>
 									</Element>
 									<Element class="AssetObjects::ArtDefReferenceValue">
@@ -1572,7 +1572,7 @@
 										<m_ParamName text="Scale"/>
 									</Element>
 									<Element class="AssetObjects::IntValue">
-										<m_nValue>13</m_nValue>
+										<m_nValue>16</m_nValue>
 										<m_ParamName text="Count"/>
 									</Element>
 									<Element class="AssetObjects::ArtDefReferenceValue">
@@ -1687,11 +1687,11 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects::FloatValue">
-										<m_fValue>1.000000</m_fValue>
+										<m_fValue>0.750000</m_fValue>
 										<m_ParamName text="Scale"/>
 									</Element>
 									<Element class="AssetObjects::IntValue">
-										<m_nValue>2</m_nValue>
+										<m_nValue>3</m_nValue>
 										<m_ParamName text="Count"/>
 									</Element>
 									<Element class="AssetObjects::ArtDefReferenceValue">
@@ -1925,11 +1925,11 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects::FloatValue">
-										<m_fValue>0.750000</m_fValue>
+										<m_fValue>0.650000</m_fValue>
 										<m_ParamName text="Scale"/>
 									</Element>
 									<Element class="AssetObjects::IntValue">
-										<m_nValue>3</m_nValue>
+										<m_nValue>2</m_nValue>
 										<m_ParamName text="Count"/>
 									</Element>
 									<Element class="AssetObjects::ArtDefReferenceValue">
@@ -2929,7 +2929,7 @@
 										<m_ParamName text="Scale"/>
 									</Element>
 									<Element class="AssetObjects::IntValue">
-										<m_nValue>10</m_nValue>
+										<m_nValue>15</m_nValue>
 										<m_ParamName text="Count"/>
 									</Element>
 									<Element class="AssetObjects::ArtDefReferenceValue">
@@ -3048,7 +3048,7 @@
 										<m_ParamName text="Scale"/>
 									</Element>
 									<Element class="AssetObjects::IntValue">
-										<m_nValue>12</m_nValue>
+										<m_nValue>15</m_nValue>
 										<m_ParamName text="Count"/>
 									</Element>
 									<Element class="AssetObjects::ArtDefReferenceValue">
@@ -3905,7 +3905,7 @@
 										<m_ParamName text="Scale"/>
 									</Element>
 									<Element class="AssetObjects::IntValue">
-										<m_nValue>10</m_nValue>
+										<m_nValue>15</m_nValue>
 										<m_ParamName text="Count"/>
 									</Element>
 									<Element class="AssetObjects::ArtDefReferenceValue">
@@ -4143,7 +4143,7 @@
 										<m_ParamName text="Scale"/>
 									</Element>
 									<Element class="AssetObjects::IntValue">
-										<m_nValue>12</m_nValue>
+										<m_nValue>15</m_nValue>
 										<m_ParamName text="Count"/>
 									</Element>
 									<Element class="AssetObjects::ArtDefReferenceValue">
@@ -5882,7 +5882,7 @@
 										<m_ParamName text="Scale"/>
 									</Element>
 									<Element class="AssetObjects::IntValue">
-										<m_nValue>12</m_nValue>
+										<m_nValue>15</m_nValue>
 										<m_ParamName text="Count"/>
 									</Element>
 									<Element class="AssetObjects::ArtDefReferenceValue">
@@ -6013,7 +6013,7 @@
 										<m_ParamName text="Scale"/>
 									</Element>
 									<Element class="AssetObjects::IntValue">
-										<m_nValue>1</m_nValue>
+										<m_nValue>3</m_nValue>
 										<m_ParamName text="Count"/>
 									</Element>
 									<Element class="AssetObjects::ArtDefReferenceValue">
@@ -6171,7 +6171,7 @@
 				<m_Fields>
 					<m_Values>
 						<Element class="AssetObjects::ArtDefReferenceValue">
-							<m_ElementName text="Naval"/>
+							<m_ElementName text="Galley"/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
 							<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -6247,11 +6247,11 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects::FloatValue">
-										<m_fValue>0.580000</m_fValue>
+										<m_fValue>0.450000</m_fValue>
 										<m_ParamName text="Scale"/>
 									</Element>
 									<Element class="AssetObjects::IntValue">
-										<m_nValue>1</m_nValue>
+										<m_nValue>3</m_nValue>
 										<m_ParamName text="Count"/>
 									</Element>
 									<Element class="AssetObjects::ArtDefReferenceValue">
@@ -7445,7 +7445,7 @@
 				<m_Fields>
 					<m_Values>
 						<Element class="AssetObjects::ArtDefReferenceValue">
-							<m_ElementName text="Naval"/>
+							<m_ElementName text="Galley"/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
 							<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -7521,11 +7521,11 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects::FloatValue">
-										<m_fValue>0.950000</m_fValue>
+										<m_fValue>0.750000</m_fValue>
 										<m_ParamName text="Scale"/>
 									</Element>
 									<Element class="AssetObjects::IntValue">
-										<m_nValue>1</m_nValue>
+										<m_nValue>2</m_nValue>
 										<m_ParamName text="Count"/>
 									</Element>
 									<Element class="AssetObjects::ArtDefReferenceValue">
@@ -8338,7 +8338,7 @@
 				<m_Fields>
 					<m_Values>
 						<Element class="AssetObjects::ArtDefReferenceValue">
-							<m_ElementName text="Naval"/>
+							<m_ElementName text="Galley"/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
 							<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -8418,7 +8418,7 @@
 										<m_ParamName text="Scale"/>
 									</Element>
 									<Element class="AssetObjects::IntValue">
-										<m_nValue>1</m_nValue>
+										<m_nValue>2</m_nValue>
 										<m_ParamName text="Count"/>
 									</Element>
 									<Element class="AssetObjects::ArtDefReferenceValue">
@@ -8899,7 +8899,7 @@
 										<m_ParamName text="Scale"/>
 									</Element>
 									<Element class="AssetObjects::IntValue">
-										<m_nValue>13</m_nValue>
+										<m_nValue>16</m_nValue>
 										<m_ParamName text="Count"/>
 									</Element>
 									<Element class="AssetObjects::ArtDefReferenceValue">
@@ -9375,7 +9375,7 @@
 										<m_ParamName text="Scale"/>
 									</Element>
 									<Element class="AssetObjects::IntValue">
-										<m_nValue>12</m_nValue>
+										<m_nValue>15</m_nValue>
 										<m_ParamName text="Count"/>
 									</Element>
 									<Element class="AssetObjects::ArtDefReferenceValue">
@@ -11694,11 +11694,11 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects::FloatValue">
-										<m_fValue>0.735000</m_fValue>
+										<m_fValue>0.725000</m_fValue>
 										<m_ParamName text="Scale"/>
 									</Element>
 									<Element class="AssetObjects::IntValue">
-										<m_nValue>1</m_nValue>
+										<m_nValue>2</m_nValue>
 										<m_ParamName text="Count"/>
 									</Element>
 									<Element class="AssetObjects::ArtDefReferenceValue">
@@ -11813,11 +11813,11 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects::FloatValue">
-										<m_fValue>1.000000</m_fValue>
+										<m_fValue>0.750000</m_fValue>
 										<m_ParamName text="Scale"/>
 									</Element>
 									<Element class="AssetObjects::IntValue">
-										<m_nValue>1</m_nValue>
+										<m_nValue>2</m_nValue>
 										<m_ParamName text="Count"/>
 									</Element>
 									<Element class="AssetObjects::ArtDefReferenceValue">
@@ -16673,11 +16673,11 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects::FloatValue">
-										<m_fValue>0.735000</m_fValue>
+										<m_fValue>0.650000</m_fValue>
 										<m_ParamName text="Scale"/>
 									</Element>
 									<Element class="AssetObjects::IntValue">
-										<m_nValue>1</m_nValue>
+										<m_nValue>2</m_nValue>
 										<m_ParamName text="Count"/>
 									</Element>
 									<Element class="AssetObjects::ArtDefReferenceValue">
@@ -17097,7 +17097,7 @@
 				<m_Fields>
 					<m_Values>
 						<Element class="AssetObjects::ArtDefReferenceValue">
-							<m_ElementName text="Naval"/>
+							<m_ElementName text="Galley"/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
 							<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -17173,11 +17173,11 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects::FloatValue">
-										<m_fValue>1.000000</m_fValue>
+										<m_fValue>0.65</m_fValue>
 										<m_ParamName text="Scale"/>
 									</Element>
 									<Element class="AssetObjects::IntValue">
-										<m_nValue>1</m_nValue>
+										<m_nValue>5</m_nValue>
 										<m_ParamName text="Count"/>
 									</Element>
 									<Element class="AssetObjects::ArtDefReferenceValue">
@@ -17204,7 +17204,7 @@
 				<m_Fields>
 					<m_Values>
 						<Element class="AssetObjects::ArtDefReferenceValue">
-							<m_ElementName text="Naval"/>
+							<m_ElementName text="Galley"/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
 							<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -17280,11 +17280,11 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects::FloatValue">
-										<m_fValue>1.000000</m_fValue>
+										<m_fValue>0.5</m_fValue>
 										<m_ParamName text="Scale"/>
 									</Element>
 									<Element class="AssetObjects::IntValue">
-										<m_nValue>1</m_nValue>
+										<m_nValue>3</m_nValue>
 										<m_ParamName text="Count"/>
 									</Element>
 									<Element class="AssetObjects::ArtDefReferenceValue">

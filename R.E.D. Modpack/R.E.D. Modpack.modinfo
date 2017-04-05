@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<Mod id="8670da15-d435-44ea-9758-7438cb321411">
+<Mod id="8670da15-d435-44ea-9758-7438cb321411" version="1.0.2">
     <Properties>
         <Name>LOC_RED_MODPACK_NAME</Name>
         <Teaser>LOC_RED_MODPACK_DESC</Teaser>
