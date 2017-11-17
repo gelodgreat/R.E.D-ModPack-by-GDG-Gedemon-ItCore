@@ -1,0 +1,60 @@
+UPDATE UnitUpgrades SET UpgradeUnit = 'UNIT_TREBUCHET' WHERE Unit = 'UNIT_CATAPULT';
+
+UPDATE UnitUpgrades SET UpgradeUnit = 'UNIT_RIFLEMAN' WHERE Unit = 'UNIT_MUSKETMAN';
+
+UPDATE UnitUpgrades SET UpgradeUnit = 'UNIT_RIFLEMAN' WHERE Unit = 'UNIT_SPANISH_CONQUISTADOR';
+
+UPDATE UnitUpgrades SET UpgradeUnit = 'UNIT_CUIRASSIER' WHERE Unit = 'UNIT_KNIGHT';
+
+UPDATE UnitUpgrades SET UpgradeUnit = 'UNIT_CUIRASSIER' WHERE Unit = 'UNIT_ARABIAN_MAMLUK';
+
+UPDATE UnitUpgrades SET UpgradeUnit = 'UNIT_MUGHAL_SOWAR' WHERE Unit = 'UNIT_INDIAN_VARU';
+
+UPDATE UnitUpgrades SET UpgradeUnit = 'UNIT_MACEMAN' WHERE Unit = 'UNIT_SWORDSMAN';
+
+UPDATE UnitUpgrades SET UpgradeUnit = 'UNIT_MACEMAN' WHERE Unit = 'UNIT_ROMAN_LEGION';
+
+UPDATE UnitUpgrades SET UpgradeUnit = 'UNIT_MACEMAN' WHERE Unit = 'UNIT_KONGO_SHIELD_BEARER';
+
+UPDATE UnitUpgrades SET UpgradeUnit = 'UNIT_MEDIEVAL_HORSEMAN' WHERE  Unit = 'UNIT_HORSEMAN';
+
+UPDATE UnitUpgrades SET UpgradeUnit = 'UNIT_KNIGHT' WHERE  Unit = 'UNIT_SUMERIAN_WAR_CART';
+
+UPDATE UnitUpgrades SET UpgradeUnit = 'UNIT_GATLING_GUN' WHERE  Unit = 'UNIT_PIKEMAN';
+
+UPDATE UnitUpgrades SET UpgradeUnit = 'UNIT_SNIPER' WHERE  Unit = 'UNIT_FIELD_CANNON';
+
+UPDATE Units SET Combat = 46 WHERE UnitType = 'UNIT_JAPANESE_SAMURAI';
+
+UPDATE Units SET Combat = 41 WHERE UnitType = 'UNIT_ROMAN_LEGION';
+
+UPDATE Units SET Cost = 200 WHERE UnitType = 'UNIT_KNIGHT';
+
+UPDATE Units SET Cost = 200 WHERE UnitType = 'UNIT_ARABIAN_MAMLUK';
+
+UPDATE Units SET Cost = 180 WHERE UnitType = 'UNIT_PIKEMAN';
+
+UPDATE ModifierArguments SET Value = 9 WHERE ModifierId = 'CONQUISTADOR_SPECIFIC_UNIT_COMBAT' AND Name = 'Amount';
+
+/* Anti Cavalry boost */
+DELETE FROM UnitAbilityModifiers WHERE UnitAbilityType = 'ABILITY_ANTI_CAVALRY' AND ModifierId = 'ANTI_CAVALRY_COMBAT_BONUS';
+
+/* Expanded Recon Class */
+UPDATE UnitUpgrades SET UpgradeUnit = 'UNIT_EXPLORER' WHERE Unit = 'UNIT_SCOUT';
+
+UPDATE Units SET Combat = 53, RangedCombat = 0, MandatoryObsoleteTech = 'TECH_ADVANCED_BALLISTICS' WHERE UnitType = 'UNIT_RANGER';
+
+UPDATE Units SET RangedCombat = 65, Cost = 500 WHERE UnitType = 'UNIT_MACHINE_GUN';
+
+UPDATE Units SET BaseSightRange = 2 WHERE UnitType='UNIT_NATURALIST';
+
+/* Expanded Recon Promotions Rework */
+UPDATE UnitPromotions SET Name='LOC_PROMOTION_SPYGLASS_NAME', Description='LOC_PROMOTION_SPYGLASS_DESCRIPTION' WHERE UnitPromotionType='PROMOTION_GUERRILLA';
+UPDATE UnitPromotions SET Name='LOC_PROMOTION_GUERRILLA_NAME', Description='LOC_PROMOTION_GUERRILLA_DESCRIPTION' WHERE UnitPromotionType='PROMOTION_SPYGLASS';
+
+UPDATE UnitPromotionModifiers SET ModifierId = 'FADE_BONUS_MOVE_AFTER_ATTACKING' WHERE UnitPromotionType='PROMOTION_SPYGLASS';
+UPDATE UnitPromotionModifiers SET ModifierId = 'SPYGLASS_BONUS_SIGHT' WHERE UnitPromotionType='PROMOTION_GUERRILLA';
+
+INSERT INTO RequirementSets (RequirementSetId, RequirementSetType) VALUES ('AMBUSH_REQUIREMENTS','REQUIREMENTSET_TEST_ALL');
+INSERT INTO RequirementSetRequirements (RequirementSetId, RequirementId) VALUES ('AMBUSH_REQUIREMENTS','PLAYER_IS_DEFENDER_REQUIREMENTS');
+UPDATE Modifiers SET SubjectRequirementSetId = 'AMBUSH_REQUIREMENTS' WHERE ModifierId = 'AMBUSH_INCREASED_COMBAT_STRENGTH';
