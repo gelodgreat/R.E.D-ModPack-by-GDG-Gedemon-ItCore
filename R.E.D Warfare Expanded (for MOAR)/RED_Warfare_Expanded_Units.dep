@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects::GameDependencyData>
+    <ID>
+        <name text="REDWarfareExpanded"/>
+        <id text="2f28ff3c-9689-45ed-a40c-3e27d151ec25"/>
+    </ID>
+    <RequiredGameArtIDs>
+        <Element>
+            <name text="MoarUnits"/>
+            <id text="8342b98d-80c7-4002-87bb-419646bd9b54"/>
+        </Element>
+        <Element>
+            <name text="Civ6"/>
+            <id text="cb2f71b7-843e-4af3-9ca7-992acda9c195"/>
+        </Element>
+        <Element>
+            <name text="WarfareExpanded"/>
+            <id text="9612f1e9-9210-4457-afe1-7514f190658a"/>
+        </Element>
+    </RequiredGameArtIDs>
+    <SystemDependencies>
+        <Element>
+            <ConsumerName text="Units"/>
+            <ArtDefDependencyPaths>
+                <Element text="Units.artdef"/>
+            </ArtDefDependencyPaths>
+        </Element>
+    </SystemDependencies>
+</AssetObjects::GameDependencyData>
