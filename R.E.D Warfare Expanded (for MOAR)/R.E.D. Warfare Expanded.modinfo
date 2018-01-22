@@ -22,12 +22,12 @@
         <Mod id="9612f1e9-9210-4457-afe1-7514f190658a" title="Warfare Expanded (for MOAR)"/>
     </Dependencies>
     <Files>
-        <File>RED_MOAR_Units.dep</File>
+        <File>RED_Warfare_Expanded_Units.dep</File>
     </Files>
     <Components>
         <ModArt id="RED_MOAR_ModArt">
             <Items>
-                <File>RED_MOAR_Units.dep</File>
+                <File>RED_Warfare_Expanded_Units.dep</File>
             </Items>
         </ModArt>
     </Components>
