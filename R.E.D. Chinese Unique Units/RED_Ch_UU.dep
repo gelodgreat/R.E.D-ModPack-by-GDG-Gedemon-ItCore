@@ -2,14 +2,21 @@
 <AssetObjects::GameDependencyData>
     <ID>
         <name text="REDforChUU"/>
-        <id text="5b924595-ff48-4e3b-a00b-01a2f9a94075
-"/>
+        <id text="5b924595-ff48-4e3b-a00b-01a2f9a94075"/>
     </ID>
+	<ID>
+		<name text="Starter - New Unit"/>
+		<id text="f4005c34-6c7b-4292-9559-cb00c131a9f4"/>
+	</ID>
     <RequiredGameArtIDs>
         <Element>
             <name text="Chinese Unique Units "/>
             <id text="f4005c34-6c7b-4292-9559-cb00c131a9f4"/>
         </Element>
+		<Element>
+			<name text="Civ6"/>
+			<id text="cb2f71b7-843e-4af3-9ca7-992acda9c195"/>
+		</Element>
     </RequiredGameArtIDs>
     <SystemDependencies>
         <Element>
