@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="5b924595-ff48-4e3b-a00b-01a2f9a94075
+" version="1.0.0">
+    <Properties>
+        <Name>LOC_RED_ChUU_NAME</Name>
+        <Teaser>LOC_RED_ChUU_DESC</Teaser>
+        <Description>LOC_RED_ChUU_DESC</Description>
+        <Authors>Gedemon,GeloDGreat</Authors>
+    </Properties>
+    <LocalizedText>
+        <Text id="LOC_RED_ChUU_NAME">
+            <en_US>R.E.D. for Chinese Unique Units</en_US>
+        </Text>
+        <Text id="LOC_RED_ChUU_DESC">
+            <en_US>Compatibility mod for R.E.D. and ChineseUU.</en_US>
+        </Text>
+    </LocalizedText>
+    <Dependencies>
+        <Mod id="f4005c34-6c7b-4292-9559-cb00c131a9f4" title="Chinese Unique Units"/>
+    </Dependencies>
+    <Files>
+        <File>RED_Ch_UU.dep</File>
+    </Files>
+    <Components>
+        <ModArt id="RED_ChUU_ModArt">
+            <Items>
+                <File>RED_Ch_UU.dep</File>
+            </Items>
+        </ModArt>
+    </Components>
+</Mod>

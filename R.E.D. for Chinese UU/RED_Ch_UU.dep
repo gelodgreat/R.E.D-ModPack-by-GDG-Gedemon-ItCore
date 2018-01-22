@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects::GameDependencyData>
+    <ID>
+        <name text="REDforChUU"/>
+        <id text="5b924595-ff48-4e3b-a00b-01a2f9a94075
+"/>
+    </ID>
+    <RequiredGameArtIDs>
+        <Element>
+            <name text="Chinese Unique Units "/>
+            <id text="f4005c34-6c7b-4292-9559-cb00c131a9f4"/>
+        </Element>
+    </RequiredGameArtIDs>
+    <SystemDependencies>
+        <Element>
+            <ConsumerName text="Units"/>
+            <ArtDefDependencyPaths>
+                <Element text="Units.artdef"/>
+            </ArtDefDependencyPaths>
+        </Element>
+    </SystemDependencies>
+</AssetObjects::GameDependencyData>
