@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects::GameDependencyData>
+    <ID>
+        <name text="REDSTUE"/>
+        <id text="0775f4c9-26fd-4e1a-8918-f96817058321"/>
+    </ID>
+    <RequiredGameArtIDs>
+        <Element>
+            <name text="UnitExpansion"/>
+            <id text="01159f41-7ca0-4181-84cf-2f2c912edfdd"/>
+        </Element>
+        <Element>
+            <name text="Civ6"/>
+            <id text="cb2f71b7-843e-4af3-9ca7-992acda9c195"/>
+        </Element>
+    </RequiredGameArtIDs>
+    <SystemDependencies>
+        <Element>
+            <ConsumerName text="Units"/>
+            <ArtDefDependencyPaths>
+                <Element text="Units.artdef"/>
+            </ArtDefDependencyPaths>
+        </Element>
+    </SystemDependencies>
+</AssetObjects::GameDependencyData>

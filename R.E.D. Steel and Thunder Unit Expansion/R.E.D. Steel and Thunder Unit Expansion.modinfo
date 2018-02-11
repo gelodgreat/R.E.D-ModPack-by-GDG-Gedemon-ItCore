@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="0775f4c9-26fd-4e1a-8918-f96817058321">
+    <Properties>
+        <Name>LOC_RED_MODPACK_STUE_NAME</Name>
+        <Teaser>LOC_RED_MODPACK_STUE_DESC</Teaser>
+        <Description>LOC_RED_MODPACK_STUE_DESC</Description>
+        <Authors>GeloDGreat, Gedemon</Authors>
+    </Properties>
+    <LocalizedText>
+        <Text id="LOC_RED_MODPACK_STUE_NAME">
+            <en_US>R.E.D. Steel and Thunder Unit Expansion</en_US>
+        </Text>
+        <Text id="LOC_RED_MODPACK_STUE_DESC">
+            <en_US>Units rescaling and formations for Steel and Thunder Unit Expansion.</en_US>
+        </Text>
+    </LocalizedText>
+    <Dependencies>
+        <Mod id="01159f41-7ca0-4181-84cf-2f2c912edfdd" title="Steel and Thunder: Unit Expansion" />
+    </Dependencies>
+    <Files>
+        <File>REDSTUE.dep</File>
+    </Files>
+    <Components>
+        <ModArt id="REDSTUE_ART">
+            <Items>
+                <File>REDSTUE.dep</File>
+            </Items>
+        </ModArt>
+    </Components>
+</Mod>
