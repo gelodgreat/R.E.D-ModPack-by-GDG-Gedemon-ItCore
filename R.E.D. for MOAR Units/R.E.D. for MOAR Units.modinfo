@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Mod id="20d14b58-6899-49f5-b72c-d86a21f102ab" version="1.0.2">
-    <Properties>
+<Mod id="20d14b58-6899-49f5-b72c-d86a21f102ab" version="1.2">
+   <Properties>
         <Name>LOC_RED_MOAR_NAME</Name>
         <Teaser>LOC_RED_MOAR_DESC</Teaser>
+        <Description>LOC_RED_MOAR_DESC</Description>
 		<Authors>Gedemon,GeloDGreat</Authors>
+		<AffectsSavedGames>0</AffectsSavedGames>
     </Properties>
+
     <LocalizedText>
         <Text id="LOC_RED_MOAR_NAME">
             <en_US>R.E.D. for Moar Units</en_US>
@@ -16,7 +19,6 @@
 	
 	<Dependencies>
 		<Mod id="8342b98d-80c7-4002-87bb-419646bd9b54" title="MOAR_Units" />
-		<Mod id="8670da15-d435-44ea-9758-7438cb321411" title="R.E.D. Modpack" />
 	</Dependencies>
 	
     <Files>

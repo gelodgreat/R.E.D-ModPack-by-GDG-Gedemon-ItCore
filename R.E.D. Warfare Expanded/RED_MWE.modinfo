@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="04ad0128-b83a-491a-8b96-ece96f371df8" version="1.0.0">
+    <Properties>
+        <Name>LOC_RED_WarfareExpanded_NAME</Name>
+        <Description>R.E.D. for Warfare Expanded</Description>
+        <Teaser>LOC_RED_WarfareExpanded_DESC</Teaser>
+		<Authors>GeloDGreat,Gedemon</Authors>
+    </Properties>
+    <LocalizedText>
+        <Text id="LOC_RED_WarfareExpanded_NAME">
+            <en_US>R.E.D. for Warfare Expanded</en_US>
+        </Text>
+        <Text id="LOC_RED_WarfareExpanded_DESC">
+            <en_US>R.E.D. for Warfare Expanded</en_US>
+        </Text>        
+    </LocalizedText>
+	
+  <Dependencies>
+    <Mod id="8342b98d-80c7-4002-87bb-419646bd9b54" title="MoarUnits" />
+	<Mod id="9612f1e9-9210-4457-afe1-7514f190658a"  title="Warfare Expanded (for MOAR)">
+	<Mod id="8670da15-d435-44ea-9758-7438cb321411" title="R.E.D. Modpack" />
+  </Dependencies>
+	
+	<InGameActions>
+		<UpdateArt id="RED_MWE_ModArt">
+			<File>RED_MWE.dep</File>
+		</UpdateArt>
+	</InGameActions>
+	
+    <Files>
+        <File>RED_MWE.dep</File>      
+    </Files>    	
+</Mod>

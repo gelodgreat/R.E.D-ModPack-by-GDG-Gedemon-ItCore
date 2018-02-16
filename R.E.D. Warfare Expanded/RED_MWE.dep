@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <AssetObjects::GameDependencyData>
     <ID>
-        <name text="REDModpack"/>
-        <id text="8670da15-d435-44ea-9758-7438cb321411"/>
+        <name text="R.E.D. for Warfare Expanded"/>
+        <id text="04ad0128-b83a-491a-8b96-ece96f371df8"/>
     </ID>
-    <SystemDependencies>
+	<RequiredGameArtIDs>
+		<Element>
+			<name text="Warfare Expanded (for MOAR)"/>
+			<id text="9612f1e9-9210-4457-afe1-7514f190658a"/>
+		</Element>
+	</RequiredGameArtIDs>
+	<SystemDependencies>
         <Element>
             <ConsumerName text="Units"/>
             <ArtDefDependencyPaths>

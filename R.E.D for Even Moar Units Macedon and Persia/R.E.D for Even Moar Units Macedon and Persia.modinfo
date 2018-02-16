@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="55c671b3-1080-43d1-8368-2126783bc36e" version="1.0.0">
+    <Properties>
+        <Name>LOC_RED_MOARMACPER_NAME</Name>
+        <Teaser>LOC_RED_MOARMACPER_DESC</Teaser>
+        <Description>LOC_RED_MOARMACPER_DESC</Description>
+        <Authors>Gedemon,GeloDGreat</Authors>
+        <AffectsSavedGames>0</AffectsSavedGames>
+    </Properties>
+    <LocalizedText>
+        <Text id="LOC_RED_MOARMACPER_NAME">
+            <en_US>R.E.D. for MOAR Macedon and Persia</en_US>
+        </Text>
+        <Text id="LOC_RED_MOARMACPER_DESC">
+            <en_US>R.E.D. for MOAR Macedon and Persia</en_US>
+        </Text>
+    </LocalizedText>
+    <Dependencies>
+        <Mod id="53ffce0d-7cc1-47c8-9f2b-c5c593e81411" title="Even Moar Units! Macedon Persia" />
+        <Mod id="8670da15-d435-44ea-9758-7438cb321411" title="R.E.D. Modpack" />
+    </Dependencies>
+    <Files>
+        <File>RED_EvenMOARMACEDONPERSIA.dep</File>
+    </Files>
+    <Components>
+        <ModArt id="RED_MOARMACEDONPERSIA_ModArt">
+            <Items>
+                <File>RED_EvenMOARMACEDONPERSIA.dep</File>
+            </Items>
+        </ModArt>
+    </Components>
+</Mod>
