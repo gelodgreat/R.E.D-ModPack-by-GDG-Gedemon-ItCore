@@ -16,6 +16,7 @@
     </LocalizedText>
     <Dependencies>
         <Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Rise and Fall" />
+		<Mod id="8670da15-d435-44ea-9758-7438cb321411" title="R.E.D. Modpack" />
     </Dependencies>
     <Files>
         <File>REDModpack_RF.dep</File>

@@ -17,6 +17,7 @@
 	
     <Dependencies>
         <Mod id="f4005c34-6c7b-4292-9559-cb00c131a9f4" title="Chinese Unique Units"/>
+		<Mod id="8670da15-d435-44ea-9758-7438cb321411" title="R.E.D. Modpack" />
     </Dependencies>
 
 	<InGameActions>

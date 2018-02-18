@@ -16,6 +16,7 @@
     </LocalizedText>
     <Dependencies>
         <Mod id="01159f41-7ca0-4181-84cf-2f2c912edfdd" title="Steel and Thunder: Unit Expansion" />
+		<Mod id="8670da15-d435-44ea-9758-7438cb321411" title="R.E.D. Modpack" />
     </Dependencies>
     <Files>
         <File>REDSTUE.dep</File>

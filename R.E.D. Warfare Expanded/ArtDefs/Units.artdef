@@ -10,6 +10,7 @@
 	<m_RootCollections>
 		<Element>
 			<m_CollectionName text="Units"/>
+			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 			<Element>
 				<m_Fields>
 					<m_Values>
@@ -17,7 +18,7 @@
 							<m_ElementName text="Scattered"/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Formation"/>
 						</Element>
@@ -25,7 +26,7 @@
 							<m_ElementName text="Tank"/>
 							<m_RootCollectionName text="UnitCombat"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text="Units"/>
 							<m_ParamName text="UnitCombat"/>
 						</Element>
@@ -33,7 +34,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="EscortFormation"/>
 						</Element>
@@ -41,7 +42,7 @@
 							<m_ElementName text="UNIT_MODERNEMBARK"/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text="Units"/>
 							<m_ParamName text="EmbarkedUnit"/>
 						</Element>
@@ -53,7 +54,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitCulture"/>
 							<m_ArtDefPath text="Cultures.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Culture"/>
 						</Element>
@@ -61,7 +62,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Era"/>
 							<m_ArtDefPath text="Eras.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Era"/>
 						</Element>
@@ -69,7 +70,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="ProxyUnit"/>
 						</Element>
@@ -86,11 +87,12 @@
 				<m_ChildCollections>
 					<Element>
 						<m_CollectionName text="Members"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..FloatValue">
-										<m_fValue>0.600000</m_fValue>
+										<m_fValue>0.700000</m_fValue>
 										<m_ParamName text="Scale"/>
 									</Element>
 									<Element class="AssetObjects..IntValue">
@@ -101,7 +103,7 @@
 										<m_ElementName text="MotorisedInfantry"/>
 										<m_RootCollectionName text="UnitMemberTypes"/>
 										<m_ArtDefPath text="Units.artdef"/>
-										<m_CollectionIsLocked>false</m_CollectionIsLocked>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
 										<m_TemplateName text="Units"/>
 										<m_ParamName text="Type"/>
 									</Element>
@@ -109,6 +111,7 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="Members1"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 						<Element>
 							<m_Fields>
@@ -118,14 +121,14 @@
 										<m_ParamName text="Scale"/>
 									</Element>
 									<Element class="AssetObjects..IntValue">
-										<m_nValue>4</m_nValue>
+										<m_nValue>5</m_nValue>
 										<m_ParamName text="Count"/>
 									</Element>
 									<Element class="AssetObjects..ArtDefReferenceValue">
 										<m_ElementName text="Infantry"/>
 										<m_RootCollectionName text="UnitMemberTypes"/>
 										<m_ArtDefPath text="Units.artdef"/>
-										<m_CollectionIsLocked>false</m_CollectionIsLocked>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
 										<m_TemplateName text="Units"/>
 										<m_ParamName text="Type"/>
 									</Element>
@@ -133,6 +136,7 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="Members2"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 						<Element>
 							<m_Fields>
@@ -149,7 +153,7 @@
 										<m_ElementName text="AT_Crew"/>
 										<m_RootCollectionName text="UnitMemberTypes"/>
 										<m_ArtDefPath text="Units.artdef"/>
-										<m_CollectionIsLocked>false</m_CollectionIsLocked>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
 										<m_TemplateName text="Units"/>
 										<m_ParamName text="Type"/>
 									</Element>
@@ -157,10 +161,12 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="Members3"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 					<Element>
 						<m_CollectionName text="Audio"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -172,10 +178,12 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="MECHANIZEDINFANTRY"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 				</m_ChildCollections>
 				<m_Name text="UNIT_MOTORISED_INFANTRY"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 			<Element>
 				<m_Fields>
@@ -200,7 +208,7 @@
 							<m_ElementName text="WarriorEscort"/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="EscortFormation"/>
 						</Element>
@@ -208,7 +216,7 @@
 							<m_ElementName text="UNIT_ANCIENTEMBARK"/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text="Units"/>
 							<m_ParamName text="EmbarkedUnit"/>
 						</Element>
@@ -220,7 +228,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitCulture"/>
 							<m_ArtDefPath text="Cultures.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Culture"/>
 						</Element>
@@ -228,7 +236,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Era"/>
 							<m_ArtDefPath text="Eras.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Era"/>
 						</Element>
@@ -236,7 +244,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="ProxyUnit"/>
 						</Element>
@@ -253,6 +261,7 @@
 				<m_ChildCollections>
 					<Element>
 						<m_CollectionName text="Members"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -268,7 +277,7 @@
 										<m_ElementName text="CompositeBowman"/>
 										<m_RootCollectionName text="UnitMemberTypes"/>
 										<m_ArtDefPath text="Units.artdef"/>
-										<m_CollectionIsLocked>false</m_CollectionIsLocked>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
 										<m_TemplateName text="Units"/>
 										<m_ParamName text="Type"/>
 									</Element>
@@ -276,10 +285,12 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="Members1"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 					<Element>
 						<m_CollectionName text="Audio"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -291,6 +302,7 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="Entry"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 						<Element>
 							<m_Fields>
@@ -303,10 +315,12 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="ARCHER"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 				</m_ChildCollections>
 				<m_Name text="UNIT_COMPOSITE_BOWMAN"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 			<Element>
 				<m_Fields>
@@ -315,7 +329,7 @@
 							<m_ElementName text="Catapult"/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Formation"/>
 						</Element>
@@ -323,7 +337,7 @@
 							<m_ElementName text="Catapult"/>
 							<m_RootCollectionName text="UnitCombat"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="UnitCombat"/>
 						</Element>
@@ -331,7 +345,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="EscortFormation"/>
 						</Element>
@@ -339,7 +353,7 @@
 							<m_ElementName text="UNIT_ANCIENTEMBARK"/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text="Units"/>
 							<m_ParamName text="EmbarkedUnit"/>
 						</Element>
@@ -351,7 +365,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitCulture"/>
 							<m_ArtDefPath text="Cultures.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Culture"/>
 						</Element>
@@ -359,7 +373,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Era"/>
 							<m_ArtDefPath text="Eras.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Era"/>
 						</Element>
@@ -367,7 +381,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="ProxyUnit"/>
 						</Element>
@@ -384,6 +398,7 @@
 				<m_ChildCollections>
 					<Element>
 						<m_CollectionName text="Members"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -399,7 +414,7 @@
 										<m_ElementName text="FieldCulverin"/>
 										<m_RootCollectionName text="UnitMemberTypes"/>
 										<m_ArtDefPath text="Units.artdef"/>
-										<m_CollectionIsLocked>false</m_CollectionIsLocked>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
 										<m_TemplateName text="Units"/>
 										<m_ParamName text="Type"/>
 									</Element>
@@ -407,10 +422,12 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="Members001"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 					<Element>
 						<m_CollectionName text="Audio"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -422,10 +439,12 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="FIELDGUN"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 				</m_ChildCollections>
 				<m_Name text="UNIT_CULVERIN"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 			<Element>
 				<m_Fields>
@@ -434,7 +453,7 @@
 							<m_ElementName text="Catapult"/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text="Units"/>
 							<m_ParamName text="Formation"/>
 						</Element>
@@ -442,7 +461,7 @@
 							<m_ElementName text="Catapult"/>
 							<m_RootCollectionName text="UnitCombat"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text="Units"/>
 							<m_ParamName text="UnitCombat"/>
 						</Element>
@@ -450,7 +469,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="EscortFormation"/>
 						</Element>
@@ -458,7 +477,7 @@
 							<m_ElementName text="UNIT_MODERNEMBARK"/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text="Units"/>
 							<m_ParamName text="EmbarkedUnit"/>
 						</Element>
@@ -470,7 +489,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitCulture"/>
 							<m_ArtDefPath text="Cultures.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Culture"/>
 						</Element>
@@ -478,7 +497,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Era"/>
 							<m_ArtDefPath text="Eras.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Era"/>
 						</Element>
@@ -486,7 +505,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="ProxyUnit"/>
 						</Element>
@@ -503,6 +522,7 @@
 				<m_ChildCollections>
 					<Element>
 						<m_CollectionName text="Members"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -518,7 +538,7 @@
 										<m_ElementName text="FieldGun"/>
 										<m_RootCollectionName text="UnitMemberTypes"/>
 										<m_ArtDefPath text="Units.artdef"/>
-										<m_CollectionIsLocked>false</m_CollectionIsLocked>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
 										<m_TemplateName text="Units"/>
 										<m_ParamName text="Type"/>
 									</Element>
@@ -526,10 +546,12 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="Members001"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 					<Element>
 						<m_CollectionName text="Audio"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -541,10 +563,12 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="ARTILLERY"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 				</m_ChildCollections>
 				<m_Name text="UNIT_FIELD_GUN"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 			<Element>
 				<m_Fields>
@@ -561,7 +585,7 @@
 							<m_ElementName text="Tank"/>
 							<m_RootCollectionName text="UnitCombat"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text="Units"/>
 							<m_ParamName text="UnitCombat"/>
 						</Element>
@@ -569,7 +593,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="EscortFormation"/>
 						</Element>
@@ -577,7 +601,7 @@
 							<m_ElementName text="UNIT_MODERNEMBARK"/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text="Units"/>
 							<m_ParamName text="EmbarkedUnit"/>
 						</Element>
@@ -589,7 +613,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitCulture"/>
 							<m_ArtDefPath text="Cultures.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Culture"/>
 						</Element>
@@ -597,7 +621,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Era"/>
 							<m_ArtDefPath text="Eras.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Era"/>
 						</Element>
@@ -605,7 +629,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="ProxyUnit"/>
 						</Element>
@@ -622,6 +646,7 @@
 				<m_ChildCollections>
 					<Element>
 						<m_CollectionName text="Members"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -637,7 +662,7 @@
 										<m_ElementName text="AssaultGun"/>
 										<m_RootCollectionName text="UnitMemberTypes"/>
 										<m_ArtDefPath text="Units.artdef"/>
-										<m_CollectionIsLocked>false</m_CollectionIsLocked>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
 										<m_TemplateName text="Units"/>
 										<m_ParamName text="Type"/>
 									</Element>
@@ -645,10 +670,12 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="Members1"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 					<Element>
 						<m_CollectionName text="Audio"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -660,6 +687,7 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text=""/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 						<Element>
 							<m_Fields>
@@ -672,19 +700,21 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="TANK"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 				</m_ChildCollections>
 				<m_Name text="UNIT_ASSAULT_GUN"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 			<Element>
 				<m_Fields>
 					<m_Values>
 						<Element class="AssetObjects..ArtDefReferenceValue">
-							<m_ElementName text="HeavyCavalry"/>
+							<m_ElementName text="ModernArmor"/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Formation"/>
 						</Element>
@@ -692,7 +722,7 @@
 							<m_ElementName text="ModernArmor"/>
 							<m_RootCollectionName text="UnitCombat"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="UnitCombat"/>
 						</Element>
@@ -700,7 +730,7 @@
 							<m_ElementName text="ModernArmor"/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="EscortFormation"/>
 						</Element>
@@ -708,7 +738,7 @@
 							<m_ElementName text="UNIT_MODERNEMBARK"/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text="Units"/>
 							<m_ParamName text="EmbarkedUnit"/>
 						</Element>
@@ -720,7 +750,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitCulture"/>
 							<m_ArtDefPath text="Cultures.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Culture"/>
 						</Element>
@@ -728,7 +758,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Era"/>
 							<m_ArtDefPath text="Eras.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Era"/>
 						</Element>
@@ -736,7 +766,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="ProxyUnit"/>
 						</Element>
@@ -753,22 +783,23 @@
 				<m_ChildCollections>
 					<Element>
 						<m_CollectionName text="Members"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..FloatValue">
-										<m_fValue>0.7500000</m_fValue>
+										<m_fValue>0.750000</m_fValue>
 										<m_ParamName text="Scale"/>
 									</Element>
 									<Element class="AssetObjects..IntValue">
-										<m_nValue>3</m_nValue>
+										<m_nValue>2</m_nValue>
 										<m_ParamName text="Count"/>
 									</Element>
 									<Element class="AssetObjects..ArtDefReferenceValue">
 										<m_ElementName text="SelfPropelledGun"/>
 										<m_RootCollectionName text="UnitMemberTypes"/>
 										<m_ArtDefPath text="Units.artdef"/>
-										<m_CollectionIsLocked>false</m_CollectionIsLocked>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
 										<m_TemplateName text="Units"/>
 										<m_ParamName text="Type"/>
 									</Element>
@@ -776,10 +807,12 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="Members001"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 					<Element>
 						<m_CollectionName text="Audio"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -791,10 +824,12 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="MODERN_ARMOR"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 				</m_ChildCollections>
 				<m_Name text="UNIT_SP_GUN"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 			<Element>
 				<m_Fields>
@@ -803,7 +838,7 @@
 							<m_ElementName text="Pikeman"/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text="Units"/>
 							<m_ParamName text="Formation"/>
 						</Element>
@@ -811,7 +846,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitCombat"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="UnitCombat"/>
 						</Element>
@@ -819,7 +854,7 @@
 							<m_ElementName text="WarriorEscort"/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text="Units"/>
 							<m_ParamName text="EscortFormation"/>
 						</Element>
@@ -827,7 +862,7 @@
 							<m_ElementName text="UNIT_ANCIENTEMBARK"/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text="Units"/>
 							<m_ParamName text="EmbarkedUnit"/>
 						</Element>
@@ -839,7 +874,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitCulture"/>
 							<m_ArtDefPath text="Cultures.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Culture"/>
 						</Element>
@@ -847,7 +882,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Era"/>
 							<m_ArtDefPath text="Eras.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Era"/>
 						</Element>
@@ -855,7 +890,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="ProxyUnit"/>
 						</Element>
@@ -872,6 +907,7 @@
 				<m_ChildCollections>
 					<Element>
 						<m_CollectionName text="Members"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -887,7 +923,7 @@
 										<m_ElementName text="HeavyInfantry"/>
 										<m_RootCollectionName text="UnitMemberTypes"/>
 										<m_ArtDefPath text="Units.artdef"/>
-										<m_CollectionIsLocked>false</m_CollectionIsLocked>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
 										<m_TemplateName text="Units"/>
 										<m_ParamName text="Type"/>
 									</Element>
@@ -895,10 +931,12 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="Members1"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 					<Element>
 						<m_CollectionName text="Audio"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -910,10 +948,12 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="HOPLITE"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 				</m_ChildCollections>
 				<m_Name text="UNIT_HEAVY_INFANTRY"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 			<Element>
 				<m_Fields>
@@ -922,7 +962,7 @@
 							<m_ElementName text="MechanizedFormation"/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text="Units"/>
 							<m_ParamName text="Formation"/>
 						</Element>
@@ -930,7 +970,7 @@
 							<m_ElementName text="ModernArmor"/>
 							<m_RootCollectionName text="UnitCombat"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="UnitCombat"/>
 						</Element>
@@ -938,7 +978,7 @@
 							<m_ElementName text="MechanizedFormation"/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text="Units"/>
 							<m_ParamName text="EscortFormation"/>
 						</Element>
@@ -946,7 +986,7 @@
 							<m_ElementName text="UNIT_MODERNEMBARK"/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text="Units"/>
 							<m_ParamName text="EmbarkedUnit"/>
 						</Element>
@@ -958,7 +998,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitCulture"/>
 							<m_ArtDefPath text="Cultures.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Culture"/>
 						</Element>
@@ -966,7 +1006,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Era"/>
 							<m_ArtDefPath text="Eras.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Era"/>
 						</Element>
@@ -974,7 +1014,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="ProxyUnit"/>
 						</Element>
@@ -991,22 +1031,23 @@
 				<m_ChildCollections>
 					<Element>
 						<m_CollectionName text="Members"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..FloatValue">
-										<m_fValue>0.500000</m_fValue>
+										<m_fValue>0.750000</m_fValue>
 										<m_ParamName text="Scale"/>
 									</Element>
 									<Element class="AssetObjects..IntValue">
-										<m_nValue>3</m_nValue>
+										<m_nValue>2</m_nValue>
 										<m_ParamName text="Count"/>
 									</Element>
 									<Element class="AssetObjects..ArtDefReferenceValue">
 										<m_ElementName text="ATGM_AFV"/>
 										<m_RootCollectionName text="UnitMemberTypes"/>
 										<m_ArtDefPath text="Units.artdef"/>
-										<m_CollectionIsLocked>false</m_CollectionIsLocked>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
 										<m_TemplateName text="Units"/>
 										<m_ParamName text="Type"/>
 									</Element>
@@ -1014,10 +1055,12 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="Members002"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 					<Element>
 						<m_CollectionName text="Audio"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -1029,10 +1072,12 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="MODERN_ARMOR"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 				</m_ChildCollections>
 				<m_Name text="UNIT_MODERN_AT"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 			<Element>
 				<m_Fields>
@@ -1041,7 +1086,7 @@
 							<m_ElementName text="Catapult"/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text="Units"/>
 							<m_ParamName text="Formation"/>
 						</Element>
@@ -1049,7 +1094,7 @@
 							<m_ElementName text="Catapult"/>
 							<m_RootCollectionName text="UnitCombat"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text="Units"/>
 							<m_ParamName text="UnitCombat"/>
 						</Element>
@@ -1057,7 +1102,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="EscortFormation"/>
 						</Element>
@@ -1065,7 +1110,7 @@
 							<m_ElementName text="UNIT_MODERNEMBARK"/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text="Units"/>
 							<m_ParamName text="EmbarkedUnit"/>
 						</Element>
@@ -1077,7 +1122,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitCulture"/>
 							<m_ArtDefPath text="Cultures.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Culture"/>
 						</Element>
@@ -1085,7 +1130,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Era"/>
 							<m_ArtDefPath text="Eras.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Era"/>
 						</Element>
@@ -1093,7 +1138,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="ProxyUnit"/>
 						</Element>
@@ -1126,7 +1171,7 @@
 										<m_ElementName text="Anti-Tank_Gun"/>
 										<m_RootCollectionName text="UnitMemberTypes"/>
 										<m_ArtDefPath text="Units.artdef"/>
-										<m_CollectionIsLocked>false</m_CollectionIsLocked>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
 										<m_TemplateName text="Units"/>
 										<m_ParamName text="Type"/>
 									</Element>
@@ -1134,10 +1179,12 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="Members001"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 					<Element>
 						<m_CollectionName text="Audio"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -1149,19 +1196,21 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="ARTILLERY"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 				</m_ChildCollections>
 				<m_Name text="UNIT_AT_CREW"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 			<Element>
 				<m_Fields>
 					<m_Values>
 						<Element class="AssetObjects..ArtDefReferenceValue">
-							<m_ElementName text="HeavyCavalry"/>
+							<m_ElementName text="ModernArmor"/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Formation"/>
 						</Element>
@@ -1169,7 +1218,7 @@
 							<m_ElementName text="ModernArmor"/>
 							<m_RootCollectionName text="UnitCombat"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="UnitCombat"/>
 						</Element>
@@ -1177,7 +1226,7 @@
 							<m_ElementName text="ModernArmor"/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="EscortFormation"/>
 						</Element>
@@ -1185,7 +1234,7 @@
 							<m_ElementName text="UNIT_MODERNEMBARK"/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text="Units"/>
 							<m_ParamName text="EmbarkedUnit"/>
 						</Element>
@@ -1197,7 +1246,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitCulture"/>
 							<m_ArtDefPath text="Cultures.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Culture"/>
 						</Element>
@@ -1205,7 +1254,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Era"/>
 							<m_ArtDefPath text="Eras.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Era"/>
 						</Element>
@@ -1213,7 +1262,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="ProxyUnit"/>
 						</Element>
@@ -1230,6 +1279,7 @@
 				<m_ChildCollections>
 					<Element>
 						<m_CollectionName text="Members"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -1238,14 +1288,14 @@
 										<m_ParamName text="Scale"/>
 									</Element>
 									<Element class="AssetObjects..IntValue">
-										<m_nValue>3</m_nValue>
+										<m_nValue>2</m_nValue>
 										<m_ParamName text="Count"/>
 									</Element>
 									<Element class="AssetObjects..ArtDefReferenceValue">
 										<m_ElementName text="TankDestroyer"/>
 										<m_RootCollectionName text="UnitMemberTypes"/>
 										<m_ArtDefPath text="Units.artdef"/>
-										<m_CollectionIsLocked>false</m_CollectionIsLocked>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
 										<m_TemplateName text="Units"/>
 										<m_ParamName text="Type"/>
 									</Element>
@@ -1253,10 +1303,12 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="Members001"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 					<Element>
 						<m_CollectionName text="Audio"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -1268,10 +1320,12 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="MODERN_ARMOR"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 				</m_ChildCollections>
 				<m_Name text="UNIT_TANK_DESTROYER"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 			<Element>
 				<m_Fields>
@@ -1280,7 +1334,7 @@
 							<m_ElementName text="ModernArmor"/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text="Units"/>
 							<m_ParamName text="Formation"/>
 						</Element>
@@ -1288,7 +1342,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitCombat"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="UnitCombat"/>
 						</Element>
@@ -1296,7 +1350,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="EscortFormation"/>
 						</Element>
@@ -1304,7 +1358,7 @@
 							<m_ElementName text="UNIT_MODERNEMBARK"/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text="Units"/>
 							<m_ParamName text="EmbarkedUnit"/>
 						</Element>
@@ -1316,7 +1370,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitCulture"/>
 							<m_ArtDefPath text="Cultures.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Culture"/>
 						</Element>
@@ -1324,7 +1378,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Era"/>
 							<m_ArtDefPath text="Eras.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Era"/>
 						</Element>
@@ -1332,7 +1386,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="ProxyUnit"/>
 						</Element>
@@ -1349,6 +1403,7 @@
 				<m_ChildCollections>
 					<Element>
 						<m_CollectionName text="Members"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -1364,7 +1419,7 @@
 										<m_ElementName text="Gunship"/>
 										<m_RootCollectionName text="UnitMemberTypes"/>
 										<m_ArtDefPath text="Units.artdef"/>
-										<m_CollectionIsLocked>false</m_CollectionIsLocked>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
 										<m_TemplateName text="Units"/>
 										<m_ParamName text="Type"/>
 									</Element>
@@ -1372,10 +1427,12 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="Members1"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 					<Element>
 						<m_CollectionName text="Audio"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -1387,10 +1444,12 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="HELICOPTER"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 				</m_ChildCollections>
 				<m_Name text="UNIT_GUNSHIP"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 			<Element>
 				<m_Fields>
@@ -1399,7 +1458,7 @@
 							<m_ElementName text="Horsemen"/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text="Units"/>
 							<m_ParamName text="Formation"/>
 						</Element>
@@ -1407,7 +1466,7 @@
 							<m_ElementName text="Knight"/>
 							<m_RootCollectionName text="UnitCombat"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text="Units"/>
 							<m_ParamName text="UnitCombat"/>
 						</Element>
@@ -1415,7 +1474,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="EscortFormation"/>
 						</Element>
@@ -1423,7 +1482,7 @@
 							<m_ElementName text="UNIT_ANCIENTEMBARK"/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text="Units"/>
 							<m_ParamName text="EmbarkedUnit"/>
 						</Element>
@@ -1435,7 +1494,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitCulture"/>
 							<m_ArtDefPath text="Cultures.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Culture"/>
 						</Element>
@@ -1443,7 +1502,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Era"/>
 							<m_ArtDefPath text="Eras.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Era"/>
 						</Element>
@@ -1451,7 +1510,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="ProxyUnit"/>
 						</Element>
@@ -1468,6 +1527,7 @@
 				<m_ChildCollections>
 					<Element>
 						<m_CollectionName text="Members"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -1483,7 +1543,7 @@
 										<m_ElementName text="Lancer"/>
 										<m_RootCollectionName text="UnitMemberTypes"/>
 										<m_ArtDefPath text="Units.artdef"/>
-										<m_CollectionIsLocked>false</m_CollectionIsLocked>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
 										<m_TemplateName text="Units"/>
 										<m_ParamName text="Type"/>
 									</Element>
@@ -1491,10 +1551,12 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="Members001"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 					<Element>
 						<m_CollectionName text="Audio"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -1506,10 +1568,12 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="MAMLUK"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 				</m_ChildCollections>
 				<m_Name text="UNIT_LANCER"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 			<Element>
 				<m_Fields>
@@ -1518,7 +1582,7 @@
 							<m_ElementName text="MechanizedFormation"/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text="Units"/>
 							<m_ParamName text="Formation"/>
 						</Element>
@@ -1526,7 +1590,7 @@
 							<m_ElementName text="Tank"/>
 							<m_RootCollectionName text="UnitCombat"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text="Units"/>
 							<m_ParamName text="UnitCombat"/>
 						</Element>
@@ -1534,7 +1598,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="EscortFormation"/>
 						</Element>
@@ -1542,7 +1606,7 @@
 							<m_ElementName text="UNIT_MODERNEMBARK"/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text="Units"/>
 							<m_ParamName text="EmbarkedUnit"/>
 						</Element>
@@ -1554,7 +1618,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitCulture"/>
 							<m_ArtDefPath text="Cultures.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Culture"/>
 						</Element>
@@ -1562,7 +1626,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Era"/>
 							<m_ArtDefPath text="Eras.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Era"/>
 						</Element>
@@ -1570,7 +1634,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="ProxyUnit"/>
 						</Element>
@@ -1587,6 +1651,7 @@
 				<m_ChildCollections>
 					<Element>
 						<m_CollectionName text="Members"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -1602,7 +1667,7 @@
 										<m_ElementName text="LightTank"/>
 										<m_RootCollectionName text="UnitMemberTypes"/>
 										<m_ArtDefPath text="Units.artdef"/>
-										<m_CollectionIsLocked>false</m_CollectionIsLocked>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
 										<m_TemplateName text="Units"/>
 										<m_ParamName text="Type"/>
 									</Element>
@@ -1610,23 +1675,24 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="Members1"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 						<Element>
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..FloatValue">
-										<m_fValue>0.650000</m_fValue>
+										<m_fValue>0.750000</m_fValue>
 										<m_ParamName text="Scale"/>
 									</Element>
 									<Element class="AssetObjects..IntValue">
-										<m_nValue>3</m_nValue>
+										<m_nValue>1</m_nValue>
 										<m_ParamName text="Count"/>
 									</Element>
 									<Element class="AssetObjects..ArtDefReferenceValue">
 										<m_ElementName text="ArmoredCar"/>
 										<m_RootCollectionName text="UnitMemberTypes"/>
 										<m_ArtDefPath text="Units.artdef"/>
-										<m_CollectionIsLocked>false</m_CollectionIsLocked>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
 										<m_TemplateName text="Units"/>
 										<m_ParamName text="Type"/>
 									</Element>
@@ -1634,10 +1700,12 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="Members2"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 					<Element>
 						<m_CollectionName text="Audio"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -1649,6 +1717,7 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text=""/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 						<Element>
 							<m_Fields>
@@ -1661,10 +1730,12 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="TANK"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 				</m_ChildCollections>
 				<m_Name text="UNIT_ARMORED_CAVALRY"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 			<Element>
 				<m_Fields>
@@ -1673,7 +1744,7 @@
 							<m_ElementName text="Horsemen"/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text="Units"/>
 							<m_ParamName text="Formation"/>
 						</Element>
@@ -1681,7 +1752,7 @@
 							<m_ElementName text="Knight"/>
 							<m_RootCollectionName text="UnitCombat"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text="Units"/>
 							<m_ParamName text="UnitCombat"/>
 						</Element>
@@ -1689,7 +1760,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="EscortFormation"/>
 						</Element>
@@ -1697,7 +1768,7 @@
 							<m_ElementName text="UNIT_ANCIENTEMBARK"/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text="Units"/>
 							<m_ParamName text="EmbarkedUnit"/>
 						</Element>
@@ -1709,7 +1780,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitCulture"/>
 							<m_ArtDefPath text="Cultures.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Culture"/>
 						</Element>
@@ -1717,7 +1788,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Era"/>
 							<m_ArtDefPath text="Eras.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Era"/>
 						</Element>
@@ -1725,7 +1796,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="ProxyUnit"/>
 						</Element>
@@ -1742,6 +1813,7 @@
 				<m_ChildCollections>
 					<Element>
 						<m_CollectionName text="Members"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -1757,7 +1829,7 @@
 										<m_ElementName text="ArmoredHorseman"/>
 										<m_RootCollectionName text="UnitMemberTypes"/>
 										<m_ArtDefPath text="Units.artdef"/>
-										<m_CollectionIsLocked>false</m_CollectionIsLocked>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
 										<m_TemplateName text="Units"/>
 										<m_ParamName text="Type"/>
 									</Element>
@@ -1765,10 +1837,12 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="Members001"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 					<Element>
 						<m_CollectionName text="Audio"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -1780,10 +1854,12 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="MAMLUK"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 				</m_ChildCollections>
 				<m_Name text="UNIT_ARMORED_HORSEMAN"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 			<Element>
 				<m_Fields>
@@ -1792,7 +1868,7 @@
 							<m_ElementName text="Horsemen"/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text="Units"/>
 							<m_ParamName text="Formation"/>
 						</Element>
@@ -1800,7 +1876,7 @@
 							<m_ElementName text="HoldFormation_Mid"/>
 							<m_RootCollectionName text="UnitCombat"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text="Units"/>
 							<m_ParamName text="UnitCombat"/>
 						</Element>
@@ -1808,7 +1884,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="EscortFormation"/>
 						</Element>
@@ -1816,7 +1892,7 @@
 							<m_ElementName text="UNIT_ANCIENTEMBARK"/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text="Units"/>
 							<m_ParamName text="EmbarkedUnit"/>
 						</Element>
@@ -1828,7 +1904,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitCulture"/>
 							<m_ArtDefPath text="Cultures.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Culture"/>
 						</Element>
@@ -1836,7 +1912,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Era"/>
 							<m_ArtDefPath text="Eras.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Era"/>
 						</Element>
@@ -1844,7 +1920,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="ProxyUnit"/>
 						</Element>
@@ -1861,6 +1937,7 @@
 				<m_ChildCollections>
 					<Element>
 						<m_CollectionName text="Members"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -1876,7 +1953,7 @@
 										<m_ElementName text="Reiter"/>
 										<m_RootCollectionName text="UnitMemberTypes"/>
 										<m_ArtDefPath text="Units.artdef"/>
-										<m_CollectionIsLocked>false</m_CollectionIsLocked>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
 										<m_TemplateName text="Units"/>
 										<m_ParamName text="Type"/>
 									</Element>
@@ -1884,10 +1961,12 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="Members1"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 					<Element>
 						<m_CollectionName text="Audio"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -1899,10 +1978,12 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="CAVALRY"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 				</m_ChildCollections>
 				<m_Name text="UNIT_REITER"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 			<Element>
 				<m_Fields>
@@ -1919,7 +2000,7 @@
 							<m_ElementName text="Tank"/>
 							<m_RootCollectionName text="UnitCombat"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text="Units"/>
 							<m_ParamName text="UnitCombat"/>
 						</Element>
@@ -1927,7 +2008,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="EscortFormation"/>
 						</Element>
@@ -1935,7 +2016,7 @@
 							<m_ElementName text="UNIT_MODERNEMBARK"/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text="Units"/>
 							<m_ParamName text="EmbarkedUnit"/>
 						</Element>
@@ -1947,7 +2028,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitCulture"/>
 							<m_ArtDefPath text="Cultures.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Culture"/>
 						</Element>
@@ -1955,7 +2036,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Era"/>
 							<m_ArtDefPath text="Eras.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Era"/>
 						</Element>
@@ -1963,7 +2044,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="ProxyUnit"/>
 						</Element>
@@ -1980,11 +2061,12 @@
 				<m_ChildCollections>
 					<Element>
 						<m_CollectionName text="Members"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..FloatValue">
-										<m_fValue>0.750000</m_fValue>
+										<m_fValue>0.800000</m_fValue>
 										<m_ParamName text="Scale"/>
 									</Element>
 									<Element class="AssetObjects..IntValue">
@@ -1995,7 +2077,7 @@
 										<m_ElementName text="Landship"/>
 										<m_RootCollectionName text="UnitMemberTypes"/>
 										<m_ArtDefPath text="Units.artdef"/>
-										<m_CollectionIsLocked>false</m_CollectionIsLocked>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
 										<m_TemplateName text="Units"/>
 										<m_ParamName text="Type"/>
 									</Element>
@@ -2003,10 +2085,12 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="Members1"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 					<Element>
 						<m_CollectionName text="Audio"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -2018,6 +2102,7 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text=""/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 						<Element>
 							<m_Fields>
@@ -2030,10 +2115,12 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="TANK"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 				</m_ChildCollections>
 				<m_Name text="UNIT_LANDSHIP"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 			<Element>
 				<m_Fields>
@@ -2042,7 +2129,7 @@
 							<m_ElementName text="MechanizedFormation"/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text="Units"/>
 							<m_ParamName text="Formation"/>
 						</Element>
@@ -2050,7 +2137,7 @@
 							<m_ElementName text="Tank"/>
 							<m_RootCollectionName text="UnitCombat"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text="Units"/>
 							<m_ParamName text="UnitCombat"/>
 						</Element>
@@ -2058,7 +2145,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="EscortFormation"/>
 						</Element>
@@ -2066,7 +2153,7 @@
 							<m_ElementName text="UNIT_MODERNEMBARK"/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text="Units"/>
 							<m_ParamName text="EmbarkedUnit"/>
 						</Element>
@@ -2078,7 +2165,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitCulture"/>
 							<m_ArtDefPath text="Cultures.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Culture"/>
 						</Element>
@@ -2086,7 +2173,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Era"/>
 							<m_ArtDefPath text="Eras.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Era"/>
 						</Element>
@@ -2094,7 +2181,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="ProxyUnit"/>
 						</Element>
@@ -2111,6 +2198,7 @@
 				<m_ChildCollections>
 					<Element>
 						<m_CollectionName text="Members"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -2119,14 +2207,14 @@
 										<m_ParamName text="Scale"/>
 									</Element>
 									<Element class="AssetObjects..IntValue">
-										<m_nValue>6</m_nValue>
+										<m_nValue>4</m_nValue>
 										<m_ParamName text="Count"/>
 									</Element>
 									<Element class="AssetObjects..ArtDefReferenceValue">
 										<m_ElementName text="ModernMarine"/>
 										<m_RootCollectionName text="UnitMemberTypes"/>
 										<m_ArtDefPath text="Units.artdef"/>
-										<m_CollectionIsLocked>false</m_CollectionIsLocked>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
 										<m_TemplateName text="Units"/>
 										<m_ParamName text="Type"/>
 									</Element>
@@ -2134,6 +2222,7 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="Members2"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 						<Element>
 							<m_Fields>
@@ -2150,7 +2239,7 @@
 										<m_ElementName text="AT_Crew_Modern"/>
 										<m_RootCollectionName text="UnitMemberTypes"/>
 										<m_ArtDefPath text="Units.artdef"/>
-										<m_CollectionIsLocked>false</m_CollectionIsLocked>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
 										<m_TemplateName text="Units"/>
 										<m_ParamName text="Type"/>
 									</Element>
@@ -2158,23 +2247,24 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="Members3"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 						<Element>
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..FloatValue">
-										<m_fValue>0.750000</m_fValue>
+										<m_fValue>0.500000</m_fValue>
 										<m_ParamName text="Scale"/>
 									</Element>
 									<Element class="AssetObjects..IntValue">
-										<m_nValue>1</m_nValue>
+										<m_nValue>2</m_nValue>
 										<m_ParamName text="Count"/>
 									</Element>
 									<Element class="AssetObjects..ArtDefReferenceValue">
 										<m_ElementName text="AAV7A1"/>
 										<m_RootCollectionName text="UnitMemberTypes"/>
 										<m_ArtDefPath text="Units.artdef"/>
-										<m_CollectionIsLocked>false</m_CollectionIsLocked>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
 										<m_TemplateName text="Units"/>
 										<m_ParamName text="Type"/>
 									</Element>
@@ -2182,10 +2272,12 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="Members1"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 					<Element>
 						<m_CollectionName text="Audio"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -2197,10 +2289,12 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="MECHANIZEDINFANTRY"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 				</m_ChildCollections>
 				<m_Name text="UNIT_MODERN_MARINE"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 			<Element>
 				<m_Fields>
@@ -2209,7 +2303,7 @@
 							<m_ElementName text="ModernArmor"/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Formation"/>
 						</Element>
@@ -2217,7 +2311,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitCombat"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="UnitCombat"/>
 						</Element>
@@ -2225,7 +2319,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="EscortFormation"/>
 						</Element>
@@ -2233,7 +2327,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="EmbarkedUnit"/>
 						</Element>
@@ -2245,7 +2339,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitCulture"/>
 							<m_ArtDefPath text="Cultures.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Culture"/>
 						</Element>
@@ -2253,7 +2347,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Era"/>
 							<m_ArtDefPath text="Eras.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Era"/>
 						</Element>
@@ -2261,7 +2355,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="ProxyUnit"/>
 						</Element>
@@ -2278,6 +2372,7 @@
 				<m_ChildCollections>
 					<Element>
 						<m_CollectionName text="Members"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -2293,7 +2388,7 @@
 										<m_ElementName text="WW1Bomber"/>
 										<m_RootCollectionName text="UnitMemberTypes"/>
 										<m_ArtDefPath text="Units.artdef"/>
-										<m_CollectionIsLocked>false</m_CollectionIsLocked>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
 										<m_TemplateName text="Units"/>
 										<m_ParamName text="Type"/>
 									</Element>
@@ -2301,10 +2396,12 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="Members1"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 					<Element>
 						<m_CollectionName text="Audio"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -2316,10 +2413,12 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="BOMBER"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 				</m_ChildCollections>
 				<m_Name text="UNIT_WW1_BOMBER"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 			<Element>
 				<m_Fields>
@@ -2328,7 +2427,7 @@
 							<m_ElementName text="ModernArmor"/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text="Units"/>
 							<m_ParamName text="Formation"/>
 						</Element>
@@ -2336,7 +2435,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitCombat"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="UnitCombat"/>
 						</Element>
@@ -2344,7 +2443,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="EscortFormation"/>
 						</Element>
@@ -2352,7 +2451,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="EmbarkedUnit"/>
 						</Element>
@@ -2364,7 +2463,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitCulture"/>
 							<m_ArtDefPath text="Cultures.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Culture"/>
 						</Element>
@@ -2372,7 +2471,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Era"/>
 							<m_ArtDefPath text="Eras.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Era"/>
 						</Element>
@@ -2380,7 +2479,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="ProxyUnit"/>
 						</Element>
@@ -2397,6 +2496,7 @@
 				<m_ChildCollections>
 					<Element>
 						<m_CollectionName text="Members"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -2412,7 +2512,7 @@
 										<m_ElementName text="StealthBomber"/>
 										<m_RootCollectionName text="UnitMemberTypes"/>
 										<m_ArtDefPath text="Units.artdef"/>
-										<m_CollectionIsLocked>false</m_CollectionIsLocked>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
 										<m_TemplateName text="Units"/>
 										<m_ParamName text="Type"/>
 									</Element>
@@ -2420,10 +2520,12 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="Members1"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 					<Element>
 						<m_CollectionName text="Audio"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -2435,10 +2537,12 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="JET_BOMBER"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 				</m_ChildCollections>
 				<m_Name text="UNIT_STEALTH_BOMBER"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 			<Element>
 				<m_Fields>
@@ -2447,7 +2551,7 @@
 							<m_ElementName text="ModernArmor"/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text="Units"/>
 							<m_ParamName text="Formation"/>
 						</Element>
@@ -2455,7 +2559,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitCombat"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="UnitCombat"/>
 						</Element>
@@ -2463,7 +2567,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="EscortFormation"/>
 						</Element>
@@ -2471,7 +2575,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="EmbarkedUnit"/>
 						</Element>
@@ -2483,7 +2587,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitCulture"/>
 							<m_ArtDefPath text="Cultures.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Culture"/>
 						</Element>
@@ -2491,7 +2595,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Era"/>
 							<m_ArtDefPath text="Eras.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Era"/>
 						</Element>
@@ -2499,7 +2603,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="ProxyUnit"/>
 						</Element>
@@ -2516,6 +2620,7 @@
 				<m_ChildCollections>
 					<Element>
 						<m_CollectionName text="Members"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -2531,7 +2636,7 @@
 										<m_ElementName text="StealthFighter"/>
 										<m_RootCollectionName text="UnitMemberTypes"/>
 										<m_ArtDefPath text="Units.artdef"/>
-										<m_CollectionIsLocked>false</m_CollectionIsLocked>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
 										<m_TemplateName text="Units"/>
 										<m_ParamName text="Type"/>
 									</Element>
@@ -2539,10 +2644,12 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="Members1"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 					<Element>
 						<m_CollectionName text="Audio"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -2554,10 +2661,12 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="JET_FIGHTER"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 				</m_ChildCollections>
 				<m_Name text="UNIT_STEALTH_FIGHTER"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 			<Element>
 				<m_Fields>
@@ -2566,7 +2675,7 @@
 							<m_ElementName text="ModernArmor"/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Formation"/>
 						</Element>
@@ -2574,7 +2683,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitCombat"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="UnitCombat"/>
 						</Element>
@@ -2582,7 +2691,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="EscortFormation"/>
 						</Element>
@@ -2590,7 +2699,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="EmbarkedUnit"/>
 						</Element>
@@ -2602,7 +2711,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitCulture"/>
 							<m_ArtDefPath text="Cultures.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Culture"/>
 						</Element>
@@ -2610,7 +2719,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Era"/>
 							<m_ArtDefPath text="Eras.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Era"/>
 						</Element>
@@ -2618,7 +2727,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="ProxyUnit"/>
 						</Element>
@@ -2635,6 +2744,7 @@
 				<m_ChildCollections>
 					<Element>
 						<m_CollectionName text="Members"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -2650,7 +2760,7 @@
 										<m_ElementName text="WW1GroundAttack"/>
 										<m_RootCollectionName text="UnitMemberTypes"/>
 										<m_ArtDefPath text="Units.artdef"/>
-										<m_CollectionIsLocked>false</m_CollectionIsLocked>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
 										<m_TemplateName text="Units"/>
 										<m_ParamName text="Type"/>
 									</Element>
@@ -2658,10 +2768,12 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="Members1"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 					<Element>
 						<m_CollectionName text="Audio"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -2673,10 +2785,12 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="BIPLANE"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 				</m_ChildCollections>
 				<m_Name text="UNIT_WW1_GROUND_ATTACK"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 			<Element>
 				<m_Fields>
@@ -2685,7 +2799,7 @@
 							<m_ElementName text="ModernArmor"/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text="Units"/>
 							<m_ParamName text="Formation"/>
 						</Element>
@@ -2693,7 +2807,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitCombat"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="UnitCombat"/>
 						</Element>
@@ -2701,7 +2815,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="EscortFormation"/>
 						</Element>
@@ -2709,7 +2823,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="EmbarkedUnit"/>
 						</Element>
@@ -2721,7 +2835,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitCulture"/>
 							<m_ArtDefPath text="Cultures.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Culture"/>
 						</Element>
@@ -2729,7 +2843,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Era"/>
 							<m_ArtDefPath text="Eras.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Era"/>
 						</Element>
@@ -2737,7 +2851,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="ProxyUnit"/>
 						</Element>
@@ -2754,6 +2868,7 @@
 				<m_ChildCollections>
 					<Element>
 						<m_CollectionName text="Members"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -2769,7 +2884,7 @@
 										<m_ElementName text="GroundAttack"/>
 										<m_RootCollectionName text="UnitMemberTypes"/>
 										<m_ArtDefPath text="Units.artdef"/>
-										<m_CollectionIsLocked>false</m_CollectionIsLocked>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
 										<m_TemplateName text="Units"/>
 										<m_ParamName text="Type"/>
 									</Element>
@@ -2777,10 +2892,12 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="Members1"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 					<Element>
 						<m_CollectionName text="Audio"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -2792,10 +2909,12 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="FIGHTER"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 				</m_ChildCollections>
 				<m_Name text="UNIT_GROUND_ATTACK"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 			<Element>
 				<m_Fields>
@@ -2804,7 +2923,7 @@
 							<m_ElementName text="ModernArmor"/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text="Units"/>
 							<m_ParamName text="Formation"/>
 						</Element>
@@ -2812,7 +2931,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitCombat"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="UnitCombat"/>
 						</Element>
@@ -2820,7 +2939,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="EscortFormation"/>
 						</Element>
@@ -2828,7 +2947,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="EmbarkedUnit"/>
 						</Element>
@@ -2840,7 +2959,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitCulture"/>
 							<m_ArtDefPath text="Cultures.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Culture"/>
 						</Element>
@@ -2848,7 +2967,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Era"/>
 							<m_ArtDefPath text="Eras.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Era"/>
 						</Element>
@@ -2856,7 +2975,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="ProxyUnit"/>
 						</Element>
@@ -2873,6 +2992,7 @@
 				<m_ChildCollections>
 					<Element>
 						<m_CollectionName text="Members"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -2888,7 +3008,7 @@
 										<m_ElementName text="JetGroundAttack"/>
 										<m_RootCollectionName text="UnitMemberTypes"/>
 										<m_ArtDefPath text="Units.artdef"/>
-										<m_CollectionIsLocked>false</m_CollectionIsLocked>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
 										<m_TemplateName text="Units"/>
 										<m_ParamName text="Type"/>
 									</Element>
@@ -2896,10 +3016,12 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="Members1"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 					<Element>
 						<m_CollectionName text="Audio"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -2911,10 +3033,12 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="JET_FIGHTER"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 				</m_ChildCollections>
 				<m_Name text="UNIT_JET_GROUND_ATTACK"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 			<Element>
 				<m_Fields>
@@ -2923,7 +3047,7 @@
 							<m_ElementName text="ModernArmor"/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text="Units"/>
 							<m_ParamName text="Formation"/>
 						</Element>
@@ -2931,7 +3055,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitCombat"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="UnitCombat"/>
 						</Element>
@@ -2939,7 +3063,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="EscortFormation"/>
 						</Element>
@@ -2947,7 +3071,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="EmbarkedUnit"/>
 						</Element>
@@ -2959,7 +3083,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitCulture"/>
 							<m_ArtDefPath text="Cultures.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Culture"/>
 						</Element>
@@ -2967,7 +3091,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Era"/>
 							<m_ArtDefPath text="Eras.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Era"/>
 						</Element>
@@ -2975,7 +3099,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="ProxyUnit"/>
 						</Element>
@@ -2992,6 +3116,7 @@
 				<m_ChildCollections>
 					<Element>
 						<m_CollectionName text="Members"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -3007,7 +3132,7 @@
 										<m_ElementName text="StealthAttack"/>
 										<m_RootCollectionName text="UnitMemberTypes"/>
 										<m_ArtDefPath text="Units.artdef"/>
-										<m_CollectionIsLocked>false</m_CollectionIsLocked>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
 										<m_TemplateName text="Units"/>
 										<m_ParamName text="Type"/>
 									</Element>
@@ -3015,10 +3140,12 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="Members1"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 					<Element>
 						<m_CollectionName text="Audio"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -3030,10 +3157,12 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="JET_FIGHTER"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 				</m_ChildCollections>
 				<m_Name text="UNIT_STEALTH_ATTACK"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 			<Element>
 				<m_Fields>
@@ -3042,7 +3171,7 @@
 							<m_ElementName text="ModernArmor"/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text="Units"/>
 							<m_ParamName text="Formation"/>
 						</Element>
@@ -3050,7 +3179,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitCombat"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="UnitCombat"/>
 						</Element>
@@ -3058,7 +3187,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="EscortFormation"/>
 						</Element>
@@ -3066,7 +3195,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="EmbarkedUnit"/>
 						</Element>
@@ -3078,7 +3207,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitCulture"/>
 							<m_ArtDefPath text="Cultures.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Culture"/>
 						</Element>
@@ -3086,7 +3215,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Era"/>
 							<m_ArtDefPath text="Eras.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Era"/>
 						</Element>
@@ -3094,7 +3223,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="ProxyUnit"/>
 						</Element>
@@ -3111,6 +3240,7 @@
 				<m_ChildCollections>
 					<Element>
 						<m_CollectionName text="Members"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -3126,7 +3256,7 @@
 										<m_ElementName text="Fighter"/>
 										<m_RootCollectionName text="UnitMemberTypes"/>
 										<m_ArtDefPath text="Units.artdef"/>
-										<m_CollectionIsLocked>false</m_CollectionIsLocked>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
 										<m_TemplateName text="Units"/>
 										<m_ParamName text="Type"/>
 									</Element>
@@ -3134,10 +3264,12 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="Members1"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 					<Element>
 						<m_CollectionName text="Audio"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -3149,10 +3281,12 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="FIGHTER"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 				</m_ChildCollections>
 				<m_Name text="UNIT_FIGHTER"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 			<Element>
 				<m_Fields>
@@ -3161,7 +3295,7 @@
 							<m_ElementName text="SingleUnitCentered"/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text="Units"/>
 							<m_ParamName text="Formation"/>
 						</Element>
@@ -3169,7 +3303,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitCombat"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="UnitCombat"/>
 						</Element>
@@ -3177,7 +3311,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="EscortFormation"/>
 						</Element>
@@ -3185,7 +3319,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="EmbarkedUnit"/>
 						</Element>
@@ -3197,7 +3331,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitCulture"/>
 							<m_ArtDefPath text="Cultures.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Culture"/>
 						</Element>
@@ -3205,7 +3339,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Era"/>
 							<m_ArtDefPath text="Eras.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Era"/>
 						</Element>
@@ -3213,7 +3347,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="ProxyUnit"/>
 						</Element>
@@ -3230,6 +3364,7 @@
 				<m_ChildCollections>
 					<Element>
 						<m_CollectionName text="Members"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -3245,7 +3380,7 @@
 										<m_ElementName text="MissileDestroyer"/>
 										<m_RootCollectionName text="UnitMemberTypes"/>
 										<m_ArtDefPath text="Units.artdef"/>
-										<m_CollectionIsLocked>false</m_CollectionIsLocked>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
 										<m_TemplateName text="Units"/>
 										<m_ParamName text="Type"/>
 									</Element>
@@ -3253,10 +3388,12 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="Members001"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 					<Element>
 						<m_CollectionName text="Audio"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -3268,19 +3405,21 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="MISSILECRUISER"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 				</m_ChildCollections>
 				<m_Name text="UNIT_MISSILE_DESTROYER"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 			<Element>
 				<m_Fields>
 					<m_Values>
 						<Element class="AssetObjects..ArtDefReferenceValue">
-							<m_ElementName text="Naval"/>
+							<m_ElementName text="Galley"/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Formation"/>
 						</Element>
@@ -3288,7 +3427,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitCombat"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="UnitCombat"/>
 						</Element>
@@ -3296,7 +3435,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="EscortFormation"/>
 						</Element>
@@ -3304,7 +3443,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="EmbarkedUnit"/>
 						</Element>
@@ -3316,7 +3455,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitCulture"/>
 							<m_ArtDefPath text="Cultures.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Culture"/>
 						</Element>
@@ -3324,7 +3463,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Era"/>
 							<m_ArtDefPath text="Eras.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Era"/>
 						</Element>
@@ -3332,7 +3471,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="ProxyUnit"/>
 						</Element>
@@ -3349,22 +3488,23 @@
 				<m_ChildCollections>
 					<Element>
 						<m_CollectionName text="Members"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..FloatValue">
-										<m_fValue>0.580000</m_fValue>
+										<m_fValue>0.800000</m_fValue>
 										<m_ParamName text="Scale"/>
 									</Element>
 									<Element class="AssetObjects..IntValue">
-										<m_nValue>1</m_nValue>
+										<m_nValue>3</m_nValue>
 										<m_ParamName text="Count"/>
 									</Element>
 									<Element class="AssetObjects..ArtDefReferenceValue">
 										<m_ElementName text="Corvette"/>
 										<m_RootCollectionName text="UnitMemberTypes"/>
 										<m_ArtDefPath text="Units.artdef"/>
-										<m_CollectionIsLocked>false</m_CollectionIsLocked>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
 										<m_TemplateName text="Units"/>
 										<m_ParamName text="Type"/>
 									</Element>
@@ -3372,10 +3512,12 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="Members1"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 					<Element>
 						<m_CollectionName text="Audio"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -3387,10 +3529,12 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="PRIVATEER"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 				</m_ChildCollections>
 				<m_Name text="UNIT_CORVETTE"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 			<Element>
 				<m_Fields>
@@ -3399,7 +3543,7 @@
 							<m_ElementName text="Naval"/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Formation"/>
 						</Element>
@@ -3407,7 +3551,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitCombat"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="UnitCombat"/>
 						</Element>
@@ -3415,7 +3559,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="EscortFormation"/>
 						</Element>
@@ -3423,7 +3567,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="EmbarkedUnit"/>
 						</Element>
@@ -3435,7 +3579,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitCulture"/>
 							<m_ArtDefPath text="Cultures.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Culture"/>
 						</Element>
@@ -3443,7 +3587,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Era"/>
 							<m_ArtDefPath text="Eras.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Era"/>
 						</Element>
@@ -3451,7 +3595,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="ProxyUnit"/>
 						</Element>
@@ -3468,6 +3612,7 @@
 				<m_ChildCollections>
 					<Element>
 						<m_CollectionName text="Members"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -3483,7 +3628,7 @@
 										<m_ElementName text="Supercarrier"/>
 										<m_RootCollectionName text="UnitMemberTypes"/>
 										<m_ArtDefPath text="Units.artdef"/>
-										<m_CollectionIsLocked>false</m_CollectionIsLocked>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
 										<m_TemplateName text="Units"/>
 										<m_ParamName text="Type"/>
 									</Element>
@@ -3491,10 +3636,12 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="Members001"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 					<Element>
 						<m_CollectionName text="Audio"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -3506,10 +3653,12 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="AIRCRAFT_CARRIER"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 				</m_ChildCollections>
 				<m_Name text="UNIT_SUPERCARRIER"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 			<Element>
 				<m_Fields>
@@ -3518,7 +3667,7 @@
 							<m_ElementName text="Galley"/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Formation"/>
 						</Element>
@@ -3526,7 +3675,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitCombat"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="UnitCombat"/>
 						</Element>
@@ -3534,7 +3683,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="EscortFormation"/>
 						</Element>
@@ -3542,7 +3691,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="EmbarkedUnit"/>
 						</Element>
@@ -3554,7 +3703,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitCulture"/>
 							<m_ArtDefPath text="Cultures.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Culture"/>
 						</Element>
@@ -3562,7 +3711,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Era"/>
 							<m_ArtDefPath text="Eras.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Era"/>
 						</Element>
@@ -3570,7 +3719,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="ProxyUnit"/>
 						</Element>
@@ -3587,11 +3736,12 @@
 				<m_ChildCollections>
 					<Element>
 						<m_CollectionName text="Members"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..FloatValue">
-										<m_fValue>0.560000</m_fValue>
+										<m_fValue>0.800000</m_fValue>
 										<m_ParamName text="Scale"/>
 									</Element>
 									<Element class="AssetObjects..IntValue">
@@ -3602,7 +3752,7 @@
 										<m_ElementName text="Galleon"/>
 										<m_RootCollectionName text="UnitMemberTypes"/>
 										<m_ArtDefPath text="Units.artdef"/>
-										<m_CollectionIsLocked>false</m_CollectionIsLocked>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
 										<m_TemplateName text="Units"/>
 										<m_ParamName text="Type"/>
 									</Element>
@@ -3610,10 +3760,12 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="Members1"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 					<Element>
 						<m_CollectionName text="Audio"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -3625,10 +3777,12 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="FRIGATE"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 				</m_ChildCollections>
 				<m_Name text="UNIT_GALLEON"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 			<Element>
 				<m_Fields>
@@ -3637,7 +3791,7 @@
 							<m_ElementName text="Naval"/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Formation"/>
 						</Element>
@@ -3645,7 +3799,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitCombat"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="UnitCombat"/>
 						</Element>
@@ -3653,7 +3807,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="EscortFormation"/>
 						</Element>
@@ -3661,7 +3815,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="EmbarkedUnit"/>
 						</Element>
@@ -3673,7 +3827,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitCulture"/>
 							<m_ArtDefPath text="Cultures.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Culture"/>
 						</Element>
@@ -3681,7 +3835,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Era"/>
 							<m_ArtDefPath text="Eras.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Era"/>
 						</Element>
@@ -3689,7 +3843,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="ProxyUnit"/>
 						</Element>
@@ -3706,6 +3860,7 @@
 				<m_ChildCollections>
 					<Element>
 						<m_CollectionName text="Members"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -3721,7 +3876,7 @@
 										<m_ElementName text="ArmoredCruiser"/>
 										<m_RootCollectionName text="UnitMemberTypes"/>
 										<m_ArtDefPath text="Units.artdef"/>
-										<m_CollectionIsLocked>false</m_CollectionIsLocked>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
 										<m_TemplateName text="Units"/>
 										<m_ParamName text="Type"/>
 									</Element>
@@ -3729,10 +3884,12 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="Members001"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 					<Element>
 						<m_CollectionName text="Audio"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -3744,10 +3901,12 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="BATTLESHIP"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 				</m_ChildCollections>
 				<m_Name text="UNIT_ARMORED_CRUISER"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 			<Element>
 				<m_Fields>
@@ -3756,7 +3915,7 @@
 							<m_ElementName text="Naval"/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Formation"/>
 						</Element>
@@ -3764,7 +3923,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitCombat"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="UnitCombat"/>
 						</Element>
@@ -3772,7 +3931,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="EscortFormation"/>
 						</Element>
@@ -3780,7 +3939,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="EmbarkedUnit"/>
 						</Element>
@@ -3792,7 +3951,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitCulture"/>
 							<m_ArtDefPath text="Cultures.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Culture"/>
 						</Element>
@@ -3800,7 +3959,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Era"/>
 							<m_ArtDefPath text="Eras.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Era"/>
 						</Element>
@@ -3808,7 +3967,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="ProxyUnit"/>
 						</Element>
@@ -3825,6 +3984,7 @@
 				<m_ChildCollections>
 					<Element>
 						<m_CollectionName text="Members"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -3840,7 +4000,7 @@
 										<m_ElementName text="Battlecruiser"/>
 										<m_RootCollectionName text="UnitMemberTypes"/>
 										<m_ArtDefPath text="Units.artdef"/>
-										<m_CollectionIsLocked>false</m_CollectionIsLocked>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
 										<m_TemplateName text="Units"/>
 										<m_ParamName text="Type"/>
 									</Element>
@@ -3848,10 +4008,12 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="Members001"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 					<Element>
 						<m_CollectionName text="Audio"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -3863,10 +4025,12 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="BATTLESHIP"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 				</m_ChildCollections>
 				<m_Name text="UNIT_BATTLECRUISER"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 			<Element>
 				<m_Fields>
@@ -3875,7 +4039,7 @@
 							<m_ElementName text="Galley"/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Formation"/>
 						</Element>
@@ -3883,7 +4047,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitCombat"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="UnitCombat"/>
 						</Element>
@@ -3891,7 +4055,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="EscortFormation"/>
 						</Element>
@@ -3899,7 +4063,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="EmbarkedUnit"/>
 						</Element>
@@ -3911,7 +4075,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitCulture"/>
 							<m_ArtDefPath text="Cultures.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Culture"/>
 						</Element>
@@ -3919,7 +4083,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Era"/>
 							<m_ArtDefPath text="Eras.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Era"/>
 						</Element>
@@ -3927,7 +4091,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="ProxyUnit"/>
 						</Element>
@@ -3944,11 +4108,12 @@
 				<m_ChildCollections>
 					<Element>
 						<m_CollectionName text="Members"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..FloatValue">
-										<m_fValue>0.560000</m_fValue>
+										<m_fValue>0.800000</m_fValue>
 										<m_ParamName text="Scale"/>
 									</Element>
 									<Element class="AssetObjects..IntValue">
@@ -3959,7 +4124,7 @@
 										<m_ElementName text="ShipOfTheLine"/>
 										<m_RootCollectionName text="UnitMemberTypes"/>
 										<m_ArtDefPath text="Units.artdef"/>
-										<m_CollectionIsLocked>false</m_CollectionIsLocked>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
 										<m_TemplateName text="Units"/>
 										<m_ParamName text="Type"/>
 									</Element>
@@ -3967,10 +4132,12 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="Members1"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 					<Element>
 						<m_CollectionName text="Audio"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -3982,10 +4149,12 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="FRIGATE"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 				</m_ChildCollections>
 				<m_Name text="UNIT_SHIP_OF_THE_LINE"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 			<Element>
 				<m_Fields>
@@ -3994,7 +4163,7 @@
 							<m_ElementName text="Naval"/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Formation"/>
 						</Element>
@@ -4002,7 +4171,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitCombat"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="UnitCombat"/>
 						</Element>
@@ -4010,7 +4179,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="EscortFormation"/>
 						</Element>
@@ -4018,7 +4187,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="EmbarkedUnit"/>
 						</Element>
@@ -4030,7 +4199,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitCulture"/>
 							<m_ArtDefPath text="Cultures.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Culture"/>
 						</Element>
@@ -4038,7 +4207,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Era"/>
 							<m_ArtDefPath text="Eras.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Era"/>
 						</Element>
@@ -4046,7 +4215,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="ProxyUnit"/>
 						</Element>
@@ -4063,6 +4232,7 @@
 				<m_ChildCollections>
 					<Element>
 						<m_CollectionName text="Members"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -4078,7 +4248,7 @@
 										<m_ElementName text="PreDreadnought"/>
 										<m_RootCollectionName text="UnitMemberTypes"/>
 										<m_ArtDefPath text="Units.artdef"/>
-										<m_CollectionIsLocked>false</m_CollectionIsLocked>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
 										<m_TemplateName text="Units"/>
 										<m_ParamName text="Type"/>
 									</Element>
@@ -4086,10 +4256,12 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="Members001"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 					<Element>
 						<m_CollectionName text="Audio"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -4101,10 +4273,12 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="DESTROYER"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 				</m_ChildCollections>
 				<m_Name text="UNIT_PRE_DREADNOUGHT"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 			<Element>
 				<m_Fields>
@@ -4113,7 +4287,7 @@
 							<m_ElementName text="Galley"/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Formation"/>
 						</Element>
@@ -4121,7 +4295,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitCombat"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="UnitCombat"/>
 						</Element>
@@ -4129,7 +4303,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="EscortFormation"/>
 						</Element>
@@ -4137,7 +4311,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="EmbarkedUnit"/>
 						</Element>
@@ -4149,7 +4323,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitCulture"/>
 							<m_ArtDefPath text="Cultures.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Culture"/>
 						</Element>
@@ -4157,7 +4331,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Era"/>
 							<m_ArtDefPath text="Eras.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Era"/>
 						</Element>
@@ -4165,7 +4339,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="ProxyUnit"/>
 						</Element>
@@ -4182,11 +4356,12 @@
 				<m_ChildCollections>
 					<Element>
 						<m_CollectionName text="Members"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..FloatValue">
-										<m_fValue>0.560000</m_fValue>
+										<m_fValue>0.800000</m_fValue>
 										<m_ParamName text="Scale"/>
 									</Element>
 									<Element class="AssetObjects..IntValue">
@@ -4197,7 +4372,7 @@
 										<m_ElementName text="Galleass"/>
 										<m_RootCollectionName text="UnitMemberTypes"/>
 										<m_ArtDefPath text="Units.artdef"/>
-										<m_CollectionIsLocked>false</m_CollectionIsLocked>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
 										<m_TemplateName text="Units"/>
 										<m_ParamName text="Type"/>
 									</Element>
@@ -4205,10 +4380,12 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="Members1"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 					<Element>
 						<m_CollectionName text="Audio"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -4220,10 +4397,12 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="FRIGATE"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 				</m_ChildCollections>
 				<m_Name text="UNIT_GALLEASS"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 			<Element>
 				<m_Fields>
@@ -4232,7 +4411,7 @@
 							<m_ElementName text="Naval"/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text="Units"/>
 							<m_ParamName text="Formation"/>
 						</Element>
@@ -4240,7 +4419,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitCombat"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="UnitCombat"/>
 						</Element>
@@ -4248,7 +4427,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="EscortFormation"/>
 						</Element>
@@ -4256,7 +4435,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="EmbarkedUnit"/>
 						</Element>
@@ -4268,7 +4447,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitCulture"/>
 							<m_ArtDefPath text="Cultures.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Culture"/>
 						</Element>
@@ -4276,7 +4455,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Era"/>
 							<m_ArtDefPath text="Eras.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Era"/>
 						</Element>
@@ -4284,7 +4463,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="ProxyUnit"/>
 						</Element>
@@ -4301,6 +4480,7 @@
 				<m_ChildCollections>
 					<Element>
 						<m_CollectionName text="Members"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -4316,7 +4496,7 @@
 										<m_ElementName text="AttackSubmarine"/>
 										<m_RootCollectionName text="UnitMemberTypes"/>
 										<m_ArtDefPath text="Units.artdef"/>
-										<m_CollectionIsLocked>false</m_CollectionIsLocked>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
 										<m_TemplateName text="Units"/>
 										<m_ParamName text="Type"/>
 									</Element>
@@ -4324,10 +4504,12 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="Members001"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 					<Element>
 						<m_CollectionName text="Audio"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -4339,10 +4521,12 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="NUCLEARSUBMARINE"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 				</m_ChildCollections>
 				<m_Name text="UNIT_ATTACK_SUBMARINE"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 			<Element>
 				<m_Fields>
@@ -4351,7 +4535,7 @@
 							<m_ElementName text="MechanizedFormation"/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text="Units"/>
 							<m_ParamName text="Formation"/>
 						</Element>
@@ -4359,7 +4543,7 @@
 							<m_ElementName text="Tank"/>
 							<m_RootCollectionName text="UnitCombat"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text="Units"/>
 							<m_ParamName text="UnitCombat"/>
 						</Element>
@@ -4367,7 +4551,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="EscortFormation"/>
 						</Element>
@@ -4375,7 +4559,7 @@
 							<m_ElementName text="UNIT_MODERNEMBARK"/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text="Units"/>
 							<m_ParamName text="EmbarkedUnit"/>
 						</Element>
@@ -4387,7 +4571,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitCulture"/>
 							<m_ArtDefPath text="Cultures.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Culture"/>
 						</Element>
@@ -4395,7 +4579,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Era"/>
 							<m_ArtDefPath text="Eras.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Era"/>
 						</Element>
@@ -4403,7 +4587,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="ProxyUnit"/>
 						</Element>
@@ -4420,6 +4604,7 @@
 				<m_ChildCollections>
 					<Element>
 						<m_CollectionName text="Members"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -4435,7 +4620,7 @@
 										<m_ElementName text="MechInf"/>
 										<m_RootCollectionName text="UnitMemberTypes"/>
 										<m_ArtDefPath text="Units.artdef"/>
-										<m_CollectionIsLocked>false</m_CollectionIsLocked>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
 										<m_TemplateName text="Units"/>
 										<m_ParamName text="Type"/>
 									</Element>
@@ -4443,6 +4628,7 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="Members2"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 						<Element>
 							<m_Fields>
@@ -4452,14 +4638,14 @@
 										<m_ParamName text="Scale"/>
 									</Element>
 									<Element class="AssetObjects..IntValue">
-										<m_nValue>3</m_nValue>
+										<m_nValue>2</m_nValue>
 										<m_ParamName text="Count"/>
 									</Element>
 									<Element class="AssetObjects..ArtDefReferenceValue">
 										<m_ElementName text="AT_Crew_Modern"/>
 										<m_RootCollectionName text="UnitMemberTypes"/>
 										<m_ArtDefPath text="Units.artdef"/>
-										<m_CollectionIsLocked>false</m_CollectionIsLocked>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
 										<m_TemplateName text="Units"/>
 										<m_ParamName text="Type"/>
 									</Element>
@@ -4467,10 +4653,12 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="Members3"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 					<Element>
 						<m_CollectionName text="Audio"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -4482,10 +4670,12 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="MECHANIZEDINFANTRY"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 				</m_ChildCollections>
 				<m_Name text="UNIT_MECHANIZED_INFANTRY"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 			<Element>
 				<m_Fields>
@@ -4494,7 +4684,7 @@
 							<m_ElementName text="Redcoat"/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Formation"/>
 						</Element>
@@ -4502,7 +4692,7 @@
 							<m_ElementName text="Redcoat"/>
 							<m_RootCollectionName text="UnitCombat"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="UnitCombat"/>
 						</Element>
@@ -4510,7 +4700,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="EscortFormation"/>
 						</Element>
@@ -4518,7 +4708,7 @@
 							<m_ElementName text="UNIT_ANCIENTEMBARK"/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text="Units"/>
 							<m_ParamName text="EmbarkedUnit"/>
 						</Element>
@@ -4530,7 +4720,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitCulture"/>
 							<m_ArtDefPath text="Cultures.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Culture"/>
 						</Element>
@@ -4538,7 +4728,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Era"/>
 							<m_ArtDefPath text="Eras.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Era"/>
 						</Element>
@@ -4546,7 +4736,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="ProxyUnit"/>
 						</Element>
@@ -4563,6 +4753,7 @@
 				<m_ChildCollections>
 					<Element>
 						<m_CollectionName text="Members"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -4578,7 +4769,7 @@
 										<m_ElementName text="IndustrialMarine"/>
 										<m_RootCollectionName text="UnitMemberTypes"/>
 										<m_ArtDefPath text="Units.artdef"/>
-										<m_CollectionIsLocked>false</m_CollectionIsLocked>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
 										<m_TemplateName text="Units"/>
 										<m_ParamName text="Type"/>
 									</Element>
@@ -4586,10 +4777,12 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="IndustrialMarine"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 					<Element>
 						<m_CollectionName text="Audio"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -4601,10 +4794,12 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="ENGLISH_REDCOAT"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 				</m_ChildCollections>
 				<m_Name text="UNIT_INDUSTRIAL_MARINE"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 			<Element>
 				<m_Fields>
@@ -4613,7 +4808,7 @@
 							<m_ElementName text="Infantry"/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text="Units"/>
 							<m_ParamName text="Formation"/>
 						</Element>
@@ -4621,7 +4816,7 @@
 							<m_ElementName text="Infantry"/>
 							<m_RootCollectionName text="UnitCombat"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text="Units"/>
 							<m_ParamName text="UnitCombat"/>
 						</Element>
@@ -4629,7 +4824,7 @@
 							<m_ElementName text="WarriorEscort"/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="EscortFormation"/>
 						</Element>
@@ -4637,7 +4832,7 @@
 							<m_ElementName text="UNIT_MODERNEMBARK"/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text="Units"/>
 							<m_ParamName text="EmbarkedUnit"/>
 						</Element>
@@ -4649,7 +4844,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitCulture"/>
 							<m_ArtDefPath text="Cultures.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Culture"/>
 						</Element>
@@ -4657,7 +4852,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Era"/>
 							<m_ArtDefPath text="Eras.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Era"/>
 						</Element>
@@ -4665,7 +4860,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="ProxyUnit"/>
 						</Element>
@@ -4682,6 +4877,7 @@
 				<m_ChildCollections>
 					<Element>
 						<m_CollectionName text="Members"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -4697,7 +4893,7 @@
 										<m_ElementName text="WW2Marine"/>
 										<m_RootCollectionName text="UnitMemberTypes"/>
 										<m_ArtDefPath text="Units.artdef"/>
-										<m_CollectionIsLocked>false</m_CollectionIsLocked>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
 										<m_TemplateName text="Units"/>
 										<m_ParamName text="Type"/>
 									</Element>
@@ -4705,10 +4901,12 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="Members1"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 					<Element>
 						<m_CollectionName text="Audio"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -4720,6 +4918,7 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text=""/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 						<Element>
 							<m_Fields>
@@ -4732,10 +4931,12 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="INFANTRY"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 				</m_ChildCollections>
 				<m_Name text="UNIT_WW2_MARINE"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 			<Element>
 				<m_Fields>
@@ -4744,7 +4945,7 @@
 							<m_ElementName text="Catapult"/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Formation"/>
 						</Element>
@@ -4752,7 +4953,7 @@
 							<m_ElementName text="Bombard"/>
 							<m_RootCollectionName text="UnitCombat"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text="Units"/>
 							<m_ParamName text="UnitCombat"/>
 						</Element>
@@ -4760,7 +4961,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="EscortFormation"/>
 						</Element>
@@ -4768,7 +4969,7 @@
 							<m_ElementName text="UNIT_ANCIENTEMBARK"/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text="Units"/>
 							<m_ParamName text="EmbarkedUnit"/>
 						</Element>
@@ -4780,7 +4981,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitCulture"/>
 							<m_ArtDefPath text="Cultures.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Culture"/>
 						</Element>
@@ -4788,7 +4989,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Era"/>
 							<m_ArtDefPath text="Eras.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Era"/>
 						</Element>
@@ -4796,7 +4997,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="ProxyUnit"/>
 						</Element>
@@ -4813,6 +5014,7 @@
 				<m_ChildCollections>
 					<Element>
 						<m_CollectionName text="Members"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -4828,7 +5030,7 @@
 										<m_ElementName text="RifledCannon"/>
 										<m_RootCollectionName text="UnitMemberTypes"/>
 										<m_ArtDefPath text="Units.artdef"/>
-										<m_CollectionIsLocked>false</m_CollectionIsLocked>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
 										<m_TemplateName text="Units"/>
 										<m_ParamName text="Type"/>
 									</Element>
@@ -4836,10 +5038,12 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="Members001"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 					<Element>
 						<m_CollectionName text="Audio"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -4851,10 +5055,12 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="BOMBARD"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 				</m_ChildCollections>
 				<m_Name text="UNIT_FIELD_HOWITZER"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 			<Element>
 				<m_Fields>
@@ -4863,7 +5069,7 @@
 							<m_ElementName text="ModernArmor"/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Formation"/>
 						</Element>
@@ -4871,7 +5077,7 @@
 							<m_ElementName text="ModernArmor"/>
 							<m_RootCollectionName text="UnitCombat"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="UnitCombat"/>
 						</Element>
@@ -4879,7 +5085,7 @@
 							<m_ElementName text="ModernArmor"/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="EscortFormation"/>
 						</Element>
@@ -4887,7 +5093,7 @@
 							<m_ElementName text="UNIT_MODERNEMBARK"/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text="Units"/>
 							<m_ParamName text="EmbarkedUnit"/>
 						</Element>
@@ -4899,7 +5105,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitCulture"/>
 							<m_ArtDefPath text="Cultures.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Culture"/>
 						</Element>
@@ -4907,7 +5113,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Era"/>
 							<m_ArtDefPath text="Eras.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="Era"/>
 						</Element>
@@ -4915,7 +5121,7 @@
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
 							<m_TemplateName text=""/>
 							<m_ParamName text="ProxyUnit"/>
 						</Element>
@@ -4932,22 +5138,23 @@
 				<m_ChildCollections>
 					<Element>
 						<m_CollectionName text="Members"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..FloatValue">
-										<m_fValue>0.500000</m_fValue>
+										<m_fValue>0.750000</m_fValue>
 										<m_ParamName text="Scale"/>
 									</Element>
 									<Element class="AssetObjects..IntValue">
-										<m_nValue>3</m_nValue>
+										<m_nValue>2</m_nValue>
 										<m_ParamName text="Count"/>
 									</Element>
 									<Element class="AssetObjects..ArtDefReferenceValue">
 										<m_ElementName text="MobileHeavyArtillery"/>
 										<m_RootCollectionName text="UnitMemberTypes"/>
 										<m_ArtDefPath text="Units.artdef"/>
-										<m_CollectionIsLocked>false</m_CollectionIsLocked>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
 										<m_TemplateName text="Units"/>
 										<m_ParamName text="Type"/>
 									</Element>
@@ -4955,10 +5162,12 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="Members001"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 					<Element>
 						<m_CollectionName text="Audio"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -4970,10 +5179,12 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="MODERN_ARMOR"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 				</m_ChildCollections>
 				<m_Name text="UNIT_SP_HVY_ATILLERY"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 		</Element>
 	</m_RootCollections>
