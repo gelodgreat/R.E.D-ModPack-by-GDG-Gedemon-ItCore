@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="36ec8c86-cd6d-49d3-a2da-0575804eed5f">
+    <Properties>
+        <Name>LOC_RED_WE_NAME</Name>
+        <Teaser>LOC_RED_WE_DESC</Teaser>
+        <Description>LOC_RED_WE_DESC</Description>
+        <Authors>GeloDGreat, Gedemon</Authors>
+    </Properties>
+    <LocalizedText>
+        <Text id="LOC_RED_WE_NAME">
+            <en_US>R.E.D. for Warfare Expanded</en_US>
+        </Text>
+        <Text id="LOC_RED_WE_DESC">
+            <en_US>Units rescaling and formations for Warfare Expanded..</en_US>
+        </Text>
+    </LocalizedText>
+    <Dependencies>
+        <Mod id="9612f1e9-9210-4457-afe1-7514f190658a" title="Warfare Expanded" />
+        <Mod id="8342b98d-80c7-4002-87bb-419646bd9b54" title="MoarUnits" />
+    </Dependencies>
+    <InGameActions>
+        <UpdateArt id="Art">
+            <File>RED MWE.dep</File>
+        </UpdateArt>
+    </InGameActions>
+    <Files>
+        <File>ArtDefs/Units.artdef</File>
+        <File>RED MWE.dep</File>
+    </Files>
+</Mod>
