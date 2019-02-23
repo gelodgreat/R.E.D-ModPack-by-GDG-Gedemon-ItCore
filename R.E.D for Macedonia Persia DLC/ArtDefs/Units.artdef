@@ -10,7 +10,7 @@
 	<m_RootCollections>
 		<Element>
 			<m_CollectionName text="Units"/>
-			
+			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 				<Element>
 				<m_Fields>
 					<m_Values>
@@ -87,16 +87,16 @@
 				<m_ChildCollections>
 					<Element>
 						<m_CollectionName text="Members"/>
-						
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects:FloatValue">
-										<m_fValue>0.5</m_fValue>
+										<m_fValue>0.500000</m_fValue>
 										<m_ParamName text="Scale"/>
 									</Element>
 									<Element class="AssetObjects:IntValue">
-										<m_nValue>16</m_nValue>
+										<m_nValue>12</m_nValue>
 										<m_ParamName text="Count"/>
 									</Element>
 									<Element class="AssetObjects:ArtDefReferenceValue">
@@ -116,7 +116,7 @@
 					</Element>
 					<Element>
 						<m_CollectionName text="Audio"/>
-						
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -224,7 +224,7 @@
 				<m_ChildCollections>
 					<Element>
 						<m_CollectionName text="Members"/>
-						
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -253,7 +253,7 @@
 					</Element>
 					<Element>
 						<m_CollectionName text="Audio"/>
-						
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -361,7 +361,7 @@
 				<m_ChildCollections>
 					<Element>
 						<m_CollectionName text="Members"/>
-						
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -390,7 +390,7 @@
 					</Element>
 					<Element>
 						<m_CollectionName text="Audio"/>
-						
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>

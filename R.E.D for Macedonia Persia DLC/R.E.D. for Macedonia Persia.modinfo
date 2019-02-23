@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Mod id="88f20067-6180-40f3-9daf-2320a57516f6" version="1.0.2">
+<Mod id="88f20067-6180-40f3-9daf-2320a57516f6" version="1.0.0">
     <Properties>
         <Name>LOC_RED_MACEDONIANPERSIA_NAME</Name>
+        <Description>LOC_RED_MACEDONIANPERSIA_DESC</Description>
         <Teaser>LOC_RED_MACEDONIANPERSIA_DESC</Teaser>
 		<Authors>GeloDGreat,Gedemon</Authors>
+        <CompatibleVersions>2.0</CompatibleVersions>
     </Properties>
     <LocalizedText>
         <Text id="LOC_RED_MACEDONIANPERSIA_NAME">

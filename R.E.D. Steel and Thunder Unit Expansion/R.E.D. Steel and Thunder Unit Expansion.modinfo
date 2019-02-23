@@ -5,6 +5,7 @@
         <Teaser>LOC_RED_MODPACK_STUE_DESC</Teaser>
         <Description>LOC_RED_MODPACK_STUE_DESC</Description>
         <Authors>GeloDGreat, Gedemon</Authors>
+        <CompatibleVersions>2.0</CompatibleVersions>
     </Properties>
     <LocalizedText>
         <Text id="LOC_RED_MODPACK_STUE_NAME">

@@ -3,6 +3,7 @@
     <Properties>
         <Name>LOC_RED_AUSTRALIA_NAME</Name>
         <Teaser>LOC_RED_AUSTRALIA_DESC</Teaser>
+        <CompatibleVersions>2.0</CompatibleVersions>
     </Properties>
     <LocalizedText>
         <Text id="LOC_RED_AUSTRALIA_NAME">
