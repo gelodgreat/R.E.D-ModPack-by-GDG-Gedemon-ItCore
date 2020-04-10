@@ -1,12 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
-
+<?xml version="1.0" encoding="utf-8" ?>
 <Mod id="8670da15-d435-44ea-9758-7438cb321411">
     <Properties>
         <Name>LOC_RED_MODPACK_NAME</Name>
         <Teaser>LOC_RED_MODPACK_DESC</Teaser>
         <Description>LOC_RED_MODPACK_DESC</Description>
         <Authors>Gedemon</Authors>
-		<CompatibleVersions>2.0</CompatibleVersions>
+        <CompatibleVersions>2.0</CompatibleVersions>
     </Properties>
     <LocalizedText>
         <Text id="LOC_RED_MODPACK_NAME">
@@ -14,18 +13,17 @@
         </Text>
         <Text id="LOC_RED_MODPACK_DESC">
             <en_US>Units rescaling and formations.</en_US>
-        </Text>        
+        </Text>
     </LocalizedText>
-	<InGameActions>
+    <InGameActions>
         <UpdateArt id="REDModpack">
-           	<Properties>
-				<LoadOrder>999999</LoadOrder>
-           	</Properties>
+            <Properties>
+                <LoadOrder>51</LoadOrder>
+            </Properties>
             <File>REDModpack.dep</File>
         </UpdateArt>
-	</InGameActions>
+    </InGameActions>
     <Files>
         <File>REDModpack.dep</File>
     </Files>
-
 </Mod>

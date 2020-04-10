@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="8d4c160b-389e-4c42-8bc9-4c4752e05336">
+    <Properties>
+        <Name>LOC_RED_MODPACK_RF_NAME</Name>
+        <Teaser>LOC_RED_MODPACK_RF_DESC</Teaser>
+        <Description>LOC_RED_MODPACK_RF_DESC</Description>
+        <Authors>GeloDGreat, Gedemon</Authors>
+        <CompatibleVersions>2.0</CompatibleVersions>
+    </Properties>
+    <LocalizedText>
+        <Text id="LOC_RED_MODPACK_RF_NAME">
+            <en_US>R.E.D. Modpack Rise and Fall</en_US>
+        </Text>
+        <Text id="LOC_RED_MODPACK_RF_DESC">
+            <en_US>Units rescaling and formations for Rise and Fall.</en_US>
+        </Text>
+    </LocalizedText>
+    <Dependencies>
+        <Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Rise and Fall" />
+		<Mod id="8670da15-d435-44ea-9758-7438cb321411" title="R.E.D. Modpack" />
+    </Dependencies>
+    <Files>
+        <File>REDModpack_RF.dep</File>
+    </Files>
+    <Components>
+        <ModArt id="REDModpack_RF">
+            <Items>
+                <File>REDModpack_RF.dep</File>
+            </Items>
+        </ModArt>
+    </Components>
+</Mod>

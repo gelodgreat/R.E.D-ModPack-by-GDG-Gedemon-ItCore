@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="de038e0f-0b13-4525-9c3b-41d559a865fd">
+    <Properties>
+        <Name>LOC_RED_NUBIA_NAME</Name>
+        <Teaser>LOC_RED_NUBIA_DESC</Teaser>
+		<Description>LOC_RED_NUBIA_DESC</Description>
+		<Authors>ITcore,Gedemon</Authors>
+		<AffectsSavedGames>0</AffectsSavedGames>
+	<CompatibleVersions>2.0</CompatibleVersions>
+    </Properties>
+    <LocalizedText>
+        <Text id="LOC_RED_NUBIA_NAME">
+            <en_US>R.E.D. for Nubia DLC</en_US>
+        </Text>
+        <Text id="LOC_RED_NUBIA_DESC">
+            <en_US>R.E.D. Modpack for Nubia DLC.</en_US>
+        </Text>        
+    </LocalizedText>
+	
+	<Dependencies>
+		<Mod id="643EA320-8E1A-4CF1-A01C-00D88DDD131A" title="Nubia DLC" />
+		<Mod id="8670da15-d435-44ea-9758-7438cb321411" title="R.E.D. Modpack" />
+	</Dependencies>
+	
+    <Files>
+        <File>RED_Nubia_DLC.dep</File>      
+    </Files>    
+    <Components>
+		<Properties>
+			<LoadOrder>1010</LoadOrder>
+		</Properties>
+        <ModArt id="RED_NUBIA_ModArt">
+            <Items>
+                <File>RED_Nubia_DLC.dep</File>
+            </Items>
+        </ModArt>
+    </Components>
+</Mod>

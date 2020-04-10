@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects::GameDependencyData>
+    <ID>
+        <name text="REDforNubia"/>
+        <id text="de038e0f-0b13-4525-9c3b-41d559a865fd"/>
+    </ID>
+	<RequiredGameArtIDs>
+		<Element>
+			<name text="DLC5"/>
+			<id text="754001af-1b3f-43a5-8138-8fb13e2bf173"/>
+		</Element>
+	</RequiredGameArtIDs>
+    <SystemDependencies>
+        <Element>
+            <ConsumerName text="Units"/>
+            <ArtDefDependencyPaths>
+                <Element text="Units.artdef"/>
+            </ArtDefDependencyPaths>
+        </Element>
+    </SystemDependencies>
+</AssetObjects::GameDependencyData>

@@ -90,7 +90,7 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects::FloatValue">
-										<m_fValue>0.800000</m_fValue>
+										<m_fValue>0.700000</m_fValue>
 										<m_ParamName text="Scale"/>
 									</Element>
 									<Element class="AssetObjects::IntValue">
@@ -212,16 +212,16 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects::FloatValue">
-										<m_fValue>0.800000</m_fValue>
+										<m_fValue>0.700000</m_fValue>
 										<m_ParamName text="Scale"/>
 									</Element>
 									<Element class="AssetObjects::IntValue">
-										<m_nValue>12</m_nValue>
+										<m_nValue>10</m_nValue>
 										<m_ParamName text="Count"/>
 									</Element>
 									<Element class="AssetObjects::ArtDefReferenceValue">
 										<m_ElementName text="Janissary"/>
-										<m_RootCollectionName text="UnitMemberTypes"/>
+										<m_RootCollectionName text="UnitMemberTypes"/>`
 										<m_ArtDefPath text="Units.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
 										<m_TemplateName text="Units"/>

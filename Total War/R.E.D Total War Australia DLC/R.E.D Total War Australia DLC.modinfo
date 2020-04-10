@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="fdb1d8f6-924d-4a6e-a96f-e90e5ae0180d">
+    <Properties>
+        <Name>LOC_RED_AUSTRALIA_NAME</Name>
+        <Teaser>LOC_RED_AUSTRALIA_DESC</Teaser>
+		<Description>LOC_RED_AUSTRALIA_DESC</Description>
+        <Authors>Gedemon</Authors>
+		<AffectsSavedGames>0</AffectsSavedGames>
+	<CompatibleVersions>2.0</CompatibleVersions>
+    </Properties>
+    <LocalizedText>
+        <Text id="LOC_RED_AUSTRALIA_NAME">
+            <en_US>R.E.D. for Australia DLC</en_US>
+        </Text>
+        <Text id="LOC_RED_AUSTRALIA_DESC">
+            <en_US>Compatibility mod for R.E.D. Modpack and Australia DLC.</en_US>
+        </Text>        
+    </LocalizedText>
+	
+	<Dependencies>
+		<Mod id="E3F53C61-371C-440B-96CE-077D318B36C0" title="Australia DLC" />
+		<Mod id="8670da15-d435-44ea-9758-7438cb321411" title="R.E.D. Modpack" />
+	</Dependencies>
+	
+    <Files>
+        <File>RED_Australia_DLC.dep</File>      
+    </Files>    
+    <Components>
+		<Properties>
+				<LoadOrder>1010</LoadOrder>
+			</Properties>
+        <ModArt id="RED_AUSTRALIA_ModArt">
+            <Items>
+                <File>RED_Australia_DLC.dep</File>
+            </Items>
+        </ModArt>
+    </Components>
+</Mod>

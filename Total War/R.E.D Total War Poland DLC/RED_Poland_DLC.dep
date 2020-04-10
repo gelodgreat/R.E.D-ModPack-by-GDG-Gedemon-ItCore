@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects::GameDependencyData>
+    <ID>
+        <name text="REDforPoland"/>
+        <id text="17b3fede-5505-4aed-88db-5a2026ea1dca"/>
+    </ID>
+	<RequiredGameArtIDs>
+		<Element>
+			<name text="DLC2"/>
+			<id text="3809975F-263F-40A2-A747-8BFB171D821A"/>
+		</Element>
+	</RequiredGameArtIDs>
+    <SystemDependencies>
+        <Element>
+            <ConsumerName text="Units"/>
+            <ArtDefDependencyPaths>
+                <Element text="Units.artdef"/>
+            </ArtDefDependencyPaths>
+        </Element>
+    </SystemDependencies>
+</AssetObjects::GameDependencyData>

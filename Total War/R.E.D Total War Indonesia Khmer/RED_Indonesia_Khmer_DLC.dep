@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects::GameDependencyData>
+    <ID>
+        <name text="REDforIndonesiaKhmer"/>
+        <id text="ef0f51ed-1b28-47b5-abd2-97cff86bbb44"/>
+    </ID>
+	<RequiredGameArtIDs>
+		<Element>
+			<name text="DLC6"/>
+			<id text="4fd22d21-5ec7-4ce9-aca6-8d8b623e5a82"/>
+		</Element>
+	</RequiredGameArtIDs>
+    <SystemDependencies>
+        <Element>
+            <ConsumerName text="Units"/>
+            <ArtDefDependencyPaths>
+                <Element text="Units.artdef"/>
+            </ArtDefDependencyPaths>
+        </Element>
+    </SystemDependencies>
+</AssetObjects::GameDependencyData>

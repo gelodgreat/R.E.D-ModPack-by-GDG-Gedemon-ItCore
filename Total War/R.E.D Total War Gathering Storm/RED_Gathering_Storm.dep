@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects::GameDependencyData>
+    <ID>
+        <name text="REDforGatheringStorm"/>
+        <id text="10d6b742-086b-4512-99a4-50c55fdd244e"/>
+    </ID>
+	<RequiredGameArtIDs>
+		<Element>
+			<name text="Expansion2"/>
+			<id text="b1b63999-6b16-4dd2-a5b6-eb19794aa8ca"/>
+		</Element>
+	</RequiredGameArtIDs>
+    <SystemDependencies>
+        <Element>
+            <ConsumerName text="Units"/>
+            <ArtDefDependencyPaths>
+                <Element text="Units.artdef"/>
+            </ArtDefDependencyPaths>
+        </Element>
+    </SystemDependencies>
+</AssetObjects::GameDependencyData>

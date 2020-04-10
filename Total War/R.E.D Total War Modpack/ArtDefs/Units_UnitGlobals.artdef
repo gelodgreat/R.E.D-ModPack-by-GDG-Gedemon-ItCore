@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..ArtDefSet>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>234</build>
+		<revision>452</revision>
+	</m_Version>
+	<m_TemplateName text="Units"/>
+	<m_RootCollections>
+		<Element>
+			<m_CollectionName text="UnitGlobals"/>
+			<Element>
+				<m_Fields>
+					<m_Values/>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="Combat"/>
+						<Element>
+							<m_Fields>
+								<m_Values/>
+							</m_Fields>
+							<m_ChildCollections>
+								<Element>
+									<m_CollectionName text="Timeouts"/>
+									<Element>
+										<m_Fields>
+											<m_Values>
+												<Element class="AssetObjects..FloatValue">
+													<m_fValue>6.000000</m_fValue>
+													<m_ParamName text="Timeout_Attack"/>
+												</Element>
+												<Element class="AssetObjects..FloatValue">
+													<m_fValue>5.000000</m_fValue>
+													<m_ParamName text="Timeout_Block"/>
+												</Element>
+												<Element class="AssetObjects..FloatValue">
+													<m_fValue>1.200000</m_fValue>
+													<m_ParamName text="Timeout_Dodge"/>
+												</Element>
+												<Element class="AssetObjects..FloatValue">
+													<m_fValue>4.000000</m_fValue>
+													<m_ParamName text="Timeout_Death"/>
+												</Element>
+												<Element class="AssetObjects..FloatValue">
+													<m_fValue>5.000000</m_fValue>
+													<m_ParamName text="Timeout_Anim"/>
+												</Element>
+												<Element class="AssetObjects..FloatValue">
+													<m_fValue>5.000000</m_fValue>
+													<m_ParamName text="Timeout_Apply"/>
+												</Element>
+											</m_Values>
+										</m_Fields>
+										<m_ChildCollections/>
+										<m_Name text="Timeouts001"/>
+									</Element>
+								</Element>
+								<Element>
+									<m_CollectionName text="Proxies"/>
+									<Element>
+										<m_Fields>
+											<m_Values>
+												<Element class="AssetObjects..CollectionValue">
+													<m_eObjectType>INVALID</m_eObjectType>
+													<m_eValueType>STRING</m_eValueType>
+													<m_Values>
+														<Element class="AssetObjects..StringValue">
+															<m_Value text="WMD_NUCLEAR_DEVICE"/>
+															<m_ParamName text="WMDTargetPlots001"/>
+														</Element>
+														<Element class="AssetObjects..StringValue">
+															<m_Value text="WMD_THERMONUCLEAR_DEVICE"/>
+															<m_ParamName text="WMDTargetPlots002"/>
+														</Element>
+													</m_Values>
+													<m_ParamName text="WMDTargetPlots"/>
+												</Element>
+												<Element class="AssetObjects..ArtDefReferenceValue">
+													<m_ElementName text=""/>
+													<m_RootCollectionName text="Units"/>
+													<m_ArtDefPath text="Units.artdef"/>
+													<m_CollectionIsLocked>true</m_CollectionIsLocked>
+													<m_TemplateName text=""/>
+													<m_ParamName text="ICBMAttack"/>
+												</Element>
+											</m_Values>
+										</m_Fields>
+										<m_ChildCollections/>
+										<m_Name text="Proxies001"/>
+									</Element>
+								</Element>
+								<Element>
+									<m_CollectionName text="ERAProxies"/>
+									<Element>
+										<m_Fields>
+											<m_Values>
+												<Element class="AssetObjects..ArtDefReferenceValue">
+													<m_ElementName text="UNIT_CATAPULT"/>
+													<m_RootCollectionName text="Units"/>
+													<m_ArtDefPath text="Units.artdef"/>
+													<m_CollectionIsLocked>true</m_CollectionIsLocked>
+													<m_TemplateName text="Units"/>
+													<m_ParamName text="GarrisonAttackUnit"/>
+												</Element>
+												<Element class="AssetObjects..ArtDefReferenceValue">
+													<m_ElementName text="UNIT_WARRIOR"/>
+													<m_RootCollectionName text="Units"/>
+													<m_ArtDefPath text="Units.artdef"/>
+													<m_CollectionIsLocked>true</m_CollectionIsLocked>
+													<m_TemplateName text="Units"/>
+													<m_ParamName text="GarrisonDefenseUnit"/>
+												</Element>
+											</m_Values>
+										</m_Fields>
+										<m_ChildCollections/>
+										<m_Name text="ERA_ANCIENT"/>
+									</Element>
+									<Element>
+										<m_Fields>
+											<m_Values>
+												<Element class="AssetObjects..ArtDefReferenceValue">
+													<m_ElementName text="UNIT_ARTILLERY"/>
+													<m_RootCollectionName text="Units"/>
+													<m_ArtDefPath text="Units.artdef"/>
+													<m_CollectionIsLocked>true</m_CollectionIsLocked>
+													<m_TemplateName text="Units"/>
+													<m_ParamName text="GarrisonAttackUnit"/>
+												</Element>
+												<Element class="AssetObjects..ArtDefReferenceValue">
+													<m_ElementName text="UNIT_INFANTRY"/>
+													<m_RootCollectionName text="Units"/>
+													<m_ArtDefPath text="Units.artdef"/>
+													<m_CollectionIsLocked>true</m_CollectionIsLocked>
+													<m_TemplateName text="Units"/>
+													<m_ParamName text="GarrisonDefenseUnit"/>
+												</Element>
+											</m_Values>
+										</m_Fields>
+										<m_ChildCollections/>
+										<m_Name text="ERA_ATOMIC"/>
+									</Element>
+									<Element>
+										<m_Fields>
+											<m_Values>
+												<Element class="AssetObjects..ArtDefReferenceValue">
+													<m_ElementName text="UNIT_CATAPULT"/>
+													<m_RootCollectionName text="Units"/>
+													<m_ArtDefPath text="Units.artdef"/>
+													<m_CollectionIsLocked>true</m_CollectionIsLocked>
+													<m_TemplateName text="Units"/>
+													<m_ParamName text="GarrisonAttackUnit"/>
+												</Element>
+												<Element class="AssetObjects..ArtDefReferenceValue">
+													<m_ElementName text="UNIT_SWORDSMAN"/>
+													<m_RootCollectionName text="Units"/>
+													<m_ArtDefPath text="Units.artdef"/>
+													<m_CollectionIsLocked>true</m_CollectionIsLocked>
+													<m_TemplateName text="Units"/>
+													<m_ParamName text="GarrisonDefenseUnit"/>
+												</Element>
+											</m_Values>
+										</m_Fields>
+										<m_ChildCollections/>
+										<m_Name text="ERA_CLASSICAL"/>
+									</Element>
+									<Element>
+										<m_Fields>
+											<m_Values>
+												<Element class="AssetObjects..ArtDefReferenceValue">
+													<m_ElementName text="UNIT_FIELD_CANNON"/>
+													<m_RootCollectionName text="Units"/>
+													<m_ArtDefPath text="Units.artdef"/>
+													<m_CollectionIsLocked>true</m_CollectionIsLocked>
+													<m_TemplateName text="Units"/>
+													<m_ParamName text="GarrisonAttackUnit"/>
+												</Element>
+												<Element class="AssetObjects..ArtDefReferenceValue">
+													<m_ElementName text="UNIT_MUSKETMAN"/>
+													<m_RootCollectionName text="Units"/>
+													<m_ArtDefPath text="Units.artdef"/>
+													<m_CollectionIsLocked>true</m_CollectionIsLocked>
+													<m_TemplateName text="Units"/>
+													<m_ParamName text="GarrisonDefenseUnit"/>
+												</Element>
+											</m_Values>
+										</m_Fields>
+										<m_ChildCollections/>
+										<m_Name text="ERA_INDUSTRIAL"/>
+									</Element>
+									<Element>
+										<m_Fields>
+											<m_Values>
+												<Element class="AssetObjects..ArtDefReferenceValue">
+													<m_ElementName text="UNIT_ARTILLERY"/>
+													<m_RootCollectionName text="Units"/>
+													<m_ArtDefPath text="Units.artdef"/>
+													<m_CollectionIsLocked>true</m_CollectionIsLocked>
+													<m_TemplateName text="Units"/>
+													<m_ParamName text="GarrisonAttackUnit"/>
+												</Element>
+												<Element class="AssetObjects..ArtDefReferenceValue">
+													<m_ElementName text="UNIT_MECHANIZED_INFANTRY"/>
+													<m_RootCollectionName text="Units"/>
+													<m_ArtDefPath text="Units.artdef"/>
+													<m_CollectionIsLocked>true</m_CollectionIsLocked>
+													<m_TemplateName text="Units"/>
+													<m_ParamName text="GarrisonDefenseUnit"/>
+												</Element>
+											</m_Values>
+										</m_Fields>
+										<m_ChildCollections/>
+										<m_Name text="ERA_INFORMATION"/>
+									</Element>
+									<Element>
+										<m_Fields>
+											<m_Values>
+												<Element class="AssetObjects..ArtDefReferenceValue">
+													<m_ElementName text="UNIT_BOMBARD"/>
+													<m_RootCollectionName text="Units"/>
+													<m_ArtDefPath text="Units.artdef"/>
+													<m_CollectionIsLocked>true</m_CollectionIsLocked>
+													<m_TemplateName text="Units"/>
+													<m_ParamName text="GarrisonAttackUnit"/>
+												</Element>
+												<Element class="AssetObjects..ArtDefReferenceValue">
+													<m_ElementName text="UNIT_SWORDSMAN"/>
+													<m_RootCollectionName text="Units"/>
+													<m_ArtDefPath text="Units.artdef"/>
+													<m_CollectionIsLocked>true</m_CollectionIsLocked>
+													<m_TemplateName text="Units"/>
+													<m_ParamName text="GarrisonDefenseUnit"/>
+												</Element>
+											</m_Values>
+										</m_Fields>
+										<m_ChildCollections/>
+										<m_Name text="ERA_MEDIEVAL"/>
+									</Element>
+									<Element>
+										<m_Fields>
+											<m_Values>
+												<Element class="AssetObjects..ArtDefReferenceValue">
+													<m_ElementName text="UNIT_ARTILLERY"/>
+													<m_RootCollectionName text="Units"/>
+													<m_ArtDefPath text="Units.artdef"/>
+													<m_CollectionIsLocked>true</m_CollectionIsLocked>
+													<m_TemplateName text="Units"/>
+													<m_ParamName text="GarrisonAttackUnit"/>
+												</Element>
+												<Element class="AssetObjects..ArtDefReferenceValue">
+													<m_ElementName text="UNIT_INFANTRY"/>
+													<m_RootCollectionName text="Units"/>
+													<m_ArtDefPath text="Units.artdef"/>
+													<m_CollectionIsLocked>true</m_CollectionIsLocked>
+													<m_TemplateName text="Units"/>
+													<m_ParamName text="GarrisonDefenseUnit"/>
+												</Element>
+											</m_Values>
+										</m_Fields>
+										<m_ChildCollections/>
+										<m_Name text="ERA_MODERN"/>
+									</Element>
+									<Element>
+										<m_Fields>
+											<m_Values>
+												<Element class="AssetObjects..ArtDefReferenceValue">
+													<m_ElementName text="UNIT_FIELD_CANNON"/>
+													<m_RootCollectionName text="Units"/>
+													<m_ArtDefPath text="Units.artdef"/>
+													<m_CollectionIsLocked>true</m_CollectionIsLocked>
+													<m_TemplateName text="Units"/>
+													<m_ParamName text="GarrisonAttackUnit"/>
+												</Element>
+												<Element class="AssetObjects..ArtDefReferenceValue">
+													<m_ElementName text="UNIT_MUSKETMAN"/>
+													<m_RootCollectionName text="Units"/>
+													<m_ArtDefPath text="Units.artdef"/>
+													<m_CollectionIsLocked>true</m_CollectionIsLocked>
+													<m_TemplateName text="Units"/>
+													<m_ParamName text="GarrisonDefenseUnit"/>
+												</Element>
+											</m_Values>
+										</m_Fields>
+										<m_ChildCollections/>
+										<m_Name text="ERA_RENAISSANCE"/>
+									</Element>
+								</Element>
+							</m_ChildCollections>
+							<m_Name text="Combat001"/>
+						</Element>
+					</Element>
+					<Element>
+						<m_CollectionName text="UnitFadingDistricts"/>
+						<Element>
+							<m_Fields>
+								<m_Values/>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="DISTRICT_CITY_CENTER"/>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values/>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="DISTRICT_WONDER"/>
+						</Element>
+					</Element>
+					<Element>
+						<m_CollectionName text="Modifiers"/>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="UnitGlobals001"/>
+			</Element>
+		</Element>
+	</m_RootCollections>
+</AssetObjects..ArtDefSet>
+

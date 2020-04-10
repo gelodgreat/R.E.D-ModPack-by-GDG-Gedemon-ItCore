@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="10d6b742-086b-4512-99a4-50c55fdd244e">
+    <Properties>
+        <Name>LOC_RED_XP2_NAME</Name>
+        <Teaser>LOC_RED_XP2_DESC</Teaser>
+		<Description>LOC_RED_XP2_DESC</Description>
+        <Authors>Gedemon</Authors>
+		<AffectsSavedGames>0</AffectsSavedGames>
+		<CompatibleVersions>2.0</CompatibleVersions>
+    </Properties>
+    <LocalizedText>
+        <Text id="LOC_RED_XP2_NAME">
+            <en_US>R.E.D. for Gathering Storm DLC</en_US>
+        </Text>
+        <Text id="LOC_RED_XP2_DESC">
+            <en_US>Compatibility mod for R.E.D. Modpack and Gathering Storm DLC.</en_US>
+        </Text>        
+    </LocalizedText>
+	
+	<Dependencies>
+		<Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion2" />
+		<Mod id="8670da15-d435-44ea-9758-7438cb321411" title="R.E.D. Modpack" />
+	</Dependencies>
+	
+    <Files>
+        <File>RED_Gathering_Storm.dep</File>      
+    </Files>    
+    <Components>
+		<Properties>
+				<LoadOrder>1010</LoadOrder>
+			</Properties>
+        <ModArt id="RED_XP2_ModArt">
+            <Items>
+                <File>RED_Gathering_Storm.dep</File>
+            </Items>
+        </ModArt>
+    </Components>
+</Mod>
