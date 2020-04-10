@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Mod id="de038e0f-0b13-4525-9c3b-41d559a865fd">
+<Mod id="df064916-23ef-4b0f-821b-b4b18c83e088">
     <Properties>
         <Name>LOC_RED_NUBIA_NAME</Name>
         <Teaser>LOC_RED_NUBIA_DESC</Teaser>
 		<Description>LOC_RED_NUBIA_DESC</Description>
-		<Authors>ITcore,Gedemon</Authors>
+		<Authors>ITcore,Gedemon, GeloDGreat</Authors>
 		<AffectsSavedGames>0</AffectsSavedGames>
 	<CompatibleVersions>2.0</CompatibleVersions>
     </Properties>
     <LocalizedText>
         <Text id="LOC_RED_NUBIA_NAME">
-            <en_US>R.E.D. for Nubia DLC</en_US>
+            <en_US>R.E.D Total War for Nubia DLC</en_US>
         </Text>
         <Text id="LOC_RED_NUBIA_DESC">
-            <en_US>R.E.D. Modpack for Nubia DLC.</en_US>
+            <en_US>R.E.D Total War Modpack for Nubia DLC.</en_US>
         </Text>        
     </LocalizedText>
 	
 	<Dependencies>
 		<Mod id="643EA320-8E1A-4CF1-A01C-00D88DDD131A" title="Nubia DLC" />
-		<Mod id="8670da15-d435-44ea-9758-7438cb321411" title="R.E.D. Modpack" />
+		<Mod id="41be36e2-a330-4c87-b8ad-27d18e918997" title="R.E.D Total War Modpack" />
 	</Dependencies>
 	
     <Files>

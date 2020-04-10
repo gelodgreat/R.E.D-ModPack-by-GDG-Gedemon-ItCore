@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Mod id="10d6b742-086b-4512-99a4-50c55fdd244e">
+<Mod id="f6f6b56a-70ab-4d0c-a710-2f7698696556">
     <Properties>
         <Name>LOC_RED_XP2_NAME</Name>
         <Teaser>LOC_RED_XP2_DESC</Teaser>
 		<Description>LOC_RED_XP2_DESC</Description>
-        <Authors>Gedemon</Authors>
+        <Authors>Gedemon, GeloDGreat</Authors>
 		<AffectsSavedGames>0</AffectsSavedGames>
 		<CompatibleVersions>2.0</CompatibleVersions>
     </Properties>
     <LocalizedText>
         <Text id="LOC_RED_XP2_NAME">
-            <en_US>R.E.D. for Gathering Storm DLC</en_US>
+            <en_US>R.E.D Total War for Gathering Storm DLC</en_US>
         </Text>
         <Text id="LOC_RED_XP2_DESC">
-            <en_US>Compatibility mod for R.E.D. Modpack and Gathering Storm DLC.</en_US>
+            <en_US>Compatibility mod for R.E.D Total War Modpack and Gathering Storm DLC.</en_US>
         </Text>        
     </LocalizedText>
 	
 	<Dependencies>
 		<Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion2" />
-		<Mod id="8670da15-d435-44ea-9758-7438cb321411" title="R.E.D. Modpack" />
+		<Mod id="41be36e2-a330-4c87-b8ad-27d18e918997" title="R.E.D Total War Modpack" />
 	</Dependencies>
 	
     <Files>

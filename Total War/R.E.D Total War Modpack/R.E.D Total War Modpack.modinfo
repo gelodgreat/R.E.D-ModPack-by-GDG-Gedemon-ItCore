@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Mod id="8670da15-d435-44ea-9758-7438cb321411">
+<Mod id="41be36e2-a330-4c87-b8ad-27d18e918997">
     <Properties>
         <Name>LOC_RED_MODPACK_NAME</Name>
         <Teaser>LOC_RED_MODPACK_DESC</Teaser>
         <Description>LOC_RED_MODPACK_DESC</Description>
-        <Authors>Gedemon</Authors>
+        <Authors>Gedemon, GeloDGreat</Authors>
+        <AffectsSavedGames>0</AffectsSavedGames>
         <CompatibleVersions>2.0</CompatibleVersions>
     </Properties>
     <LocalizedText>
         <Text id="LOC_RED_MODPACK_NAME">
-            <en_US>R.E.D. Modpack</en_US>
+            <en_US>R.E.D Total War Modpack</en_US>
         </Text>
         <Text id="LOC_RED_MODPACK_DESC">
             <en_US>Units rescaling and formations.</en_US>

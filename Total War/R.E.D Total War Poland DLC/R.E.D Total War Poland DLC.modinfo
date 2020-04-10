@@ -4,22 +4,22 @@
         <Name>LOC_RED_POLAND_NAME</Name>
         <Teaser>LOC_RED_POLAND_DESC</Teaser>
         <Description>LOC_RED_POLAND_DESC</Description>
-        <Authors>Gedemon</Authors>
+        <Authors>Gedemon, GeloDGreat</Authors>
 		<AffectsSavedGames>0</AffectsSavedGames>
 		<CompatibleVersions>2.0</CompatibleVersions>
     </Properties>
     <LocalizedText>
         <Text id="LOC_RED_POLAND_NAME">
-            <en_US>R.E.D. for Poland DLC</en_US>
+            <en_US>R.E.D Total War for Poland DLC</en_US>
         </Text>
         <Text id="LOC_RED_POLAND_DESC">
-            <en_US>Compatibility mod for R.E.D. Modpack and Poland DLC.</en_US>
+            <en_US>Compatibility mod for R.E.D Total War Modpack and Poland DLC.</en_US>
         </Text>        
     </LocalizedText>
 	
 	<Dependencies>
 		<Mod id="3809975F-263F-40A2-A747-8BFB171D821A" title="Poland DLC" />
-		<Mod id="8670da15-d435-44ea-9758-7438cb321411" title="R.E.D. Modpack" />
+		<Mod id="41be36e2-a330-4c87-b8ad-27d18e918997" title="R.E.D Total War Modpack" />
 	</Dependencies>
 	
     <Files>

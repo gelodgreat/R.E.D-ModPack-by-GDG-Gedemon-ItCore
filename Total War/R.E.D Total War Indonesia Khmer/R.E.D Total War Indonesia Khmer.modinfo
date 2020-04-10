@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Mod id="ef0f51ed-1b28-47b5-abd2-97cff86bbb44">
+<Mod id="1861a763-24cb-4bdd-9753-cdbbe2328678">
     <Properties>
         <Name>LOC_RED_INDONESIA_KHMER_NAME</Name>
         <Teaser>LOC_RED_INDONESIA_KHMER_DESC</Teaser>
 		<Description>LOC_RED_INDONESIA_KHMER_DESC</Description>
-		<Authors>ITcore,Gedemon</Authors>
+		<Authors>ITcore,Gedemon,GeloDGreat</Authors>
 		<AffectsSavedGames>0</AffectsSavedGames>
 	<CompatibleVersions>2.0</CompatibleVersions>
     </Properties>
     <LocalizedText>
         <Text id="LOC_RED_INDONESIA_KHMER_NAME">
-            <en_US>R.E.D. for Indonesia Khmer DLC</en_US>
+            <en_US>R.E.D Total War for Indonesia Khmer DLC</en_US>
         </Text>
         <Text id="LOC_RED_INDONESIA_KHMER_DESC">
-            <en_US>R.E.D. Modpack for Indonesia Khmer DLC.</en_US>
+            <en_US>R.E.D Total War Modpack for Indonesia Khmer DLC.</en_US>
         </Text>        
     </LocalizedText>
 	
 	<Dependencies>
 		<Mod id="1F367231-A040-4793-BDBB-088816853683" title="Indonesia Khmer DLC" />
-		<Mod id="8670da15-d435-44ea-9758-7438cb321411" title="R.E.D. Modpack" />
+		<Mod id="41be36e2-a330-4c87-b8ad-27d18e918997" title="R.E.D Total War Modpack" />
 	</Dependencies>
 	
     <Files>
