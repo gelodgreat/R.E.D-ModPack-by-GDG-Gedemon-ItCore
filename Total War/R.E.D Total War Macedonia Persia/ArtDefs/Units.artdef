@@ -289,7 +289,7 @@
 				<m_Fields>
 					<m_Values>
 						<Element class="AssetObjects:ArtDefReferenceValue">
-							<m_ElementName text="Scattered"/>
+							<m_ElementName text="Pikeman"/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
 							<m_CollectionIsLocked>false</m_CollectionIsLocked>

@@ -26,9 +26,9 @@
         <File>RED_Poland_DLC.dep</File>      
     </Files>    
     <Components>
-        <ModArt id="RED_POLAND_ModArt">
+        <ModArt id="REDTWPoland">
             <Items>
-                <File>RED_Poland_DLC.dep</File>
+                <File>REDTWPoland.dep</File>
             </Items>
         </ModArt>
     </Components>

@@ -24,9 +24,9 @@
         <File>REDModpack_RF.dep</File>
     </Files>
     <Components>
-        <ModArt id="REDModpack_RF">
+        <ModArt id="REDTWModPackRF">
             <Items>
-                <File>REDModpack_RF.dep</File>
+                <File>REDTWModPackRF.dep</File>
             </Items>
         </ModArt>
     </Components>

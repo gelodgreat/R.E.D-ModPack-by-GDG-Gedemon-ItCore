@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <AssetObjects::GameDependencyData>
     <ID>
-        <name text="REDModpack"/>
-        <id text="8670da15-d435-44ea-9758-7438cb321411"/>
+        <name text="REDTWMP"/>
+        <id text="41be36e2-a330-4c87-b8ad-27d18e918997"/>
     </ID>
     <SystemDependencies>
         <Element>

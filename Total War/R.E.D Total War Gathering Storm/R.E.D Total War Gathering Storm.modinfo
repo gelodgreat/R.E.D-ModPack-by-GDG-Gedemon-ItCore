@@ -23,15 +23,15 @@
 	</Dependencies>
 	
     <Files>
-        <File>RED_Gathering_Storm.dep</File>      
+        <File>REDTWGatheringStorm.dep</File>      
     </Files>    
     <Components>
-		<Properties>
+		<!-- <Properties>
 				<LoadOrder>1010</LoadOrder>
-			</Properties>
-        <ModArt id="RED_XP2_ModArt">
+			</Properties> -->
+        <ModArt id="REDTWGatheringStorm">
             <Items>
-                <File>RED_Gathering_Storm.dep</File>
+                <File>REDTWGatheringStorm.dep</File>
             </Items>
         </ModArt>
     </Components>

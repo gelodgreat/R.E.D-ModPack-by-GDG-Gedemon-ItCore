@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <AssetObjects::GameDependencyData>
     <ID>
-        <name text="REDforMacedoniaPersia"/>
-        <id text="88f20067-6180-40f3-9daf-2320a57516f6"/>
+        <name text="REDTWIndonesiaKhmer"/>
+        <id text="1861a763-24cb-4bdd-9753-cdbbe2328678"/>
     </ID>
 	<RequiredGameArtIDs>
 		<Element>
-			<name text="DLC4"/>
-			<id text="d5642886-43d5-4ce9-9465-3a47b5c70096"/>
+			<name text="DLC6"/>
+			<id text="4fd22d21-5ec7-4ce9-aca6-8d8b623e5a82"/>
 		</Element>
 	</RequiredGameArtIDs>
     <SystemDependencies>

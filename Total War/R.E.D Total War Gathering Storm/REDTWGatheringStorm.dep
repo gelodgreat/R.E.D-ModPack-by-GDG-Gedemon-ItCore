@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <AssetObjects::GameDependencyData>
     <ID>
-        <name text="REDforNubia"/>
-        <id text="de038e0f-0b13-4525-9c3b-41d559a865fd"/>
+        <name text="REDTWGatheringStorm"/>
+        <id text="f6f6b56a-70ab-4d0c-a710-2f7698696556"/>
     </ID>
 	<RequiredGameArtIDs>
 		<Element>
-			<name text="DLC5"/>
-			<id text="754001af-1b3f-43a5-8138-8fb13e2bf173"/>
+			<name text="Expansion2"/>
+			<id text="b1b63999-6b16-4dd2-a5b6-eb19794aa8ca"/>
 		</Element>
 	</RequiredGameArtIDs>
     <SystemDependencies>

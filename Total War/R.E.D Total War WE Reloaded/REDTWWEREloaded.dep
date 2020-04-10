@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects::GameDependencyData>
+    <ID>
+        <name text="R.E.D Total War: Warfare Expanded Reloaded" />
+        <id text="3685a762-3af1-41c5-98e7-45dd22a9f2c8" />
+    </ID>
+    <RequiredGameArtIDs>
+        <Element>
+            <name text="Warfare Expanded" />
+            <id text="38a49494-5ec4-46ac-b01b-9629d96950f3" />
+        </Element>
+        <Element>
+            <name text="Expansion2" />
+            <id text="b1b63999-6b16-4dd2-a5b6-eb19794aa8ca" />
+        </Element>
+        <!-- <Element>
+            <name text="R.E.D Total War Modpack" />
+            <id text="41be36e2-a330-4c87-b8ad-27d18e918997" />
+        </Element> -->
+    </RequiredGameArtIDs>
+    <SystemDependencies>
+        <Element>
+            <ConsumerName text="Units" />
+            <ArtDefDependencyPaths>
+                <Element text="Units.artdef" />
+            </ArtDefDependencyPaths>
+        </Element>
+        <Element>
+            <ConsumerName text="Units" />
+            <ArtDefDependencyPaths>
+                <Element text="Units_UnitFormationTypes.artdef" />
+            </ArtDefDependencyPaths>
+        </Element>
+    </SystemDependencies>
+</AssetObjects::GameDependencyData>

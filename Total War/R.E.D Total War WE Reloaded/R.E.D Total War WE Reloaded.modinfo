@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Mod id="41be36e2-a330-4c87-b8ad-27d18e918997">
+<Mod id="3685a762-3af1-41c5-98e7-45dd22a9f2c8">
     <Properties>
         <Name>LOC_RED_MODPACK_NAME</Name>
         <Teaser>LOC_RED_MODPACK_DESC</Teaser>
@@ -10,21 +10,27 @@
     </Properties>
     <LocalizedText>
         <Text id="LOC_RED_MODPACK_NAME">
-            <en_US>R.E.D Total War Modpack</en_US>
+            <en_US>R.E.D Total War: Warfare Expanded Reloaded</en_US>
         </Text>
         <Text id="LOC_RED_MODPACK_DESC">
             <en_US>Units rescaling and formations.</en_US>
         </Text>
     </LocalizedText>
     <InGameActions>
-        <UpdateArt id="REDTWMP">
+        <UpdateArt id="REDTWWEREloaded">
             <Properties>
                 <LoadOrder>999999</LoadOrder>
             </Properties>
-            <File>REDTWMP.dep</File>
+            <File>REDTWWEREloaded.dep</File>
         </UpdateArt>
     </InGameActions>
+    <Dependencies>
+        <Mod id="41be36e2-a330-4c87-b8ad-27d18e918997" title="R.E.D Total War Modpack" />
+        <Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Expansion: Rise and Fall" />
+        <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+        <Mod id="38a49494-5ec4-46ac-b01b-9629d96950f3" title="Warfare Expanded: Reloaded" />
+    </Dependencies>
     <Files>
-        <File>REDTWMP.dep</File>
+        <File>REDTWWEREloaded.dep</File>
     </Files>
 </Mod>

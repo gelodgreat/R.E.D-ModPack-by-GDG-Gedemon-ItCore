@@ -29,9 +29,9 @@
 		<Properties>
 			<LoadOrder>1010</LoadOrder>
 		</Properties>
-        <ModArt id="RED_NUBIA_ModArt">
+        <ModArt id="REDTWNubia">
             <Items>
-                <File>RED_Nubia_DLC.dep</File>
+                <File>REDTWNubia.dep</File>
             </Items>
         </ModArt>
     </Components>

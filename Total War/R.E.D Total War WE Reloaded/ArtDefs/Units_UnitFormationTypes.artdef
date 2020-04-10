@@ -1,0 +1,3248 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..ArtDefSet>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>451</build>
+		<revision>343</revision>
+	</m_Version>
+	<m_TemplateName text="Units" />
+	<m_RootCollections>
+		<Element>
+			<m_CollectionName text="UnitFormationTypes" />
+			<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>30.000000</m_fValue>
+							<m_ParamName text="SpacingX" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>30.000000</m_fValue>
+							<m_ParamName text="SpacingY" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>1.000000</m_fValue>
+							<m_ParamName text="SpacingMultiplier" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="PerRowIncrement" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="YOffsetIncrement" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>true</m_bValue>
+							<m_ParamName text="YOffsetIsCurved" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="StaggerIncrement" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="MemberRandomness" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="BlockRandomness" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>2</m_nValue>
+							<m_ParamName text="FirstRowWidth" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="XBlockSize" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="XBlockSpacingCount" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="YBlockSize" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="YBlockSpacingCount" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="CenterBlockWidth" />
+						</Element>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="Block" />
+							<m_RootCollectionName text="UnitFormationLayoutTypes" />
+							<m_ArtDefPath text="Units.artdef" />
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="" />
+							<m_ParamName text="Type" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="MinimumRadius" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="FacingBlend" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="MinimizeRows" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="ArcSize" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>true</m_bValue>
+							<m_ParamName text="CanMirrorFrontToBack" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>true</m_bValue>
+							<m_ParamName text="CanFlipLeftToRight" />
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections />
+				<m_Name text="MechanizedFormation" />
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>9.000000</m_fValue>
+							<m_ParamName text="SpacingX" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>12.000000</m_fValue>
+							<m_ParamName text="SpacingY" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>1.000000</m_fValue>
+							<m_ParamName text="SpacingMultiplier" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="PerRowIncrement" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="YOffsetIncrement" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="YOffsetIsCurved" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="StaggerIncrement" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="MemberRandomness" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="BlockRandomness" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>4</m_nValue>
+							<m_ParamName text="FirstRowWidth" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="XBlockSize" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="XBlockSpacingCount" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="YBlockSize" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="YBlockSpacingCount" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="CenterBlockWidth" />
+						</Element>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="Block" />
+							<m_RootCollectionName text="UnitFormationLayoutTypes" />
+							<m_ArtDefPath text="Units.artdef" />
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="" />
+							<m_ParamName text="Type" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="MinimumRadius" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="FacingBlend" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="MinimizeRows" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="ArcSize" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="CanMirrorFrontToBack" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="CanFlipLeftToRight" />
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections />
+				<m_Name text="LineInfantryFormation" />
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>11.000000</m_fValue>
+							<m_ParamName text="SpacingX" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>12.000000</m_fValue>
+							<m_ParamName text="SpacingY" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>1.000000</m_fValue>
+							<m_ParamName text="SpacingMultiplier" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="PerRowIncrement" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="YOffsetIncrement" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="YOffsetIsCurved" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="StaggerIncrement" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="MemberRandomness" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="BlockRandomness" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>3</m_nValue>
+							<m_ParamName text="FirstRowWidth" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="XBlockSize" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="XBlockSpacingCount" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="YBlockSize" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="YBlockSpacingCount" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="CenterBlockWidth" />
+						</Element>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="Block" />
+							<m_RootCollectionName text="UnitFormationLayoutTypes" />
+							<m_ArtDefPath text="Units.artdef" />
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="Units" />
+							<m_ParamName text="Type" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="MinimumRadius" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="FacingBlend" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="MinimizeRows" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="ArcSize" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="CanMirrorFrontToBack" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="CanFlipLeftToRight" />
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections />
+				<m_Name text="FeudalSpearmen" />
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>12.000000</m_fValue>
+							<m_ParamName text="SpacingX" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>12.000000</m_fValue>
+							<m_ParamName text="SpacingY" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>1.000000</m_fValue>
+							<m_ParamName text="SpacingMultiplier" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="PerRowIncrement" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="YOffsetIncrement" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="YOffsetIsCurved" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="StaggerIncrement" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="MemberRandomness" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="BlockRandomness" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>3</m_nValue>
+							<m_ParamName text="FirstRowWidth" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="XBlockSize" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="XBlockSpacingCount" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="YBlockSize" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="YBlockSpacingCount" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="CenterBlockWidth" />
+						</Element>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="Block" />
+							<m_RootCollectionName text="UnitFormationLayoutTypes" />
+							<m_ArtDefPath text="Units.artdef" />
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="Units" />
+							<m_ParamName text="Type" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="MinimumRadius" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="FacingBlend" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="MinimizeRows" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>90.000000</m_fValue>
+							<m_ParamName text="ArcSize" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>true</m_bValue>
+							<m_ParamName text="CanMirrorFrontToBack" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>true</m_bValue>
+							<m_ParamName text="CanFlipLeftToRight" />
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections />
+				<m_Name text="FeudalSwordsman" />
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>9.000000</m_fValue>
+							<m_ParamName text="SpacingX" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>12.000000</m_fValue>
+							<m_ParamName text="SpacingY" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>1.000000</m_fValue>
+							<m_ParamName text="SpacingMultiplier" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="PerRowIncrement" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="YOffsetIncrement" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="YOffsetIsCurved" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="StaggerIncrement" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="MemberRandomness" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="BlockRandomness" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>3</m_nValue>
+							<m_ParamName text="FirstRowWidth" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="XBlockSize" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="XBlockSpacingCount" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="YBlockSize" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="YBlockSpacingCount" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="CenterBlockWidth" />
+						</Element>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="Block" />
+							<m_RootCollectionName text="UnitFormationLayoutTypes" />
+							<m_ArtDefPath text="Units.artdef" />
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="Units" />
+							<m_ParamName text="Type" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="MinimumRadius" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="FacingBlend" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="MinimizeRows" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="ArcSize" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>true</m_bValue>
+							<m_ParamName text="CanMirrorFrontToBack" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>true</m_bValue>
+							<m_ParamName text="CanFlipLeftToRight" />
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections />
+				<m_Name text="Legion" />
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>11.000000</m_fValue>
+							<m_ParamName text="SpacingX" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>12.000000</m_fValue>
+							<m_ParamName text="SpacingY" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>1.000000</m_fValue>
+							<m_ParamName text="SpacingMultiplier" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="PerRowIncrement" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="YOffsetIncrement" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="YOffsetIsCurved" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="StaggerIncrement" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="MemberRandomness" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="BlockRandomness" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>8</m_nValue>
+							<m_ParamName text="FirstRowWidth" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="XBlockSize" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="XBlockSpacingCount" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="YBlockSize" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="YBlockSpacingCount" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="CenterBlockWidth" />
+						</Element>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="Block" />
+							<m_RootCollectionName text="UnitFormationLayoutTypes" />
+							<m_ArtDefPath text="Units.artdef" />
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="Units" />
+							<m_ParamName text="Type" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="MinimumRadius" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="FacingBlend" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="MinimizeRows" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="ArcSize" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>true</m_bValue>
+							<m_ParamName text="CanMirrorFrontToBack" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>true</m_bValue>
+							<m_ParamName text="CanFlipLeftToRight" />
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections />
+				<m_Name text="HeavyInfantry" />
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>12.000000</m_fValue>
+							<m_ParamName text="SpacingX" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>8.000000</m_fValue>
+							<m_ParamName text="SpacingY" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>1.000000</m_fValue>
+							<m_ParamName text="SpacingMultiplier" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="PerRowIncrement" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="YOffsetIncrement" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="YOffsetIsCurved" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="StaggerIncrement" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="MemberRandomness" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="BlockRandomness" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>3</m_nValue>
+							<m_ParamName text="FirstRowWidth" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="XBlockSize" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="XBlockSpacingCount" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="YBlockSize" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="YBlockSpacingCount" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="CenterBlockWidth" />
+						</Element>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="RowArc" />
+							<m_RootCollectionName text="UnitFormationLayoutTypes" />
+							<m_ArtDefPath text="Units.artdef" />
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="Units" />
+							<m_ParamName text="Type" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="MinimumRadius" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="FacingBlend" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="MinimizeRows" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>90.000000</m_fValue>
+							<m_ParamName text="ArcSize" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>true</m_bValue>
+							<m_ParamName text="CanMirrorFrontToBack" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>true</m_bValue>
+							<m_ParamName text="CanFlipLeftToRight" />
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections />
+				<m_Name text="Pikeman_2 Ranks" />
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>45.000000</m_fValue>
+							<m_ParamName text="SpacingX" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>22.000000</m_fValue>
+							<m_ParamName text="SpacingY" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>1.000000</m_fValue>
+							<m_ParamName text="SpacingMultiplier" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="PerRowIncrement" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="YOffsetIncrement" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="YOffsetIsCurved" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>5</m_nValue>
+							<m_ParamName text="StaggerIncrement" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="MemberRandomness" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="BlockRandomness" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>1</m_nValue>
+							<m_ParamName text="FirstRowWidth" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="XBlockSize" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="XBlockSpacingCount" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="YBlockSize" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="YBlockSpacingCount" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="CenterBlockWidth" />
+						</Element>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="Block" />
+							<m_RootCollectionName text="UnitFormationLayoutTypes" />
+							<m_ArtDefPath text="Units.artdef" />
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="Units" />
+							<m_ParamName text="Type" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="MinimumRadius" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="FacingBlend" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="MinimizeRows" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="ArcSize" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>true</m_bValue>
+							<m_ParamName text="CanMirrorFrontToBack" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>true</m_bValue>
+							<m_ParamName text="CanFlipLeftToRight" />
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections />
+				<m_Name text="Air_Fighters" />
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>12.000000</m_fValue>
+							<m_ParamName text="SpacingX" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>12.000000</m_fValue>
+							<m_ParamName text="SpacingY" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>1.000000</m_fValue>
+							<m_ParamName text="SpacingMultiplier" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="PerRowIncrement" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>1.000000</m_fValue>
+							<m_ParamName text="YOffsetIncrement" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>true</m_bValue>
+							<m_ParamName text="YOffsetIsCurved" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="StaggerIncrement" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="MemberRandomness" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="BlockRandomness" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>4</m_nValue>
+							<m_ParamName text="FirstRowWidth" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="XBlockSize" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="XBlockSpacingCount" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="YBlockSize" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="YBlockSpacingCount" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="CenterBlockWidth" />
+						</Element>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="RowArc" />
+							<m_RootCollectionName text="UnitFormationLayoutTypes" />
+							<m_ArtDefPath text="Units.artdef" />
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="Units" />
+							<m_ParamName text="Type" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="MinimumRadius" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="FacingBlend" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="MinimizeRows" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>90.000000</m_fValue>
+							<m_ParamName text="ArcSize" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>true</m_bValue>
+							<m_ParamName text="CanMirrorFrontToBack" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>true</m_bValue>
+							<m_ParamName text="CanFlipLeftToRight" />
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections />
+				<m_Name text="Archer" />
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>40.000000</m_fValue>
+							<m_ParamName text="SpacingX" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>-5.000000</m_fValue>
+							<m_ParamName text="SpacingY" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>1.000000</m_fValue>
+							<m_ParamName text="SpacingMultiplier" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="PerRowIncrement" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="YOffsetIncrement" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="YOffsetIsCurved" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>3</m_nValue>
+							<m_ParamName text="StaggerIncrement" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="MemberRandomness" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="BlockRandomness" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>1</m_nValue>
+							<m_ParamName text="FirstRowWidth" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="XBlockSize" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="XBlockSpacingCount" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="YBlockSize" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="YBlockSpacingCount" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="CenterBlockWidth" />
+						</Element>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="Block" />
+							<m_RootCollectionName text="UnitFormationLayoutTypes" />
+							<m_ArtDefPath text="Units.artdef" />
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="Units" />
+							<m_ParamName text="Type" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="MinimumRadius" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="FacingBlend" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="MinimizeRows" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="ArcSize" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="CanMirrorFrontToBack" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>true</m_bValue>
+							<m_ParamName text="CanFlipLeftToRight" />
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections />
+				<m_Name text="Artillery" />
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>25.000000</m_fValue>
+							<m_ParamName text="SpacingX" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>8.000000</m_fValue>
+							<m_ParamName text="SpacingY" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>1.000000</m_fValue>
+							<m_ParamName text="SpacingMultiplier" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="PerRowIncrement" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="YOffsetIncrement" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="YOffsetIsCurved" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>1</m_nValue>
+							<m_ParamName text="StaggerIncrement" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="MemberRandomness" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="BlockRandomness" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>1</m_nValue>
+							<m_ParamName text="FirstRowWidth" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="XBlockSize" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="XBlockSpacingCount" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="YBlockSize" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="YBlockSpacingCount" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="CenterBlockWidth" />
+						</Element>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="Block" />
+							<m_RootCollectionName text="UnitFormationLayoutTypes" />
+							<m_ArtDefPath text="Units.artdef" />
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="Units" />
+							<m_ParamName text="Type" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="MinimumRadius" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.500000</m_fValue>
+							<m_ParamName text="FacingBlend" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="MinimizeRows" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="ArcSize" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>true</m_bValue>
+							<m_ParamName text="CanMirrorFrontToBack" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>true</m_bValue>
+							<m_ParamName text="CanFlipLeftToRight" />
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections />
+				<m_Name text="AT_Crew" />
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="SpacingX" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="SpacingY" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>1.000000</m_fValue>
+							<m_ParamName text="SpacingMultiplier" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="PerRowIncrement" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="YOffsetIncrement" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>true</m_bValue>
+							<m_ParamName text="YOffsetIsCurved" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="StaggerIncrement" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="MemberRandomness" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="BlockRandomness" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>1</m_nValue>
+							<m_ParamName text="FirstRowWidth" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="XBlockSize" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="XBlockSpacingCount" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="YBlockSize" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="YBlockSpacingCount" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="CenterBlockWidth" />
+						</Element>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="RowArc" />
+							<m_RootCollectionName text="UnitFormationLayoutTypes" />
+							<m_ArtDefPath text="Units.artdef" />
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="Units" />
+							<m_ParamName text="Type" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="MinimumRadius" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="FacingBlend" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="MinimizeRows" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>120.000000</m_fValue>
+							<m_ParamName text="ArcSize" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>true</m_bValue>
+							<m_ParamName text="CanMirrorFrontToBack" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>true</m_bValue>
+							<m_ParamName text="CanFlipLeftToRight" />
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections />
+				<m_Name text="Battleship" />
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>10.000000</m_fValue>
+							<m_ParamName text="SpacingX" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>10.000000</m_fValue>
+							<m_ParamName text="SpacingY" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>1.000000</m_fValue>
+							<m_ParamName text="SpacingMultiplier" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="PerRowIncrement" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="YOffsetIncrement" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>true</m_bValue>
+							<m_ParamName text="YOffsetIsCurved" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="StaggerIncrement" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="MemberRandomness" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="BlockRandomness" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>2</m_nValue>
+							<m_ParamName text="FirstRowWidth" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="XBlockSize" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="XBlockSpacingCount" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="YBlockSize" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="YBlockSpacingCount" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="CenterBlockWidth" />
+						</Element>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="Block" />
+							<m_RootCollectionName text="UnitFormationLayoutTypes" />
+							<m_ArtDefPath text="Units.artdef" />
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="Units" />
+							<m_ParamName text="Type" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="MinimumRadius" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="FacingBlend" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="MinimizeRows" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>180.000000</m_fValue>
+							<m_ParamName text="ArcSize" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>true</m_bValue>
+							<m_ParamName text="CanMirrorFrontToBack" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>true</m_bValue>
+							<m_ParamName text="CanFlipLeftToRight" />
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections />
+				<m_Name text="Builder" />
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>35.000000</m_fValue>
+							<m_ParamName text="SpacingX" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>1.000000</m_fValue>
+							<m_ParamName text="SpacingY" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>1.000000</m_fValue>
+							<m_ParamName text="SpacingMultiplier" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="PerRowIncrement" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>10.000000</m_fValue>
+							<m_ParamName text="YOffsetIncrement" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="YOffsetIsCurved" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>3</m_nValue>
+							<m_ParamName text="StaggerIncrement" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="MemberRandomness" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="BlockRandomness" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>1</m_nValue>
+							<m_ParamName text="FirstRowWidth" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="XBlockSize" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="XBlockSpacingCount" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="YBlockSize" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="YBlockSpacingCount" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="CenterBlockWidth" />
+						</Element>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="Block" />
+							<m_RootCollectionName text="UnitFormationLayoutTypes" />
+							<m_ArtDefPath text="Units.artdef" />
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="Units" />
+							<m_ParamName text="Type" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="MinimumRadius" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="FacingBlend" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="MinimizeRows" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="ArcSize" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="CanMirrorFrontToBack" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>true</m_bValue>
+							<m_ParamName text="CanFlipLeftToRight" />
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections />
+				<m_Name text="Catapult" />
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>25.000000</m_fValue>
+							<m_ParamName text="SpacingX" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>15.000000</m_fValue>
+							<m_ParamName text="SpacingY" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>1.000000</m_fValue>
+							<m_ParamName text="SpacingMultiplier" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>2</m_nValue>
+							<m_ParamName text="PerRowIncrement" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>20.000000</m_fValue>
+							<m_ParamName text="YOffsetIncrement" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>true</m_bValue>
+							<m_ParamName text="YOffsetIsCurved" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="StaggerIncrement" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="MemberRandomness" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="BlockRandomness" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>2</m_nValue>
+							<m_ParamName text="FirstRowWidth" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="XBlockSize" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="XBlockSpacingCount" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="YBlockSize" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="YBlockSpacingCount" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="CenterBlockWidth" />
+						</Element>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="RowArc" />
+							<m_RootCollectionName text="UnitFormationLayoutTypes" />
+							<m_ArtDefPath text="Units.artdef" />
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="Units" />
+							<m_ParamName text="Type" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="MinimumRadius" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.500000</m_fValue>
+							<m_ParamName text="FacingBlend" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="MinimizeRows" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>120.000000</m_fValue>
+							<m_ParamName text="ArcSize" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="CanMirrorFrontToBack" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>true</m_bValue>
+							<m_ParamName text="CanFlipLeftToRight" />
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections />
+				<m_Name text="Galley" />
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>20.000000</m_fValue>
+							<m_ParamName text="SpacingX" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>20.000000</m_fValue>
+							<m_ParamName text="SpacingY" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>1.000000</m_fValue>
+							<m_ParamName text="SpacingMultiplier" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="PerRowIncrement" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="YOffsetIncrement" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>true</m_bValue>
+							<m_ParamName text="YOffsetIsCurved" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="StaggerIncrement" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="MemberRandomness" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="BlockRandomness" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>2</m_nValue>
+							<m_ParamName text="FirstRowWidth" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="XBlockSize" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="XBlockSpacingCount" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="YBlockSize" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="YBlockSpacingCount" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="CenterBlockWidth" />
+						</Element>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="RowArc" />
+							<m_RootCollectionName text="UnitFormationLayoutTypes" />
+							<m_ArtDefPath text="Units.artdef" />
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="Units" />
+							<m_ParamName text="Type" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="MinimumRadius" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>1.000000</m_fValue>
+							<m_ParamName text="FacingBlend" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="MinimizeRows" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>60.000000</m_fValue>
+							<m_ParamName text="ArcSize" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>true</m_bValue>
+							<m_ParamName text="CanMirrorFrontToBack" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>true</m_bValue>
+							<m_ParamName text="CanFlipLeftToRight" />
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections />
+				<m_Name text="Horsemen" />
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>15.000000</m_fValue>
+							<m_ParamName text="SpacingX" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>14.000000</m_fValue>
+							<m_ParamName text="SpacingY" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>1.000000</m_fValue>
+							<m_ParamName text="SpacingMultiplier" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="PerRowIncrement" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>10.000000</m_fValue>
+							<m_ParamName text="YOffsetIncrement" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="YOffsetIsCurved" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>2</m_nValue>
+							<m_ParamName text="StaggerIncrement" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="MemberRandomness" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="BlockRandomness" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>1</m_nValue>
+							<m_ParamName text="FirstRowWidth" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="XBlockSize" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="XBlockSpacingCount" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="YBlockSize" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="YBlockSpacingCount" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="CenterBlockWidth" />
+						</Element>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="Block" />
+							<m_RootCollectionName text="UnitFormationLayoutTypes" />
+							<m_ArtDefPath text="Units.artdef" />
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="Units" />
+							<m_ParamName text="Type" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="MinimumRadius" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="FacingBlend" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="MinimizeRows" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="ArcSize" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>true</m_bValue>
+							<m_ParamName text="CanMirrorFrontToBack" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>true</m_bValue>
+							<m_ParamName text="CanFlipLeftToRight" />
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections />
+				<m_Name text="Infantry" />
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>50.000000</m_fValue>
+							<m_ParamName text="SpacingX" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>10.000000</m_fValue>
+							<m_ParamName text="SpacingY" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>1.000000</m_fValue>
+							<m_ParamName text="SpacingMultiplier" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="PerRowIncrement" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>10.000000</m_fValue>
+							<m_ParamName text="YOffsetIncrement" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="YOffsetIsCurved" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>3</m_nValue>
+							<m_ParamName text="StaggerIncrement" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="MemberRandomness" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="BlockRandomness" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>1</m_nValue>
+							<m_ParamName text="FirstRowWidth" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="XBlockSize" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="XBlockSpacingCount" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="YBlockSize" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="YBlockSpacingCount" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="CenterBlockWidth" />
+						</Element>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="Block" />
+							<m_RootCollectionName text="UnitFormationLayoutTypes" />
+							<m_ArtDefPath text="Units.artdef" />
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="Units" />
+							<m_ParamName text="Type" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="MinimumRadius" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="FacingBlend" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="MinimizeRows" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="ArcSize" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>true</m_bValue>
+							<m_ParamName text="CanMirrorFrontToBack" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>true</m_bValue>
+							<m_ParamName text="CanFlipLeftToRight" />
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections />
+				<m_Name text="MachineGun" />
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>1.000000</m_fValue>
+							<m_ParamName text="SpacingX" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>1.000000</m_fValue>
+							<m_ParamName text="SpacingY" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>1.000000</m_fValue>
+							<m_ParamName text="SpacingMultiplier" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="PerRowIncrement" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="YOffsetIncrement" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="YOffsetIsCurved" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="StaggerIncrement" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="MemberRandomness" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="BlockRandomness" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>1</m_nValue>
+							<m_ParamName text="FirstRowWidth" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="XBlockSize" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="XBlockSpacingCount" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="YBlockSize" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="YBlockSpacingCount" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="CenterBlockWidth" />
+						</Element>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="Block" />
+							<m_RootCollectionName text="UnitFormationLayoutTypes" />
+							<m_ArtDefPath text="Units.artdef" />
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="Units" />
+							<m_ParamName text="Type" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="MinimumRadius" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="FacingBlend" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="MinimizeRows" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="ArcSize" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>true</m_bValue>
+							<m_ParamName text="CanMirrorFrontToBack" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>true</m_bValue>
+							<m_ParamName text="CanFlipLeftToRight" />
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections />
+				<m_Name text="ModernArmor" />
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>19.000000</m_fValue>
+							<m_ParamName text="SpacingX" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>15.000000</m_fValue>
+							<m_ParamName text="SpacingY" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>1.000000</m_fValue>
+							<m_ParamName text="SpacingMultiplier" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="PerRowIncrement" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>1.000000</m_fValue>
+							<m_ParamName text="YOffsetIncrement" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="YOffsetIsCurved" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="StaggerIncrement" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="MemberRandomness" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="BlockRandomness" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>4</m_nValue>
+							<m_ParamName text="FirstRowWidth" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="XBlockSize" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="XBlockSpacingCount" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="YBlockSize" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="YBlockSpacingCount" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="CenterBlockWidth" />
+						</Element>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="RowArc" />
+							<m_RootCollectionName text="UnitFormationLayoutTypes" />
+							<m_ArtDefPath text="Units.artdef" />
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="Units" />
+							<m_ParamName text="Type" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="MinimumRadius" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="FacingBlend" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="MinimizeRows" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>120.000000</m_fValue>
+							<m_ParamName text="ArcSize" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>true</m_bValue>
+							<m_ParamName text="CanMirrorFrontToBack" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>true</m_bValue>
+							<m_ParamName text="CanFlipLeftToRight" />
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections />
+				<m_Name text="Naval" />
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>12.000000</m_fValue>
+							<m_ParamName text="SpacingX" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>8.000000</m_fValue>
+							<m_ParamName text="SpacingY" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>1.000000</m_fValue>
+							<m_ParamName text="SpacingMultiplier" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="PerRowIncrement" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="YOffsetIncrement" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="YOffsetIsCurved" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="StaggerIncrement" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="MemberRandomness" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="BlockRandomness" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>4</m_nValue>
+							<m_ParamName text="FirstRowWidth" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="XBlockSize" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="XBlockSpacingCount" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="YBlockSize" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="YBlockSpacingCount" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="CenterBlockWidth" />
+						</Element>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="RowArc" />
+							<m_RootCollectionName text="UnitFormationLayoutTypes" />
+							<m_ArtDefPath text="Units.artdef" />
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="Units" />
+							<m_ParamName text="Type" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="MinimumRadius" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="FacingBlend" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="MinimizeRows" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>90.000000</m_fValue>
+							<m_ParamName text="ArcSize" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>true</m_bValue>
+							<m_ParamName text="CanMirrorFrontToBack" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>true</m_bValue>
+							<m_ParamName text="CanFlipLeftToRight" />
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections />
+				<m_Name text="Pikeman" />
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>9.000000</m_fValue>
+							<m_ParamName text="SpacingX" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>12.000000</m_fValue>
+							<m_ParamName text="SpacingY" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>1.000000</m_fValue>
+							<m_ParamName text="SpacingMultiplier" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="PerRowIncrement" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="YOffsetIncrement" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="YOffsetIsCurved" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="StaggerIncrement" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="MemberRandomness" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="BlockRandomness" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>8</m_nValue>
+							<m_ParamName text="FirstRowWidth" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="XBlockSize" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="XBlockSpacingCount" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="YBlockSize" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="YBlockSpacingCount" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="CenterBlockWidth" />
+						</Element>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="Block" />
+							<m_RootCollectionName text="UnitFormationLayoutTypes" />
+							<m_ArtDefPath text="Units.artdef" />
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="Units" />
+							<m_ParamName text="Type" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="MinimumRadius" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="FacingBlend" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="MinimizeRows" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="ArcSize" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>true</m_bValue>
+							<m_ParamName text="CanMirrorFrontToBack" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>true</m_bValue>
+							<m_ParamName text="CanFlipLeftToRight" />
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections />
+				<m_Name text="Redcoat" />
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>18.000000</m_fValue>
+							<m_ParamName text="SpacingX" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>22.000000</m_fValue>
+							<m_ParamName text="SpacingY" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>1.000000</m_fValue>
+							<m_ParamName text="SpacingMultiplier" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="PerRowIncrement" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="YOffsetIncrement" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="YOffsetIsCurved" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>5</m_nValue>
+							<m_ParamName text="StaggerIncrement" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="MemberRandomness" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="BlockRandomness" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>1</m_nValue>
+							<m_ParamName text="FirstRowWidth" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="XBlockSize" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="XBlockSpacingCount" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="YBlockSize" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="YBlockSpacingCount" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="CenterBlockWidth" />
+						</Element>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="Block" />
+							<m_RootCollectionName text="UnitFormationLayoutTypes" />
+							<m_ArtDefPath text="Units.artdef" />
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="Units" />
+							<m_ParamName text="Type" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="MinimumRadius" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="FacingBlend" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="MinimizeRows" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="ArcSize" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>true</m_bValue>
+							<m_ParamName text="CanMirrorFrontToBack" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>true</m_bValue>
+							<m_ParamName text="CanFlipLeftToRight" />
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections />
+				<m_Name text="Scattered" />
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>15.000000</m_fValue>
+							<m_ParamName text="SpacingX" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>16.000000</m_fValue>
+							<m_ParamName text="SpacingY" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>1.000000</m_fValue>
+							<m_ParamName text="SpacingMultiplier" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>3</m_nValue>
+							<m_ParamName text="PerRowIncrement" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>1.000000</m_fValue>
+							<m_ParamName text="YOffsetIncrement" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>true</m_bValue>
+							<m_ParamName text="YOffsetIsCurved" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="StaggerIncrement" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="MemberRandomness" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="BlockRandomness" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>1</m_nValue>
+							<m_ParamName text="FirstRowWidth" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="XBlockSize" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="XBlockSpacingCount" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="YBlockSize" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="YBlockSpacingCount" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="CenterBlockWidth" />
+						</Element>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="RowArc" />
+							<m_RootCollectionName text="UnitFormationLayoutTypes" />
+							<m_ArtDefPath text="Units.artdef" />
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="Units" />
+							<m_ParamName text="Type" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="MinimumRadius" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.800000</m_fValue>
+							<m_ParamName text="FacingBlend" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="MinimizeRows" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>120.000000</m_fValue>
+							<m_ParamName text="ArcSize" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="CanMirrorFrontToBack" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>true</m_bValue>
+							<m_ParamName text="CanFlipLeftToRight" />
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections />
+				<m_Name text="Settler" />
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>5.000000</m_fValue>
+							<m_ParamName text="SpacingX" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>10.000000</m_fValue>
+							<m_ParamName text="SpacingY" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>1.000000</m_fValue>
+							<m_ParamName text="SpacingMultiplier" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>1</m_nValue>
+							<m_ParamName text="PerRowIncrement" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="YOffsetIncrement" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>true</m_bValue>
+							<m_ParamName text="YOffsetIsCurved" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="StaggerIncrement" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="MemberRandomness" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="BlockRandomness" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>3</m_nValue>
+							<m_ParamName text="FirstRowWidth" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="XBlockSize" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>1</m_nValue>
+							<m_ParamName text="XBlockSpacingCount" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="YBlockSize" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="YBlockSpacingCount" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>1</m_nValue>
+							<m_ParamName text="CenterBlockWidth" />
+						</Element>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="Block" />
+							<m_RootCollectionName text="UnitFormationLayoutTypes" />
+							<m_ArtDefPath text="Units.artdef" />
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="Units" />
+							<m_ParamName text="Type" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="MinimumRadius" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="FacingBlend" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="MinimizeRows" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="ArcSize" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>true</m_bValue>
+							<m_ParamName text="CanMirrorFrontToBack" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>true</m_bValue>
+							<m_ParamName text="CanFlipLeftToRight" />
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections />
+				<m_Name text="SettlerEscort" />
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>1.000000</m_fValue>
+							<m_ParamName text="SpacingX" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>1.000000</m_fValue>
+							<m_ParamName text="SpacingY" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>1.000000</m_fValue>
+							<m_ParamName text="SpacingMultiplier" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="PerRowIncrement" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="YOffsetIncrement" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>true</m_bValue>
+							<m_ParamName text="YOffsetIsCurved" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="StaggerIncrement" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="MemberRandomness" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="BlockRandomness" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>1</m_nValue>
+							<m_ParamName text="FirstRowWidth" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="XBlockSize" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="XBlockSpacingCount" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="YBlockSize" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="YBlockSpacingCount" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="CenterBlockWidth" />
+						</Element>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="Block" />
+							<m_RootCollectionName text="UnitFormationLayoutTypes" />
+							<m_ArtDefPath text="Units.artdef" />
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="Units" />
+							<m_ParamName text="Type" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="MinimumRadius" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="FacingBlend" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="MinimizeRows" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="ArcSize" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>true</m_bValue>
+							<m_ParamName text="CanMirrorFrontToBack" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>true</m_bValue>
+							<m_ParamName text="CanFlipLeftToRight" />
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections />
+				<m_Name text="SingleUnitCentered" />
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>10.000000</m_fValue>
+							<m_ParamName text="SpacingX" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>10.000000</m_fValue>
+							<m_ParamName text="SpacingY" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>1.500000</m_fValue>
+							<m_ParamName text="SpacingMultiplier" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>1</m_nValue>
+							<m_ParamName text="PerRowIncrement" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="YOffsetIncrement" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="YOffsetIsCurved" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="StaggerIncrement" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="MemberRandomness" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="BlockRandomness" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>3</m_nValue>
+							<m_ParamName text="FirstRowWidth" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>1</m_nValue>
+							<m_ParamName text="XBlockSize" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="XBlockSpacingCount" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="YBlockSize" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="YBlockSpacingCount" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>1</m_nValue>
+							<m_ParamName text="CenterBlockWidth" />
+						</Element>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="Block" />
+							<m_RootCollectionName text="UnitFormationLayoutTypes" />
+							<m_ArtDefPath text="Units.artdef" />
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="Units" />
+							<m_ParamName text="Type" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="MinimumRadius" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="FacingBlend" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="MinimizeRows" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="ArcSize" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>true</m_bValue>
+							<m_ParamName text="CanMirrorFrontToBack" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>true</m_bValue>
+							<m_ParamName text="CanFlipLeftToRight" />
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections />
+				<m_Name text="Slinger" />
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>35.000000</m_fValue>
+							<m_ParamName text="SpacingX" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>9.000000</m_fValue>
+							<m_ParamName text="SpacingY" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>1.000000</m_fValue>
+							<m_ParamName text="SpacingMultiplier" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="PerRowIncrement" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>10.000000</m_fValue>
+							<m_ParamName text="YOffsetIncrement" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="YOffsetIsCurved" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>1</m_nValue>
+							<m_ParamName text="StaggerIncrement" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="MemberRandomness" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="BlockRandomness" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>1</m_nValue>
+							<m_ParamName text="FirstRowWidth" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="XBlockSize" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="XBlockSpacingCount" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="YBlockSize" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="YBlockSpacingCount" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="CenterBlockWidth" />
+						</Element>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="Block" />
+							<m_RootCollectionName text="UnitFormationLayoutTypes" />
+							<m_ArtDefPath text="Units.artdef" />
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="Units" />
+							<m_ParamName text="Type" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="MinimumRadius" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="FacingBlend" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="MinimizeRows" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="ArcSize" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>true</m_bValue>
+							<m_ParamName text="CanMirrorFrontToBack" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>true</m_bValue>
+							<m_ParamName text="CanFlipLeftToRight" />
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections />
+				<m_Name text="Swordsman" />
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>18.000000</m_fValue>
+							<m_ParamName text="SpacingX" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>14.000000</m_fValue>
+							<m_ParamName text="SpacingY" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>1.000000</m_fValue>
+							<m_ParamName text="SpacingMultiplier" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="PerRowIncrement" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>10.000000</m_fValue>
+							<m_ParamName text="YOffsetIncrement" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="YOffsetIsCurved" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>3</m_nValue>
+							<m_ParamName text="StaggerIncrement" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="MemberRandomness" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="BlockRandomness" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>1</m_nValue>
+							<m_ParamName text="FirstRowWidth" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="XBlockSize" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="XBlockSpacingCount" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="YBlockSize" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="YBlockSpacingCount" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="CenterBlockWidth" />
+						</Element>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="Block" />
+							<m_RootCollectionName text="UnitFormationLayoutTypes" />
+							<m_ArtDefPath text="Units.artdef" />
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="Units" />
+							<m_ParamName text="Type" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="MinimumRadius" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="FacingBlend" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="MinimizeRows" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="ArcSize" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>true</m_bValue>
+							<m_ParamName text="CanMirrorFrontToBack" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>true</m_bValue>
+							<m_ParamName text="CanFlipLeftToRight" />
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections />
+				<m_Name text="Warrior" />
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>32.000000</m_fValue>
+							<m_ParamName text="SpacingX" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>32.000000</m_fValue>
+							<m_ParamName text="SpacingY" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>1.000000</m_fValue>
+							<m_ParamName text="SpacingMultiplier" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="PerRowIncrement" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="YOffsetIncrement" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>true</m_bValue>
+							<m_ParamName text="YOffsetIsCurved" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="StaggerIncrement" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="MemberRandomness" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="BlockRandomness" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>2</m_nValue>
+							<m_ParamName text="FirstRowWidth" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="XBlockSize" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="XBlockSpacingCount" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="YBlockSize" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="YBlockSpacingCount" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="CenterBlockWidth" />
+						</Element>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="Block" />
+							<m_RootCollectionName text="UnitFormationLayoutTypes" />
+							<m_ArtDefPath text="Units.artdef" />
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="Units" />
+							<m_ParamName text="Type" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="MinimumRadius" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="FacingBlend" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="MinimizeRows" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="ArcSize" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>true</m_bValue>
+							<m_ParamName text="CanMirrorFrontToBack" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>true</m_bValue>
+							<m_ParamName text="CanFlipLeftToRight" />
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections />
+				<m_Name text="WarriorEscort" />
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>12.000000</m_fValue>
+							<m_ParamName text="SpacingX" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>12.000000</m_fValue>
+							<m_ParamName text="SpacingY" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>1.000000</m_fValue>
+							<m_ParamName text="SpacingMultiplier" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="PerRowIncrement" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>1.000000</m_fValue>
+							<m_ParamName text="YOffsetIncrement" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>true</m_bValue>
+							<m_ParamName text="YOffsetIsCurved" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="StaggerIncrement" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="MemberRandomness" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="BlockRandomness" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>3</m_nValue>
+							<m_ParamName text="FirstRowWidth" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="XBlockSize" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="XBlockSpacingCount" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="YBlockSize" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="YBlockSpacingCount" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="CenterBlockWidth" />
+						</Element>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="RowArc" />
+							<m_RootCollectionName text="UnitFormationLayoutTypes" />
+							<m_ArtDefPath text="Units.artdef" />
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="Units" />
+							<m_ParamName text="Type" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="MinimumRadius" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="FacingBlend" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="MinimizeRows" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>90.000000</m_fValue>
+							<m_ParamName text="ArcSize" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>true</m_bValue>
+							<m_ParamName text="CanMirrorFrontToBack" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>true</m_bValue>
+							<m_ParamName text="CanFlipLeftToRight" />
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections />
+				<m_Name text="Samurai_WE" />
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>35.000000</m_fValue>
+							<m_ParamName text="SpacingX" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>-15.000000</m_fValue>
+							<m_ParamName text="SpacingY" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>1.000000</m_fValue>
+							<m_ParamName text="SpacingMultiplier" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="PerRowIncrement" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="YOffsetIncrement" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>true</m_bValue>
+							<m_ParamName text="YOffsetIsCurved" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>1</m_nValue>
+							<m_ParamName text="StaggerIncrement" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="MemberRandomness" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="BlockRandomness" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>1</m_nValue>
+							<m_ParamName text="FirstRowWidth" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="XBlockSize" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="XBlockSpacingCount" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="YBlockSize" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="YBlockSpacingCount" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>0</m_nValue>
+							<m_ParamName text="CenterBlockWidth" />
+						</Element>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="Block" />
+							<m_RootCollectionName text="UnitFormationLayoutTypes" />
+							<m_ArtDefPath text="Units.artdef" />
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="Units" />
+							<m_ParamName text="Type" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="MinimumRadius" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="FacingBlend" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="MinimizeRows" />
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>0.000000</m_fValue>
+							<m_ParamName text="ArcSize" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="CanMirrorFrontToBack" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>true</m_bValue>
+							<m_ParamName text="CanFlipLeftToRight" />
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections />
+				<m_Name text="Hwacha" />
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+		</Element>
+	</m_RootCollections>
+</AssetObjects..ArtDefSet>

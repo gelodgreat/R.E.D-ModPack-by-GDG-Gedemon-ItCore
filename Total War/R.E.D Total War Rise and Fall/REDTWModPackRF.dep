@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <AssetObjects::GameDependencyData>
     <ID>
-        <name text="RedModPackRF"/>
-        <id text="8d4c160b-389e-4c42-8bc9-4c4752e05336"/>
+        <name text="REDTWModPackRF"/>
+        <id text="0ab19db8-4196-432d-9aec-4b55d6ea388e"/>
     </ID>
     <RequiredGameArtIDs>
         <Element>

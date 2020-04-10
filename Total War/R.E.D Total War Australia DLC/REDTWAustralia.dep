@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <AssetObjects::GameDependencyData>
     <ID>
-        <name text="REDforAustralia"/>
-        <id text="fdb1d8f6-924d-4a6e-a96f-e90e5ae0180d"/>
+        <name text="REDTWAustralia"/>
+        <id text="99a06ff3-5495-44f5-9437-0b17324c132c"/>
     </ID>
 	<RequiredGameArtIDs>
 		<Element>

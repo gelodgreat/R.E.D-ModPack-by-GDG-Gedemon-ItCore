@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <AssetObjects::GameDependencyData>
     <ID>
-        <name text="REDforPoland"/>
+        <name text="REDTWPoland"/>
         <id text="17b3fede-5505-4aed-88db-5a2026ea1dca"/>
     </ID>
 	<RequiredGameArtIDs>

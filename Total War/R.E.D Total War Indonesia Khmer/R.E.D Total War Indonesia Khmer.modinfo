@@ -23,15 +23,15 @@
 	</Dependencies>
 	
     <Files>
-        <File>RED_Indonesia_Khmer_DLC.dep</File>      
+        <File>REDTWIndonesiaKhmer.dep</File>      
     </Files>    
     <Components>
-		<Properties>
+		<!-- <Properties>
 			<LoadOrder>1010</LoadOrder>
-		</Properties>
-        <ModArt id="RED_INDONESIA_KHMER_ModArt">
+		</Properties> -->
+        <ModArt id="REDTWIndonesiaKhmer">
             <Items>
-                <File>RED_Indonesia_Khmer_DLC.dep</File>
+                <File>REDTWIndonesiaKhmer.dep</File>
             </Items>
         </ModArt>
     </Components>

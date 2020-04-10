@@ -22,12 +22,12 @@
 	</Dependencies>
 	
     <Files>
-        <File>RED_Macedonia_Persia_DLC.dep</File>      
+        <File>REDTWMacedoniaPersia.dep</File>      
     </Files>    
     <Components>
-        <ModArt id="RED_MACEDONIANPERSIA_ModArt">
+        <ModArt id="REDTWMacedoniaPersia">
             <Items>
-                <File>RED_Macedonia_Persia_DLC.dep</File>
+                <File>REDTWMacedoniaPersia.dep</File>
             </Items>
         </ModArt>
     </Components>
