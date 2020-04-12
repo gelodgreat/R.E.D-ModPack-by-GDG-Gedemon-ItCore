@@ -6834,11 +6834,11 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..FloatValue">
-										<m_fValue>1.100000</m_fValue>
+										<m_fValue>0.600000</m_fValue>
 										<m_ParamName text="Scale" />
 									</Element>
 									<Element class="AssetObjects..IntValue">
-										<m_nValue>1</m_nValue>
+										<m_nValue>4</m_nValue>
 										<m_ParamName text="Count" />
 									</Element>
 									<Element class="AssetObjects..ArtDefReferenceValue">
@@ -6863,7 +6863,7 @@
 										<m_ParamName text="Scale" />
 									</Element>
 									<Element class="AssetObjects..IntValue">
-										<m_nValue>6</m_nValue>
+										<m_nValue>2</m_nValue>
 										<m_ParamName text="Count" />
 									</Element>
 									<Element class="AssetObjects..ArtDefReferenceValue">
@@ -14651,6 +14651,8 @@
 				</m_ChildCollections>
 				<m_Name text="UNIT_HELICOPTER" />
 			</Element>
+
+
 			<!-- END CUSTOM ADDED BY GELODGREAT FOR COMPATIIBLITY -->
 
 		</Element>
