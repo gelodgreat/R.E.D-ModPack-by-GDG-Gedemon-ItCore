@@ -1,26 +1,32 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <AssetObjects::GameDependencyData>
     <ID>
-        <name text="REDTWMP"/>
-        <id text="41be36e2-a330-4c87-b8ad-27d18e918997"/>
+        <name text="REDTWMP" />
+        <id text="41be36e2-a330-4c87-b8ad-27d18e918997" />
     </ID>
     <SystemDependencies>
         <Element>
-            <ConsumerName text="Units"/>
+            <ConsumerName text="Units" />
             <ArtDefDependencyPaths>
-                <Element text="Units.artdef"/>
+                <Element text="Units.artdef" />
             </ArtDefDependencyPaths>
         </Element>
         <Element>
-            <ConsumerName text="Units"/>
+            <ConsumerName text="Units" />
             <ArtDefDependencyPaths>
-                <Element text="Units_UnitGlobals.artdef"/>
+                <Element text="Units_UnitGlobals.artdef" />
             </ArtDefDependencyPaths>
         </Element>
         <Element>
-            <ConsumerName text="Units"/>
+            <ConsumerName text="Units" />
             <ArtDefDependencyPaths>
-                <Element text="Units_UnitFormationTypes.artdef"/>
+                <Element text="Units_UnitFormationTypes.artdef" />
+            </ArtDefDependencyPaths>
+        </Element>
+        <Element>
+            <ConsumerName text="Units" />
+            <ArtDefDependencyPaths>
+                <Element text="CustomModdedUnits.artdef" />
             </ArtDefDependencyPaths>
         </Element>
     </SystemDependencies>
