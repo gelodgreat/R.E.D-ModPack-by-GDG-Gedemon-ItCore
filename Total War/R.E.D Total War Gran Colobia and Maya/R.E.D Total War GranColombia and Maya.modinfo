@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="98c6269e-8ffb-4d3d-a451-a86f88008fb4">
+    <Properties>
+        <Name>LOC_RED_GRANCOLOMBIA_MAYA_NAME</Name>
+        <Teaser>LOC_RED_GRANCOLOMBIA_MAYA_DESC</Teaser>
+		<Description>LOC_RED_GRANCOLOMBIA_MAYA_DESC</Description>
+		<Authors>ITcore,Gedemon, GeloDGreat</Authors>
+		<AffectsSavedGames>0</AffectsSavedGames>
+	<CompatibleVersions>2.0</CompatibleVersions>
+    </Properties>
+    <LocalizedText>
+        <Text id="LOC_RED_GRANCOLOMBIA_MAYA_NAME">
+            <en_US>R.E.D Total War for Gran Colombia and Maya DLC</en_US>
+        </Text>
+        <Text id="LOC_RED_GRANCOLOMBIA_MAYA_DESC">
+            <en_US>R.E.D Total War Modpack for Gran Colombia and Maya DLC.</en_US>
+        </Text>        
+    </LocalizedText>
+	
+	<Dependencies>
+		<Mod id="9DE86512-DE1A-400D-8C0A-AB46EBBF76B9" title="GranColombiaMaya DLC" />
+		<Mod id="41be36e2-a330-4c87-b8ad-27d18e918997" title="R.E.D Total War Modpack" />
+	</Dependencies>
+	
+    <Files>
+        <File>REDTWGranColombiaMaya.dep</File>      
+    </Files>    
+    <Components>
+		<!-- <Properties>
+			<LoadOrder>1010</LoadOrder>
+		</Properties> -->
+        <ModArt id="REDTWGranColombiaMaya">
+            <Items>
+                <File>REDTWGranColombiaMaya.dep</File>
+            </Items>
+        </ModArt>
+    </Components>
+</Mod>

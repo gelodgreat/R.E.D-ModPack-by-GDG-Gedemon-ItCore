@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects::GameDependencyData>
+    <ID>
+        <name text="REDTWBerbers"/>
+        <id text="41be36e2-a330-4c87-b8ad-27d18e918997"/>
+    </ID>
+	<RequiredGameArtIDs>
+		<Element>
+			<name text="DLC2"/>
+			<id text="ba7d3560-2e89-4f92-960a-b6171ce51926"/>
+		</Element>
+	</RequiredGameArtIDs>
+    <SystemDependencies>
+        <Element>
+            <ConsumerName text="Units"/>
+            <ArtDefDependencyPaths>
+                <Element text="CustomModdedUnits.artdef"/>
+            </ArtDefDependencyPaths>
+        </Element>
+    </SystemDependencies>
+</AssetObjects::GameDependencyData>

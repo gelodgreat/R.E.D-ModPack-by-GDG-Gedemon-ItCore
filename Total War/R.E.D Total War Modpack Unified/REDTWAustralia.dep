@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects::GameDependencyData>
+    <ID>
+        <name text="REDTWAustralia"/>
+        <id text="41be36e2-a330-4c87-b8ad-27d18e918997"/>
+    </ID>
+	<RequiredGameArtIDs>
+		<Element>
+			<name text="DLC3"/>
+			<id text="9872e05b-8772-4e1f-a001-54b69e8d3648"/>
+		</Element>
+	</RequiredGameArtIDs>
+    <SystemDependencies>
+        <Element>
+            <ConsumerName text="Units"/>
+            <ArtDefDependencyPaths>
+                <Element text="Australia.artdef"/>
+            </ArtDefDependencyPaths>
+        </Element>
+    </SystemDependencies>
+</AssetObjects::GameDependencyData>

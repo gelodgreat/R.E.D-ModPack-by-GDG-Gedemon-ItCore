@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Mod id="41be36e2-a330-4c87-b8ad-27d18e918997">
+    <Properties>
+        <Name>LOC_RED_MODPACK_NAME</Name>
+        <Teaser>LOC_RED_MODPACK_DESC</Teaser>
+        <Description>LOC_RED_MODPACK_DESC</Description>
+        <Authors>Gedemon, GeloDGreat</Authors>
+        <AffectsSavedGames>0</AffectsSavedGames>
+        <CompatibleVersions>2.0</CompatibleVersions>
+    </Properties>
+    <LocalizedText>
+        <Text id="LOC_RED_MODPACK_NAME">
+            <en_US>R.E.D Total War Modpack</en_US>
+        </Text>
+        <Text id="LOC_RED_MODPACK_DESC">
+            <en_US>R.E.D Total War Units rescaling and formations.</en_US>
+        </Text>
+    </LocalizedText>
+    <InGameActions>
+        <UpdateArt id="REDTWAustralia">
+            <File>REDTWAustralia.dep</File>
+        </UpdateArt>
+        <UpdateArt id="REDTWGatheringStorm">
+            <File>REDTWGatheringStorm.dep</File>
+        </UpdateArt>
+        <UpdateArt id="REDTWGranColombiaMaya">
+            <File>REDTWGranColombiaMaya.dep</File>
+        </UpdateArt>
+        <UpdateArt id="REDTWIndonesiaKhmer">
+            <File>REDTWIndonesiaKhmer.dep</File>
+        </UpdateArt>
+        <UpdateArt id="REDTWMacedoniaPersia">
+            <File>REDTWMacedoniaPersia.dep</File>
+        </UpdateArt>
+        <UpdateArt id="REDTWModPackRF">
+            <File>REDTWModPackRF.dep</File>
+        </UpdateArt>
+        <UpdateArt id="REDTWMP">
+            <File>REDTWMP.dep</File>
+        </UpdateArt>
+        <UpdateArt id="REDTWNubia">
+            <File>REDTWNubia.dep</File>
+        </UpdateArt>
+        <UpdateArt id="REDTWPoland">
+            <File>REDTWPoland.dep</File>
+        </UpdateArt>
+        <UpdateArt id="REDTWCustomModdedUnit">
+            <File>REDTWCustomModdedUnit.dep</File>
+        </UpdateArt>
+    </InGameActions>
+    <Files>
+        <File>REDTWAustralia.dep</File>
+        <File>REDTWCustomModdedUnit.dep</File>
+        <File>REDTWGatheringStorm.dep</File>
+        <File>REDTWGranColombiaMaya.dep</File>
+        <File>REDTWIndonesiaKhmer.dep</File>
+        <File>REDTWMacedoniaPersia.dep</File>
+        <File>REDTWModPackRF.dep</File>
+        <File>REDTWMP.dep</File>
+        <File>REDTWNubia.dep</File>
+        <File>REDTWPoland.dep</File>
+    </Files>
+</Mod>

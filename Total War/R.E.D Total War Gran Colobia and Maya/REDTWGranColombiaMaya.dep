@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects::GameDependencyData>
+    <ID>
+        <name text="REDTWGranColombia" />
+        <id text="98c6269e-8ffb-4d3d-a451-a86f88008fb4" />
+    </ID>
+    <RequiredGameArtIDs>
+        <Element>
+            <name text="GranColombia_Maya" />
+            <id text="89B8DAD9-EAE5-4D47-9686-A63A54846A2C" />
+        </Element>
+    </RequiredGameArtIDs>
+    <SystemDependencies>
+        <Element>
+            <ConsumerName text="Units" />
+            <ArtDefDependencyPaths>
+                <Element text="Units.artdef" />
+            </ArtDefDependencyPaths>
+        </Element>
+    </SystemDependencies>
+</AssetObjects::GameDependencyData>
