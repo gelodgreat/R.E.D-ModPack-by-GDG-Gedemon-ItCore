@@ -11,7 +11,7 @@
 		<Element>
 			<m_CollectionName text="Units" />
 			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
-		
+
 			<!-- CUSTOM ADDED BY GELODGREAT FOR COMPATIIBLITY -->
 			<Element>
 				<m_Fields>
@@ -1631,131 +1631,131 @@
 				<m_Fields>
 					<m_Values>
 						<Element class="AssetObjects..ArtDefReferenceValue">
-							<m_ElementName text="Horsemen"/>
-							<m_RootCollectionName text="UnitFormationTypes"/>
-							<m_ArtDefPath text="Units.artdef"/>
+							<m_ElementName text="Horsemen" />
+							<m_RootCollectionName text="UnitFormationTypes" />
+							<m_ArtDefPath text="Units.artdef" />
 							<m_CollectionIsLocked>true</m_CollectionIsLocked>
-							<m_TemplateName text="Units"/>
-							<m_ParamName text="Formation"/>
+							<m_TemplateName text="Units" />
+							<m_ParamName text="Formation" />
 						</Element>
 						<Element class="AssetObjects..ArtDefReferenceValue">
-							<m_ElementName text="Knight"/>
-							<m_RootCollectionName text="UnitCombat"/>
-							<m_ArtDefPath text="Units.artdef"/>
+							<m_ElementName text="Knight" />
+							<m_RootCollectionName text="UnitCombat" />
+							<m_ArtDefPath text="Units.artdef" />
 							<m_CollectionIsLocked>true</m_CollectionIsLocked>
-							<m_TemplateName text="Units"/>
-							<m_ParamName text="UnitCombat"/>
+							<m_TemplateName text="Units" />
+							<m_ParamName text="UnitCombat" />
 						</Element>
 						<Element class="AssetObjects..ArtDefReferenceValue">
-							<m_ElementName text=""/>
-							<m_RootCollectionName text="UnitFormationTypes"/>
-							<m_ArtDefPath text="Units.artdef"/>
+							<m_ElementName text="" />
+							<m_RootCollectionName text="UnitFormationTypes" />
+							<m_ArtDefPath text="Units.artdef" />
 							<m_CollectionIsLocked>true</m_CollectionIsLocked>
-							<m_TemplateName text=""/>
-							<m_ParamName text="EscortFormation"/>
+							<m_TemplateName text="" />
+							<m_ParamName text="EscortFormation" />
 						</Element>
 						<Element class="AssetObjects..ArtDefReferenceValue">
-							<m_ElementName text="UNIT_ANCIENTEMBARK"/>
-							<m_RootCollectionName text="Units"/>
-							<m_ArtDefPath text="Units.artdef"/>
+							<m_ElementName text="UNIT_ANCIENTEMBARK" />
+							<m_RootCollectionName text="Units" />
+							<m_ArtDefPath text="Units.artdef" />
 							<m_CollectionIsLocked>true</m_CollectionIsLocked>
-							<m_TemplateName text="Units"/>
-							<m_ParamName text="EmbarkedUnit"/>
+							<m_TemplateName text="Units" />
+							<m_ParamName text="EmbarkedUnit" />
 						</Element>
 						<Element class="AssetObjects..BoolValue">
 							<m_bValue>false</m_bValue>
-							<m_ParamName text="DoNotDisplayCharges"/>
+							<m_ParamName text="DoNotDisplayCharges" />
 						</Element>
 						<Element class="AssetObjects..ArtDefReferenceValue">
-							<m_ElementName text=""/>
-							<m_RootCollectionName text="UnitCulture"/>
-							<m_ArtDefPath text="Cultures.artdef"/>
+							<m_ElementName text="" />
+							<m_RootCollectionName text="UnitCulture" />
+							<m_ArtDefPath text="Cultures.artdef" />
 							<m_CollectionIsLocked>true</m_CollectionIsLocked>
-							<m_TemplateName text=""/>
-							<m_ParamName text="Culture"/>
+							<m_TemplateName text="" />
+							<m_ParamName text="Culture" />
 						</Element>
 						<Element class="AssetObjects..ArtDefReferenceValue">
-							<m_ElementName text=""/>
-							<m_RootCollectionName text="Era"/>
-							<m_ArtDefPath text="Eras.artdef"/>
+							<m_ElementName text="" />
+							<m_RootCollectionName text="Era" />
+							<m_ArtDefPath text="Eras.artdef" />
 							<m_CollectionIsLocked>true</m_CollectionIsLocked>
-							<m_TemplateName text=""/>
-							<m_ParamName text="Era"/>
+							<m_TemplateName text="" />
+							<m_ParamName text="Era" />
 						</Element>
 						<Element class="AssetObjects..ArtDefReferenceValue">
-							<m_ElementName text=""/>
-							<m_RootCollectionName text="Units"/>
-							<m_ArtDefPath text="Units.artdef"/>
+							<m_ElementName text="" />
+							<m_RootCollectionName text="Units" />
+							<m_ArtDefPath text="Units.artdef" />
 							<m_CollectionIsLocked>true</m_CollectionIsLocked>
-							<m_TemplateName text=""/>
-							<m_ParamName text="ProxyUnit"/>
+							<m_TemplateName text="" />
+							<m_ParamName text="ProxyUnit" />
 						</Element>
 						<Element class="AssetObjects..BoolValue">
 							<m_bValue>false</m_bValue>
-							<m_ParamName text="PlayDeathOnDestroy"/>
+							<m_ParamName text="PlayDeathOnDestroy" />
 						</Element>
 						<Element class="AssetObjects..IntValue">
 							<m_nValue>0</m_nValue>
-							<m_ParamName text="DisplayLevel"/>
+							<m_ParamName text="DisplayLevel" />
 						</Element>
 					</m_Values>
 				</m_Fields>
 				<m_ChildCollections>
 					<Element>
-						<m_CollectionName text="Members"/>
+						<m_CollectionName text="Members" />
 						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..FloatValue">
 										<m_fValue>0.700000</m_fValue>
-										<m_ParamName text="Scale"/>
+										<m_ParamName text="Scale" />
 									</Element>
 									<Element class="AssetObjects..IntValue">
 										<m_nValue>6</m_nValue>
-										<m_ParamName text="Count"/>
+										<m_ParamName text="Count" />
 									</Element>
 									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="PolishHussar"/>
-										<m_RootCollectionName text="UnitMemberTypes"/>
-										<m_ArtDefPath text="Units.artdef"/>
+										<m_ElementName text="PolishHussar" />
+										<m_RootCollectionName text="UnitMemberTypes" />
+										<m_ArtDefPath text="Units.artdef" />
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text="Units"/>
-										<m_ParamName text="Type"/>
+										<m_TemplateName text="Units" />
+										<m_ParamName text="Type" />
 									</Element>
 								</m_Values>
 							</m_Fields>
-							<m_ChildCollections/>
-							<m_Name text="Members1"/>
+							<m_ChildCollections />
+							<m_Name text="Members1" />
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 					<Element>
-						<m_CollectionName text="Audio"/>
+						<m_CollectionName text="Audio" />
 						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..StringValue">
-										<m_Value text="Knight"/>
-										<m_ParamName text="XrefName"/>
+										<m_Value text="Knight" />
+										<m_ParamName text="XrefName" />
 									</Element>
 								</m_Values>
 							</m_Fields>
-							<m_ChildCollections/>
-							<m_Name text=""/>
+							<m_ChildCollections />
+							<m_Name text="" />
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 					<Element>
-						<m_CollectionName text="AttachmentVisibility"/>
+						<m_CollectionName text="AttachmentVisibility" />
 						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 					</Element>
 				</m_ChildCollections>
-				<m_Name text="UNIT_POLISH_HUSSAR"/>
+				<m_Name text="UNIT_POLISH_HUSSAR" />
 				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
-            <Element>
+			<Element>
 				<m_Fields>
 					<m_Values>
 						<Element class="AssetObjects..ArtDefReferenceValue">
@@ -1873,6 +1873,818 @@
 					</Element>
 				</m_ChildCollections>
 				<m_Name text="UNIT_FIGHTER" />
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="Builder" />
+							<m_RootCollectionName text="UnitFormationTypes" />
+							<m_ArtDefPath text="Units.artdef" />
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="Units" />
+							<m_ParamName text="Formation" />
+						</Element>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="" />
+							<m_RootCollectionName text="UnitCombat" />
+							<m_ArtDefPath text="Units.artdef" />
+							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_TemplateName text="" />
+							<m_ParamName text="UnitCombat" />
+						</Element>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="" />
+							<m_RootCollectionName text="UnitFormationTypes" />
+							<m_ArtDefPath text="Units.artdef" />
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="" />
+							<m_ParamName text="EscortFormation" />
+						</Element>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="UNIT_ANCIENTEMBARK" />
+							<m_RootCollectionName text="Units" />
+							<m_ArtDefPath text="Units.artdef" />
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="Units" />
+							<m_ParamName text="EmbarkedUnit" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="DoNotDisplayCharges" />
+						</Element>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="" />
+							<m_RootCollectionName text="UnitCulture" />
+							<m_ArtDefPath text="Cultures.artdef" />
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="" />
+							<m_ParamName text="Culture" />
+						</Element>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="" />
+							<m_RootCollectionName text="Era" />
+							<m_ArtDefPath text="Eras.artdef" />
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="" />
+							<m_ParamName text="Era" />
+						</Element>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="" />
+							<m_RootCollectionName text="Units" />
+							<m_ArtDefPath text="Units.artdef" />
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="" />
+							<m_ParamName text="ProxyUnit" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="PlayDeathOnDestroy" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>-500</m_nValue>
+							<m_ParamName text="DisplayLevel" />
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="Members" />
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.700000</m_fValue>
+										<m_ParamName text="Scale" />
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>1</m_nValue>
+										<m_ParamName text="Count" />
+									</Element>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="Builder_Ancient01" />
+										<m_RootCollectionName text="UnitMemberTypes" />
+										<m_ArtDefPath text="Units.artdef" />
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Units" />
+										<m_ParamName text="Type" />
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections />
+							<m_Name text="A" />
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.700000</m_fValue>
+										<m_ParamName text="Scale" />
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>1</m_nValue>
+										<m_ParamName text="Count" />
+									</Element>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="Builder_Ancient02" />
+										<m_RootCollectionName text="UnitMemberTypes" />
+										<m_ArtDefPath text="Units.artdef" />
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Units" />
+										<m_ParamName text="Type" />
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections />
+							<m_Name text="B" />
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.700000</m_fValue>
+										<m_ParamName text="Scale" />
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>1</m_nValue>
+										<m_ParamName text="Count" />
+									</Element>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="Builder_Ancient03" />
+										<m_RootCollectionName text="UnitMemberTypes" />
+										<m_ArtDefPath text="Units.artdef" />
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Units" />
+										<m_ParamName text="Type" />
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections />
+							<m_Name text="C" />
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.700000</m_fValue>
+										<m_ParamName text="Scale" />
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>1</m_nValue>
+										<m_ParamName text="Count" />
+									</Element>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="Builder_Ancient04" />
+										<m_RootCollectionName text="UnitMemberTypes" />
+										<m_ArtDefPath text="Units.artdef" />
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Units" />
+										<m_ParamName text="Type" />
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections />
+							<m_Name text="D" />
+						</Element>
+					</Element>
+					<Element>
+						<m_CollectionName text="Audio" />
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..StringValue">
+										<m_Value text="" />
+										<m_ParamName text="XrefName" />
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections />
+							<m_Name text="Entry" />
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..StringValue">
+										<m_Value text="Builder" />
+										<m_ParamName text="XrefName" />
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections />
+							<m_Name text="BUILDER" />
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="UNIT_BUILDER" />
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="Builder" />
+							<m_RootCollectionName text="UnitFormationTypes" />
+							<m_ArtDefPath text="Units.artdef" />
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="Units" />
+							<m_ParamName text="Formation" />
+						</Element>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="" />
+							<m_RootCollectionName text="UnitCombat" />
+							<m_ArtDefPath text="Units.artdef" />
+							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_TemplateName text="" />
+							<m_ParamName text="UnitCombat" />
+						</Element>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="" />
+							<m_RootCollectionName text="UnitFormationTypes" />
+							<m_ArtDefPath text="Units.artdef" />
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="" />
+							<m_ParamName text="EscortFormation" />
+						</Element>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="UNIT_ANCIENTEMBARK" />
+							<m_RootCollectionName text="Units" />
+							<m_ArtDefPath text="Units.artdef" />
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="Units" />
+							<m_ParamName text="EmbarkedUnit" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="DoNotDisplayCharges" />
+						</Element>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="" />
+							<m_RootCollectionName text="UnitCulture" />
+							<m_ArtDefPath text="Cultures.artdef" />
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="" />
+							<m_ParamName text="Culture" />
+						</Element>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="" />
+							<m_RootCollectionName text="Era" />
+							<m_ArtDefPath text="Eras.artdef" />
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="" />
+							<m_ParamName text="Era" />
+						</Element>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="" />
+							<m_RootCollectionName text="Units" />
+							<m_ArtDefPath text="Units.artdef" />
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="" />
+							<m_ParamName text="ProxyUnit" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="PlayDeathOnDestroy" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>-500</m_nValue>
+							<m_ParamName text="DisplayLevel" />
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="Members" />
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.700000</m_fValue>
+										<m_ParamName text="Scale" />
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>1</m_nValue>
+										<m_ParamName text="Count" />
+									</Element>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="Builder_Medieval01" />
+										<m_RootCollectionName text="UnitMemberTypes" />
+										<m_ArtDefPath text="Units.artdef" />
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Units" />
+										<m_ParamName text="Type" />
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections />
+							<m_Name text="Members1" />
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.700000</m_fValue>
+										<m_ParamName text="Scale" />
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>1</m_nValue>
+										<m_ParamName text="Count" />
+									</Element>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="Builder_Medieval02" />
+										<m_RootCollectionName text="UnitMemberTypes" />
+										<m_ArtDefPath text="Units.artdef" />
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Units" />
+										<m_ParamName text="Type" />
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections />
+							<m_Name text="Members" />
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.700000</m_fValue>
+										<m_ParamName text="Scale" />
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>1</m_nValue>
+										<m_ParamName text="Count" />
+									</Element>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="Builder_Medieval03" />
+										<m_RootCollectionName text="UnitMemberTypes" />
+										<m_ArtDefPath text="Units.artdef" />
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Units" />
+										<m_ParamName text="Type" />
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections />
+							<m_Name text="Members001" />
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.700000</m_fValue>
+										<m_ParamName text="Scale" />
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>1</m_nValue>
+										<m_ParamName text="Count" />
+									</Element>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="Builder_Medieval04" />
+										<m_RootCollectionName text="UnitMemberTypes" />
+										<m_ArtDefPath text="Units.artdef" />
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Units" />
+										<m_ParamName text="Type" />
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections />
+							<m_Name text="Members002" />
+						</Element>
+					</Element>
+					<Element>
+						<m_CollectionName text="Audio" />
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..StringValue">
+										<m_Value text="" />
+										<m_ParamName text="XrefName" />
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections />
+							<m_Name text="Entry" />
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..StringValue">
+										<m_Value text="Builder" />
+										<m_ParamName text="XrefName" />
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections />
+							<m_Name text="BUILDER" />
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="UNIT_BUILDER_MEDIEVAL" />
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="Builder" />
+							<m_RootCollectionName text="UnitFormationTypes" />
+							<m_ArtDefPath text="Units.artdef" />
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="Units" />
+							<m_ParamName text="Formation" />
+						</Element>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="" />
+							<m_RootCollectionName text="UnitCombat" />
+							<m_ArtDefPath text="Units.artdef" />
+							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_TemplateName text="" />
+							<m_ParamName text="UnitCombat" />
+						</Element>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="" />
+							<m_RootCollectionName text="UnitFormationTypes" />
+							<m_ArtDefPath text="Units.artdef" />
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="" />
+							<m_ParamName text="EscortFormation" />
+						</Element>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="UNIT_MODERNEMBARK" />
+							<m_RootCollectionName text="Units" />
+							<m_ArtDefPath text="Units.artdef" />
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="Units" />
+							<m_ParamName text="EmbarkedUnit" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="DoNotDisplayCharges" />
+						</Element>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="" />
+							<m_RootCollectionName text="UnitCulture" />
+							<m_ArtDefPath text="Cultures.artdef" />
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="" />
+							<m_ParamName text="Culture" />
+						</Element>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="" />
+							<m_RootCollectionName text="Era" />
+							<m_ArtDefPath text="Eras.artdef" />
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="" />
+							<m_ParamName text="Era" />
+						</Element>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="" />
+							<m_RootCollectionName text="Units" />
+							<m_ArtDefPath text="Units.artdef" />
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="" />
+							<m_ParamName text="ProxyUnit" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="PlayDeathOnDestroy" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>-500</m_nValue>
+							<m_ParamName text="DisplayLevel" />
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="Members" />
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.700000</m_fValue>
+										<m_ParamName text="Scale" />
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>1</m_nValue>
+										<m_ParamName text="Count" />
+									</Element>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="Builder_Industrial01" />
+										<m_RootCollectionName text="UnitMemberTypes" />
+										<m_ArtDefPath text="Units.artdef" />
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Units" />
+										<m_ParamName text="Type" />
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections />
+							<m_Name text="Members1" />
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.700000</m_fValue>
+										<m_ParamName text="Scale" />
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>1</m_nValue>
+										<m_ParamName text="Count" />
+									</Element>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="Builder_Industrial02" />
+										<m_RootCollectionName text="UnitMemberTypes" />
+										<m_ArtDefPath text="Units.artdef" />
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Units" />
+										<m_ParamName text="Type" />
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections />
+							<m_Name text="Members" />
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.700000</m_fValue>
+										<m_ParamName text="Scale" />
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>1</m_nValue>
+										<m_ParamName text="Count" />
+									</Element>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="Builder_Industrial03" />
+										<m_RootCollectionName text="UnitMemberTypes" />
+										<m_ArtDefPath text="Units.artdef" />
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Units" />
+										<m_ParamName text="Type" />
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections />
+							<m_Name text="Members001" />
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.700000</m_fValue>
+										<m_ParamName text="Scale" />
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>1</m_nValue>
+										<m_ParamName text="Count" />
+									</Element>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="Builder_Industrial04" />
+										<m_RootCollectionName text="UnitMemberTypes" />
+										<m_ArtDefPath text="Units.artdef" />
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Units" />
+										<m_ParamName text="Type" />
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections />
+							<m_Name text="Members002" />
+						</Element>
+					</Element>
+					<Element>
+						<m_CollectionName text="Audio" />
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..StringValue">
+										<m_Value text="" />
+										<m_ParamName text="XrefName" />
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections />
+							<m_Name text="Entry" />
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..StringValue">
+										<m_Value text="Builder" />
+										<m_ParamName text="XrefName" />
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections />
+							<m_Name text="BUILDER" />
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="UNIT_BUILDER_INDUSTRIAL" />
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="Builder" />
+							<m_RootCollectionName text="UnitFormationTypes" />
+							<m_ArtDefPath text="Units.artdef" />
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="Units" />
+							<m_ParamName text="Formation" />
+						</Element>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="" />
+							<m_RootCollectionName text="UnitCombat" />
+							<m_ArtDefPath text="Units.artdef" />
+							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_TemplateName text="" />
+							<m_ParamName text="UnitCombat" />
+						</Element>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="" />
+							<m_RootCollectionName text="UnitFormationTypes" />
+							<m_ArtDefPath text="Units.artdef" />
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="" />
+							<m_ParamName text="EscortFormation" />
+						</Element>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="UNIT_MODERNEMBARK" />
+							<m_RootCollectionName text="Units" />
+							<m_ArtDefPath text="Units.artdef" />
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="Units" />
+							<m_ParamName text="EmbarkedUnit" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="DoNotDisplayCharges" />
+						</Element>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="" />
+							<m_RootCollectionName text="UnitCulture" />
+							<m_ArtDefPath text="Cultures.artdef" />
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="" />
+							<m_ParamName text="Culture" />
+						</Element>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="" />
+							<m_RootCollectionName text="Era" />
+							<m_ArtDefPath text="Eras.artdef" />
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="" />
+							<m_ParamName text="Era" />
+						</Element>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="" />
+							<m_RootCollectionName text="Units" />
+							<m_ArtDefPath text="Units.artdef" />
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="" />
+							<m_ParamName text="ProxyUnit" />
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="PlayDeathOnDestroy" />
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>-500</m_nValue>
+							<m_ParamName text="DisplayLevel" />
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="Members" />
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.700000</m_fValue>
+										<m_ParamName text="Scale" />
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>1</m_nValue>
+										<m_ParamName text="Count" />
+									</Element>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="Builder_Modern01" />
+										<m_RootCollectionName text="UnitMemberTypes" />
+										<m_ArtDefPath text="Units.artdef" />
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Units" />
+										<m_ParamName text="Type" />
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections />
+							<m_Name text="Members1" />
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.700000</m_fValue>
+										<m_ParamName text="Scale" />
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>1</m_nValue>
+										<m_ParamName text="Count" />
+									</Element>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="Builder_Modern02" />
+										<m_RootCollectionName text="UnitMemberTypes" />
+										<m_ArtDefPath text="Units.artdef" />
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Units" />
+										<m_ParamName text="Type" />
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections />
+							<m_Name text="Members" />
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.700000</m_fValue>
+										<m_ParamName text="Scale" />
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>1</m_nValue>
+										<m_ParamName text="Count" />
+									</Element>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="Builder_Modern03" />
+										<m_RootCollectionName text="UnitMemberTypes" />
+										<m_ArtDefPath text="Units.artdef" />
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Units" />
+										<m_ParamName text="Type" />
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections />
+							<m_Name text="Members001" />
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.700000</m_fValue>
+										<m_ParamName text="Scale" />
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>1</m_nValue>
+										<m_ParamName text="Count" />
+									</Element>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="Builder_Modern04" />
+										<m_RootCollectionName text="UnitMemberTypes" />
+										<m_ArtDefPath text="Units.artdef" />
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Units" />
+										<m_ParamName text="Type" />
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections />
+							<m_Name text="Members002" />
+						</Element>
+					</Element>
+					<Element>
+						<m_CollectionName text="Audio" />
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..StringValue">
+										<m_Value text="" />
+										<m_ParamName text="XrefName" />
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections />
+							<m_Name text="Entry" />
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..StringValue">
+										<m_Value text="Builder" />
+										<m_ParamName text="XrefName" />
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections />
+							<m_Name text="BUILDER" />
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="UNIT_BUILDER_MODERN" />
 			</Element>
 			<!-- END CUSTOM ADDED BY GELODGREAT FOR COMPATIIBLITY -->
 

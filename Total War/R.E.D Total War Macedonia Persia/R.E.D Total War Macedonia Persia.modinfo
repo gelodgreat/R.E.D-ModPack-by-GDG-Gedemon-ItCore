@@ -1,10 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <Mod id="41261777-bacd-42be-8ee4-c90046dd6338" version="1.0.0">
     <Properties>
         <Name>LOC_RED_MACEDONIANPERSIA_NAME</Name>
         <Description>LOC_RED_MACEDONIANPERSIA_DESC</Description>
         <Teaser>LOC_RED_MACEDONIANPERSIA_DESC</Teaser>
-		<Authors>GeloDGreat,Gedemon</Authors>
+        <Authors>GeloDGreat,Gedemon</Authors>
+        <AffectsSavedGames>0</AffectsSavedGames>
         <CompatibleVersions>2.0</CompatibleVersions>
     </Properties>
     <LocalizedText>
@@ -13,17 +14,17 @@
         </Text>
         <Text id="LOC_RED_MACEDONIANPERSIA_DESC">
             <en_US>R.E.D Total War Modpack for Macedonia Persia DLC.</en_US>
-        </Text>        
+        </Text>
     </LocalizedText>
-	
-	<Dependencies>
-		<Mod id="E2749E9A-8056-45CD-901B-C368C8E83DEB" title="Macedonia_Persia DLC" />
-		<Mod id="41be36e2-a330-4c87-b8ad-27d18e918997" title="R.E.D Total War Modpack" />
-	</Dependencies>
-	
+
+    <Dependencies>
+        <Mod id="E2749E9A-8056-45CD-901B-C368C8E83DEB" title="Macedonia_Persia DLC" />
+        <Mod id="41be36e2-a330-4c87-b8ad-27d18e918997" title="R.E.D Total War Modpack" />
+    </Dependencies>
+
     <Files>
-        <File>REDTWMacedoniaPersia.dep</File>      
-    </Files>    
+        <File>REDTWMacedoniaPersia.dep</File>
+    </Files>
     <Components>
         <ModArt id="REDTWMacedoniaPersia">
             <Items>

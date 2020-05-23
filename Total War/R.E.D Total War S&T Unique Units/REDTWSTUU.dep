@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects::GameDependencyData>
+    <ID>
+        <name text="R.E.D Total War: STUU" />
+        <id text="1b0dbe80-c75d-4463-8bba-a99aeeff2dc9" />
+    </ID>
+    <RequiredGameArtIDs>
+        <Element>
+            <name text="MoarUniqueUnits" />
+            <id text="a1fe0ce2-ca98-4998-a0c9-2aa1639eb6d0" />
+        </Element>
+        <Element>
+            <name text="Civ6" />
+            <id text="cb2f71b7-843e-4af3-9ca7-992acda9c195" />
+        </Element>
+    </RequiredGameArtIDs>
+    <SystemDependencies>
+        <Element>
+            <ConsumerName text="Units" />
+            <ArtDefDependencyPaths>
+                <Element text="Units.artdef" />
+            </ArtDefDependencyPaths>
+        </Element>
+    </SystemDependencies>
+</AssetObjects::GameDependencyData>

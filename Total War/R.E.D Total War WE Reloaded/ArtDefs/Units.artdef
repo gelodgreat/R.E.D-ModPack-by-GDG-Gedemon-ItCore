@@ -309,7 +309,6 @@
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 						<Element>
-							`
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..StringValue">
@@ -3239,11 +3238,11 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..FloatValue">
-										<m_fValue>1.000000</m_fValue>
+										<m_fValue>1.200000</m_fValue>
 										<m_ParamName text="Scale" />
 									</Element>
 									<Element class="AssetObjects..IntValue">
-										<m_nValue>2</m_nValue>
+										<m_nValue>3</m_nValue>
 										<m_ParamName text="Count" />
 									</Element>
 									<Element class="AssetObjects..ArtDefReferenceValue">
@@ -3495,7 +3494,7 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..FloatValue">
-										<m_fValue>1.000000</m_fValue>
+										<m_fValue>1.200000</m_fValue>
 										<m_ParamName text="Scale" />
 									</Element>
 									<Element class="AssetObjects..IntValue">
@@ -4395,7 +4394,7 @@
 										<m_ParamName text="Scale" />
 									</Element>
 									<Element class="AssetObjects..IntValue">
-										<m_nValue>12</m_nValue>
+										<m_nValue>16</m_nValue>
 										<m_ParamName text="Count" />
 									</Element>
 									<Element class="AssetObjects..ArtDefReferenceValue">
@@ -5261,7 +5260,7 @@
 				<m_Fields>
 					<m_Values>
 						<Element class="AssetObjects..ArtDefReferenceValue">
-							<m_ElementName text="Naval" />
+							<m_ElementName text="Galley" />
 							<m_RootCollectionName text="UnitFormationTypes" />
 							<m_ArtDefPath text="Units.artdef" />
 							<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -5342,7 +5341,7 @@
 										<m_ParamName text="Scale" />
 									</Element>
 									<Element class="AssetObjects..IntValue">
-										<m_nValue>1</m_nValue>
+										<m_nValue>3</m_nValue>
 										<m_ParamName text="Count" />
 									</Element>
 									<Element class="AssetObjects..ArtDefReferenceValue">
@@ -6323,7 +6322,7 @@
 				<m_Fields>
 					<m_Values>
 						<Element class="AssetObjects..ArtDefReferenceValue">
-							<m_ElementName text="Pikeman" />
+							<m_ElementName text="Redcoat" />
 							<m_RootCollectionName text="UnitFormationTypes" />
 							<m_ArtDefPath text="Units.artdef" />
 							<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -6404,7 +6403,7 @@
 										<m_ParamName text="Scale" />
 									</Element>
 									<Element class="AssetObjects..IntValue">
-										<m_nValue>13</m_nValue>
+										<m_nValue>16</m_nValue>
 										<m_ParamName text="Count" />
 									</Element>
 									<Element class="AssetObjects..ArtDefReferenceValue">
@@ -8182,7 +8181,7 @@
 										<m_ParamName text="Scale" />
 									</Element>
 									<Element class="AssetObjects..IntValue">
-										<m_nValue>13</m_nValue>
+										<m_nValue>12</m_nValue>
 										<m_ParamName text="Count" />
 									</Element>
 									<Element class="AssetObjects..ArtDefReferenceValue">
@@ -9917,7 +9916,7 @@
 				<m_Fields>
 					<m_Values>
 						<Element class="AssetObjects..ArtDefReferenceValue">
-							<m_ElementName text="LineInfantryFormation" />
+							<m_ElementName text="Redcoat" />
 							<m_RootCollectionName text="UnitFormationTypes" />
 							<m_ArtDefPath text="Units.artdef" />
 							<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -9998,7 +9997,7 @@
 										<m_ParamName text="Scale" />
 									</Element>
 									<Element class="AssetObjects..IntValue">
-										<m_nValue>12</m_nValue>
+										<m_nValue>16</m_nValue>
 										<m_ParamName text="Count" />
 									</Element>
 									<Element class="AssetObjects..ArtDefReferenceValue">
