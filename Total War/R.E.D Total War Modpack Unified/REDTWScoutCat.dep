@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects::GameDependencyData>
+    <ID>
+        <name text="REDTWScoutCat"/>
+        <id text="41be36e2-a330-4c87-b8ad-27d18e918997"/>
+    </ID>
+	<RequiredGameArtIDs>
+		<Element>
+			<name text="ScoutCat"/>
+			<id text="62cbb036-f073-4df8-8952-a70bfdf4ba85"/>
+		</Element>
+	</RequiredGameArtIDs>
+    <SystemDependencies>
+        <Element>
+            <ConsumerName text="Units"/>
+            <ArtDefDependencyPaths>
+                <Element text="ScoutCat.artdef"/>
+            </ArtDefDependencyPaths>
+        </Element>
+    </SystemDependencies>
+</AssetObjects::GameDependencyData>

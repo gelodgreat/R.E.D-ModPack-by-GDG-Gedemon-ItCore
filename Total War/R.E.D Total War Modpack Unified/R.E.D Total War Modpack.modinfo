@@ -10,7 +10,7 @@
     </Properties>
     <LocalizedText>
         <Text id="LOC_RED_MODPACK_NAME">
-            <en_US>R.E.D Total War Modpack</en_US>
+            <en_US>R.E.D Total War Unified Modpack</en_US>
         </Text>
         <Text id="LOC_RED_MODPACK_DESC">
             <en_US>R.E.D Total War Units rescaling and formations.</en_US>
@@ -47,6 +47,12 @@
         <UpdateArt id="REDTWCustomModdedUnit">
             <File>REDTWCustomModdedUnit.dep</File>
         </UpdateArt>
+        <UpdateArt id="REDTWScoutCat">
+            <File>REDTWScoutCat.dep</File>
+        </UpdateArt>
+        <UpdateArt id="REDTWEthiopia">
+            <File>REDTWEthiopia.dep</File>
+        </UpdateArt>
     </InGameActions>
     <Files>
         <File>REDTWAustralia.dep</File>
@@ -59,5 +65,7 @@
         <File>REDTWMP.dep</File>
         <File>REDTWNubia.dep</File>
         <File>REDTWPoland.dep</File>
+        <File>REDTWScoutCat.dep</File>
+        <File>REDTWEthiopia.dep</File>
     </Files>
 </Mod>

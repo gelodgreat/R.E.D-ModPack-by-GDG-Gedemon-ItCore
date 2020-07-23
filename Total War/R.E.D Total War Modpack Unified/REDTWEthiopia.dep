@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects::GameDependencyData>
+    <ID>
+        <name text="REDTWEthiopia"/>
+        <id text="41be36e2-a330-4c87-b8ad-27d18e918997"/>
+    </ID>
+	<RequiredGameArtIDs>
+		<Element>
+			<name text="Ethiopia"/>
+			<id text="50320198-92ec-444f-805c-1b6f81dfb918"/>
+		</Element>
+	</RequiredGameArtIDs>
+    <SystemDependencies>
+        <Element>
+            <ConsumerName text="Units"/>
+            <ArtDefDependencyPaths>
+                <Element text="Ethiopia.artdef"/>
+            </ArtDefDependencyPaths>
+        </Element>
+    </SystemDependencies>
+</AssetObjects::GameDependencyData>
