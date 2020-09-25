@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssetObjects::GameDependencyData>
+    <ID>
+        <name text="REDTWGaulByzantium" />
+        <id text="41be36e2-a330-4c87-b8ad-27d18e918997" />
+    </ID>
+    <RequiredGameArtIDs>
+        <Element>
+            <name text="Byzantium_Gaul" />
+            <id text="88fe3d33-db66-4696-9cea-fd8f2d15e4f3" />
+        </Element>
+    </RequiredGameArtIDs>
+    <SystemDependencies>
+        <Element>
+            <ConsumerName text="Units" />
+            <ArtDefDependencyPaths>
+                <Element text="GaulByzantium.artdef" />
+            </ArtDefDependencyPaths>
+        </Element>
+    </SystemDependencies>
+</AssetObjects::GameDependencyData>

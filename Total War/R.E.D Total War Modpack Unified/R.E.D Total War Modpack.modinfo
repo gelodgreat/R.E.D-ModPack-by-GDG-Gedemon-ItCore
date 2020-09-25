@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Mod id="41be36e2-a330-4c87-b8ad-27d18e918997">
     <Properties>
         <Name>LOC_RED_MODPACK_NAME</Name>
@@ -53,6 +53,9 @@
         <UpdateArt id="REDTWEthiopia">
             <File>REDTWEthiopia.dep</File>
         </UpdateArt>
+        <UpdateArt id="REDTWGaulByzantium">
+            <File>REDTWGaulByzantium.dep</File>
+        </UpdateArt>
     </InGameActions>
     <Files>
         <File>REDTWAustralia.dep</File>
@@ -67,5 +70,6 @@
         <File>REDTWPoland.dep</File>
         <File>REDTWScoutCat.dep</File>
         <File>REDTWEthiopia.dep</File>
+        <File>REDTWGaulByzantium.dep</File>
     </Files>
 </Mod>
