@@ -92,7 +92,7 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..FloatValue">
-										<m_fValue>0.900000</m_fValue>
+										<m_fValue>1.10000</m_fValue>
 										<m_ParamName text="Scale" />
 									</Element>
 									<Element class="AssetObjects..IntValue">

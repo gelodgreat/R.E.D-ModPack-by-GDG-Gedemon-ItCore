@@ -56,6 +56,9 @@
         <UpdateArt id="REDTWGaulByzantium">
             <File>REDTWGaulByzantium.dep</File>
         </UpdateArt>
+        <UpdateArt id="REDTWBabylon">
+            <File>REDTWBabylon.dep</File>
+        </UpdateArt>
     </InGameActions>
     <Files>
         <File>REDTWAustralia.dep</File>
@@ -71,5 +74,6 @@
         <File>REDTWScoutCat.dep</File>
         <File>REDTWEthiopia.dep</File>
         <File>REDTWGaulByzantium.dep</File>
+        <File>REDTWBabylon.dep</File>
     </Files>
 </Mod>
