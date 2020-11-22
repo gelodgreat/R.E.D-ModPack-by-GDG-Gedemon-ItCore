@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<AssetObjects::ArtDefSet>
+<AssetObjects..ArtDefSet>
 	<m_Version>
 		<major>4</major>
 		<minor>0</minor>
@@ -2457,20 +2457,7 @@
 					</Element>
 					<Element>
 						<m_CollectionName text="Audio" />
-						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements
-						<Element>
-							<m_Fields>
-								<m_Values>
-									<Element class="AssetObjects:StringValue">
-										<m_Value text="Slinger" />
-										<m_ParamName text="XrefName" />
-									</Element>
-								</m_Values>
-							</m_Fields>
-							<m_ChildCollections />
-							<m_Name text="SLINGER" />
-							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
-						</Element>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 					</Element>
 				</m_ChildCollections>
 				<m_Name text="UNIT_ZULU_ASSEGAI" />
@@ -9094,4 +9081,4 @@
 			</Element>
 		</Element>
 	</m_RootCollections>
-</AssetObjects::ArtDefSet>
+</AssetObjects..ArtDefSet>
