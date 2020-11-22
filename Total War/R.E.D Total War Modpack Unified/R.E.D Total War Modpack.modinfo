@@ -44,9 +44,9 @@
         <UpdateArt id="REDTWPoland">
             <File>REDTWPoland.dep</File>
         </UpdateArt>
-        <UpdateArt id="REDTWCustomModdedUnit">
+        <!-- <UpdateArt id="REDTWCustomModdedUnit">
             <File>REDTWCustomModdedUnit.dep</File>
-        </UpdateArt>
+        </UpdateArt> -->
         <UpdateArt id="REDTWScoutCat">
             <File>REDTWScoutCat.dep</File>
         </UpdateArt>
@@ -62,7 +62,7 @@
     </InGameActions>
     <Files>
         <File>REDTWAustralia.dep</File>
-        <File>REDTWCustomModdedUnit.dep</File>
+        <!-- <File>REDTWCustomModdedUnit.dep</File> -->
         <File>REDTWGatheringStorm.dep</File>
         <File>REDTWGranColombiaMaya.dep</File>
         <File>REDTWIndonesiaKhmer.dep</File>
