@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="8478c264-18dd-474a-828b-c7112fd312eb">
+    <Properties>
+        <Name>LOC_RED_MODPACK_NAME</Name>
+        <Teaser>LOC_RED_MODPACK_DESC</Teaser>
+        <Description>LOC_RED_MODPACK_DESC</Description>
+        <Authors>GeloDGreat</Authors>
+        <AffectsSavedGames>0</AffectsSavedGames>
+        <CompatibleVersions>2.0</CompatibleVersions>
+    </Properties>
+    <LocalizedText>
+        <Text id="LOC_RED_MODPACK_NAME">
+            <en_US>R.E.D Total War Custom Units</en_US>
+        </Text>
+        <Text id="LOC_RED_MODPACK_DESC">
+            <en_US>R.E.D Total War Custom Units rescaling and formations. This is for the requested units from various mods.</en_US>
+        </Text>
+    </LocalizedText>
+    <InGameActions>
+        <UpdateArt id="REDTWCustomModdedUnit">
+            <File>REDTWCustomModdedUnit.dep</File>
+        </UpdateArt>
+    </InGameActions>
+    <Files>
+        <File>REDTWCustomModdedUnit.dep</File>
+    </Files>
+</Mod>
