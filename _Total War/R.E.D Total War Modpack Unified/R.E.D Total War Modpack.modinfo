@@ -44,9 +44,9 @@
         <UpdateArt id="REDTWPoland">
             <File>REDTWPoland.dep</File>
         </UpdateArt>
-        <UpdateArt id="REDTWScoutCat">
+        <!-- <UpdateArt id="REDTWScoutCat">
             <File>REDTWScoutCat.dep</File>
-        </UpdateArt>
+        </UpdateArt> -->
         <UpdateArt id="REDTWEthiopia">
             <File>REDTWEthiopia.dep</File>
         </UpdateArt>
@@ -67,7 +67,7 @@
         <File>REDTWMP.dep</File>
         <File>REDTWNubia.dep</File>
         <File>REDTWPoland.dep</File>
-        <File>REDTWScoutCat.dep</File>
+        <!-- <File>REDTWScoutCat.dep</File> -->
         <File>REDTWEthiopia.dep</File>
         <File>REDTWGaulByzantium.dep</File>
         <File>REDTWBabylon.dep</File>
