@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Mod id="3685a762-3af1-41c5-98e7-45dd22a9f2c8">
     <Properties>
         <Name>LOC_RED_MODPACK_NAME</Name>
@@ -22,6 +22,8 @@
                 <LoadOrder>999999</LoadOrder>
             </Properties>
             <File>REDTWWEREloaded.dep</File>
+            <File>REDTWWEWarships.dep</File>
+            <File>REDTWWEWarplanes.dep</File>
         </UpdateArt>
     </InGameActions>
     <Dependencies>
@@ -32,5 +34,7 @@
     </Dependencies>
     <Files>
         <File>REDTWWEREloaded.dep</File>
+        <File>REDTWWEWarships.dep</File>
+        <File>REDTWWEWarplanes.dep</File>
     </Files>
 </Mod>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssetObjects::GameDependencyData>
+    <ID>
+        <name text="R.E.D Total War: Warfare Expanded Reloaded Warships" />
+        <id text="3685a762-3af1-41c5-98e7-45dd22a9f2c8" />
+    </ID>
+    <RequiredGameArtIDs>
+        <Element>
+            <name text="Expansion1" />
+            <id text="7446c8fe-29eb-44f8-801f-098f681cc5c5" />
+        </Element>
+        <Element>
+            <name text="Civ6" />
+            <id text="cb2f71b7-843e-4af3-9ca7-992acda9c195" />
+        </Element>
+        <Element>
+            <name text="Expansion2" />
+            <id text="b1b63999-6b16-4dd2-a5b6-eb19794aa8ca" />
+        </Element>
+        <Element>
+            <name text="Warfare Expanded" />
+            <id text="38a49494-5ec4-46ac-b01b-9629d96950f3" />
+        </Element>
+        <Element>
+            <name text="Warfare_Expanded_Warships" />
+            <id text="a173b477-2ec2-46e4-8e6d-56e612f5ca3c" />
+        </Element>
+    </RequiredGameArtIDs>
+    <SystemDependencies>
+        <Element>
+            <ConsumerName text="Units" />
+            <ArtDefDependencyPaths>
+                <Element text="Warships.artdef" />
+            </ArtDefDependencyPaths>
+        </Element>
+        <Element>
+            <ConsumerName text="Units" />
+            <ArtDefDependencyPaths>
+                <Element text="SupportModdedUnits.artdef" />
+            </ArtDefDependencyPaths>
+        </Element>
+    </SystemDependencies>
+</AssetObjects::GameDependencyData>
