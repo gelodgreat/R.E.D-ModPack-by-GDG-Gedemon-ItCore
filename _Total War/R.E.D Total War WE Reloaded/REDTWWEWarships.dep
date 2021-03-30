@@ -30,6 +30,12 @@
         <Element>
             <ConsumerName text="Units" />
             <ArtDefDependencyPaths>
+                <Element text="Units.artdef" />
+            </ArtDefDependencyPaths>
+        </Element>
+        <Element>
+            <ConsumerName text="Units" />
+            <ArtDefDependencyPaths>
                 <Element text="Warships.artdef" />
             </ArtDefDependencyPaths>
         </Element>
