@@ -44,9 +44,6 @@
         <UpdateArt id="REDTWPoland">
             <File>REDTWPoland.dep</File>
         </UpdateArt>
-        <!-- <UpdateArt id="REDTWScoutCat">
-            <File>REDTWScoutCat.dep</File>
-        </UpdateArt> -->
         <UpdateArt id="REDTWEthiopia">
             <File>REDTWEthiopia.dep</File>
         </UpdateArt>
@@ -55,6 +52,12 @@
         </UpdateArt>
         <UpdateArt id="REDTWBabylon">
             <File>REDTWBabylon.dep</File>
+        </UpdateArt>
+        <UpdateArt id="REDTWPortugal">
+            <File>REDTWPortugal.dep</File>
+        </UpdateArt>
+        <UpdateArt id="REDTWKublaiKhan_Vietnam">
+            <File>REDTWVietnameKublaiKhan.dep</File>
         </UpdateArt>
     </InGameActions>
     <Files>
@@ -67,9 +70,10 @@
         <File>REDTWMP.dep</File>
         <File>REDTWNubia.dep</File>
         <File>REDTWPoland.dep</File>
-        <!-- <File>REDTWScoutCat.dep</File> -->
         <File>REDTWEthiopia.dep</File>
         <File>REDTWGaulByzantium.dep</File>
         <File>REDTWBabylon.dep</File>
+        <File>REDTWPortugal.dep</File>
+        <File>REDTWVietnameKublaiKhan.dep</File>
     </Files>
 </Mod>
