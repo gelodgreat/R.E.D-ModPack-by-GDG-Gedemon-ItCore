@@ -59,6 +59,9 @@
         <UpdateArt id="REDTWKublaiKhan_Vietnam">
             <File>REDTWVietnameKublaiKhan.dep</File>
         </UpdateArt>
+        <UpdateArt id="REDTWGoldenAge">
+            <File>REDTWGoldenAge.dep</File>
+        </UpdateArt>
     </InGameActions>
     <Files>
         <File>REDTWAustralia.dep</File>
@@ -75,5 +78,6 @@
         <File>REDTWBabylon.dep</File>
         <File>REDTWPortugal.dep</File>
         <File>REDTWVietnameKublaiKhan.dep</File>
+        <File>REDTWGoldenAge.dep</File>
     </Files>
 </Mod>

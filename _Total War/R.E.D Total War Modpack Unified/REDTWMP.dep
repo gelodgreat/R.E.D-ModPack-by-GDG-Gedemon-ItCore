@@ -27,6 +27,7 @@
             <ConsumerName text="Units" />
             <ArtDefDependencyPaths>
                 <Element text="CustomModdedUnits.artdef" />
+                <Element text="CustomModdedUnitsNew.artdef"/>
             </ArtDefDependencyPaths>
         </Element>
     </SystemDependencies>

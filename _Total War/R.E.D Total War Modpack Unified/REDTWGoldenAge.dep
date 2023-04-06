@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssetObjects::GameDependencyData>
+    <ID>
+        <name text="REDTWGoldenAgeLand" />
+        <id text="41be36e2-a330-4c87-b8ad-27d18e918997" />
+    </ID>
+    <RequiredGameArtIDs>
+        <Element>
+            <name text="GoldenAge" />
+            <id text="236af578-08bc-4278-ab57-c700ab3e1457" />
+        </Element>
+    </RequiredGameArtIDs>
+    <SystemDependencies>
+        <Element>
+            <ConsumerName text="Units" />
+            <ArtDefDependencyPaths>
+                <Element text="GoldenAgeLand.artdef" />
+                <Element text="GoldenAgeNavy.artdef" />
+                <Element text="GoldenAgeFireSupport.artdef" />
+            </ArtDefDependencyPaths>
+        </Element>
+    </SystemDependencies>
+</AssetObjects::GameDependencyData>
