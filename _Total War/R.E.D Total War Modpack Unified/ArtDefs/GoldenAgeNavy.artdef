@@ -92,11 +92,11 @@
                             <m_Fields>
                                 <m_Values>
                                     <Element class="AssetObjects..FloatValue">
-                                        <m_fValue>1.000000</m_fValue>
+                                        <m_fValue>0.900000</m_fValue>
                                         <m_ParamName text="Scale"/>
                                     </Element>
                                     <Element class="AssetObjects..IntValue">
-                                        <m_nValue>2</m_nValue>
+                                        <m_nValue>3</m_nValue>
                                         <m_ParamName text="Count"/>
                                     </Element>
                                     <Element class="AssetObjects..ArtDefReferenceValue">
@@ -143,7 +143,7 @@
                 <m_Fields>
                     <m_Values>
                         <Element class="AssetObjects..ArtDefReferenceValue">
-                            <m_ElementName text="Naval"/>
+                            <m_ElementName text="Galley"/>
                             <m_RootCollectionName text="UnitFormationTypes"/>
                             <m_ArtDefPath text="Units.artdef"/>
                             <m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -220,11 +220,11 @@
                             <m_Fields>
                                 <m_Values>
                                     <Element class="AssetObjects..FloatValue">
-                                        <m_fValue>0.735000</m_fValue>
+                                        <m_fValue>0.700000</m_fValue>
                                         <m_ParamName text="Scale"/>
                                     </Element>
                                     <Element class="AssetObjects..IntValue">
-                                        <m_nValue>2</m_nValue>
+                                        <m_nValue>3</m_nValue>
                                         <m_ParamName text="Count"/>
                                     </Element>
                                     <Element class="AssetObjects..ArtDefReferenceValue">
@@ -348,11 +348,11 @@
                             <m_Fields>
                                 <m_Values>
                                     <Element class="AssetObjects..FloatValue">
-                                        <m_fValue>1.000000</m_fValue>
+                                        <m_fValue>0.900000</m_fValue>
                                         <m_ParamName text="Scale"/>
                                     </Element>
                                     <Element class="AssetObjects..IntValue">
-                                        <m_nValue>1</m_nValue>
+                                        <m_nValue>2</m_nValue>
                                         <m_ParamName text="Count"/>
                                     </Element>
                                     <Element class="AssetObjects..ArtDefReferenceValue">
@@ -399,7 +399,7 @@
                 <m_Fields>
                     <m_Values>
                         <Element class="AssetObjects..ArtDefReferenceValue">
-                            <m_ElementName text="Naval"/>
+                            <m_ElementName text="Galley"/>
                             <m_RootCollectionName text="UnitFormationTypes"/>
                             <m_ArtDefPath text="Units.artdef"/>
                             <m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -476,11 +476,11 @@
                             <m_Fields>
                                 <m_Values>
                                     <Element class="AssetObjects..FloatValue">
-                                        <m_fValue>1.000000</m_fValue>
+                                        <m_fValue>0.900000</m_fValue>
                                         <m_ParamName text="Scale"/>
                                     </Element>
                                     <Element class="AssetObjects..IntValue">
-                                        <m_nValue>1</m_nValue>
+                                        <m_nValue>3</m_nValue>
                                         <m_ParamName text="Count"/>
                                     </Element>
                                     <Element class="AssetObjects..ArtDefReferenceValue">
@@ -527,7 +527,7 @@
                 <m_Fields>
                     <m_Values>
                         <Element class="AssetObjects..ArtDefReferenceValue">
-                            <m_ElementName text="Naval"/>
+                            <m_ElementName text="Galley"/>
                             <m_RootCollectionName text="UnitFormationTypes"/>
                             <m_ArtDefPath text="Units.artdef"/>
                             <m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -604,11 +604,11 @@
                             <m_Fields>
                                 <m_Values>
                                     <Element class="AssetObjects..FloatValue">
-                                        <m_fValue>0.500000</m_fValue>
+                                        <m_fValue>0.400000</m_fValue>
                                         <m_ParamName text="Scale"/>
                                     </Element>
                                     <Element class="AssetObjects..IntValue">
-                                        <m_nValue>1</m_nValue>
+                                        <m_nValue>3</m_nValue>
                                         <m_ParamName text="Count"/>
                                     </Element>
                                     <Element class="AssetObjects..ArtDefReferenceValue">
@@ -655,7 +655,7 @@
                 <m_Fields>
                     <m_Values>
                         <Element class="AssetObjects..ArtDefReferenceValue">
-                            <m_ElementName text="Naval"/>
+                            <m_ElementName text="Galley"/>
                             <m_RootCollectionName text="UnitFormationTypes"/>
                             <m_ArtDefPath text="Units.artdef"/>
                             <m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -736,7 +736,7 @@
                                         <m_ParamName text="Scale"/>
                                     </Element>
                                     <Element class="AssetObjects..IntValue">
-                                        <m_nValue>1</m_nValue>
+                                        <m_nValue>3</m_nValue>
                                         <m_ParamName text="Count"/>
                                     </Element>
                                     <Element class="AssetObjects..ArtDefReferenceValue">
@@ -860,7 +860,7 @@
                             <m_Fields>
                                 <m_Values>
                                     <Element class="AssetObjects..FloatValue">
-                                        <m_fValue>1.000000</m_fValue>
+                                        <m_fValue>1.350000</m_fValue>
                                         <m_ParamName text="Scale"/>
                                     </Element>
                                     <Element class="AssetObjects..IntValue">
@@ -958,4 +958,3 @@
 		</Element>
 	</m_RootCollections>
 </AssetObjects..ArtDefSet>
-
